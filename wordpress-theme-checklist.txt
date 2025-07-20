@@ -1,0 +1,54 @@
+WORDPRESS THEME CREATION CHECKLIST
+
+## STEP-BY-STEP GUIDE
+
+## STEP 1: SETUP THEME FOLDER
+- Create a new folder in `/wp-content/themes/your-theme-name/`
+
+## STEP 2: ADD REQUIRED CORE FILES
+- style.css (with theme header)
+- index.php
+- functions.php
+- screenshot.png (1200x900px)
+
+## STEP 3: ADD ESSENTIAL TEMPLATE FILES
+### 3.1: Create header.php (Site header)
+### 3.2: Create footer.php (Site footer)
+### 3.3: Create sidebar.php (Sidebar content)
+### 3.4: Create 404.php (Error page)
+### 3.5: Create search.php (Search results)
+### 3.6: Create archive.php (Archive pages)
+### 3.7: Create single.php (Single post)
+### 3.8: Create page.php (Static pages)
+### 3.9: Create front-page.php (Homepage)
+### 3.10: Create home.php (Blog posts page)
+
+## STEP 4: CREATE PAGE TEMPLATES FOR YOUR PAGES
+### 4.1: Create front-page.php (Homepage)
+### 4.2: Create page-service.php (Service page)
+### 4.3: Create page-contact.php (Contact Us page)
+### 4.4: Create page-about.php (About Us page)
+
+## STEP 5: ADD WORDPRESS HOOKS & FEATURES
+- Add theme support (thumbnails, menus, widgets) in functions.php
+- Register navigation menus
+- Register widget areas
+- Register custom post types (if needed)
+- Enqueue scripts and styles properly
+
+## STEP 6: SETUP ASSETS FOLDER STRUCTURE
+/assets/
+  /css/
+  /js/
+  /images/
+  /fonts/
+
+## STEP 7: QUICK START CHECKLIST
+1. Create theme folder in /wp-content/themes/
+2. Add required files with basic HTML structure
+3. Register menus and widget areas in functions.php
+4. Create PHP templates for Homepage, Service, Contact Us, and About Us pages
+5. Add WordPress loops for dynamic content
+6. Test responsive design
+7. Validate HTML/CSS
+8. Test on different devices
