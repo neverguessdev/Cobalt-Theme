@@ -389,6 +389,11 @@ table {
     box-shadow: -15px 2px 10px 0px rgba(255, 255, 255, 0.3);
 }
 
+.content-cta.cta-purple {
+    background: #A62274;
+    color: #FFF;
+}
+
 .footer-banner-arrow, .content-cta-arrow {
     display: flex;
     align-items: center;
@@ -1147,7 +1152,7 @@ section {
 
 /* Homepage Cobalt Difference style Start */
 section.cobalt-difference {
-    background-image: url("https://cobaltsearurgpgs.sites.public-internet.co.uk/wp-content/uploads/2025/07/wave-bg-min.png");
+    background-image: url("/wp-content/uploads/2025/07/wave-bg-min.png");
     background-position: center top;
 }
 
@@ -1276,3 +1281,37 @@ section.cobalt-difference {
     }
 }
 /* Homepage Cobalt Difference style End */
+
+/* Homepage White Banner style Start */
+section.white-banner {
+    background-image: url("/wp-content/uploads/2025/07/white-banner-bg-min.png");
+    background-position: center;
+    padding: 68px 20px 140px;
+    background-size: cover;
+}
+
+section.white-banner .section-container {
+    margin: 0 auto;
+    max-width: 878px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+section.white-banner .section-container .section-subtext {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    section.white-banner {
+        background-image: none;
+        padding: 0 20px;
+    }
+
+    section.white-banner a {
+        display: none;
+    }
+}
+/* Homepage White Banner style End */
