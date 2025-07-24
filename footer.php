@@ -48,23 +48,7 @@
                     </svg>
                 </div>
                 <div class="footer-social">
-                    <a href="#" class="cta-btn">
-                        CTA BUTTON
-                        <span class="cta-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
-                                  <path d="M10 8.90804L8.90289 8.91271L8.90756 2.41878L0.784314 10.542L0 9.75771L8.12325 1.63446L1.62932 1.63913L1.63399 0.542027L10 0.542027L10 8.90804Z" fill="#fff"/>
-                                </svg>
-                            </span>
-                    </a>
-                    <a href="#" class="social-link">
-                        <img src="https://cobaltsearurgpgs.sites.public-internet.co.uk/wp-content/uploads/2025/07/instagram.png" alt="Instagram">
-                    </a>
-                    <a href="#" class="social-link">
-                        <img src="https://cobaltsearurgpgs.sites.public-internet.co.uk/wp-content/uploads/2025/07/facebook.png" alt="Facebook">
-                    </a>
-                    <a href="#" class="social-link">
-                        <img src="https://cobaltsearurgpgs.sites.public-internet.co.uk/wp-content/uploads/2025/07/youtube.png" alt="YouTube">
-                    </a>
+                    <img src="https://cobaltsearurgpgs.sites.public-internet.co.uk/wp-content/uploads/2025/07/women-owned.png">
                 </div>
             </div>
 
@@ -72,40 +56,47 @@
             <div class="footer-right">
                 <div class="footer-nav-container">
                     <div class="footer-column">
-                        <h4 class="footer-heading">Services</h4>
+                        <h4 class="footer-heading">Home</h4>
                         <ul class="footer-nav-list">
-                            <li><a href="#" class="footer-link">Executive Search</a></li>
-                            <li><a href="#" class="footer-link">Board Advisory</a></li>
-                            <li><a href="#" class="footer-link">Leadership Assessment</a></li>
-                            <li><a href="#" class="footer-link">Succession Planning</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4 class="footer-heading">Company</h4>
-                        <ul class="footer-nav-list">
+                            <li><a href="#" class="footer-link">Our Services</a></li>
                             <li><a href="#" class="footer-link">About Us</a></li>
-                            <li><a href="#" class="footer-link">Our Team</a></li>
-                            <li><a href="#" class="footer-link">Careers</a></li>
-                            <li><a href="#" class="footer-link">News</a></li>
+                            <li><a href="#" class="footer-link">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4 class="footer-heading">Contact</h4>
+                        <h4 class="footer-heading">Contact Information</h4>
                         <ul class="footer-nav-list">
-                            <li><a href="#" class="footer-link">Get in Touch</a></li>
-                            <li><a href="#" class="footer-link">Locations</a></li>
-                            <li><a href="#" class="footer-link">Privacy Policy</a></li>
-                            <li><a href="#" class="footer-link">Terms of Service</a></li>
+                            <li><a href="tel:+441235614015" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M14.6965 11.68C14.2595 11.3135 11.6965 9.6905 11.2705 9.765C11.0705 9.8005 10.9175 9.971 10.508 10.4595C10.3186 10.6999 10.1107 10.9251 9.886 11.133C9.47439 11.0336 9.07597 10.8859 8.699 10.693C7.22064 9.97325 6.02632 8.77857 5.307 7.3C5.11412 6.92303 4.96643 6.52461 4.867 6.113C5.07486 5.88835 5.30006 5.68038 5.5405 5.491C6.0285 5.0815 6.1995 4.9295 6.235 4.7285C6.3095 4.3015 4.685 1.7395 4.32 1.3025C4.167 1.1215 4.028 1 3.85 1C3.334 1 1 3.886 1 4.26C1 4.2905 1.05 7.295 4.8445 11.1555C8.705 14.95 11.7095 15 11.74 15C12.114 15 15 12.666 15 12.15C15 11.972 14.8785 11.833 14.6965 11.68Z" fill="#A62274"/>
+                                        <path d="M11.5 7.5H12.5C12.4988 6.4395 12.077 5.42278 11.3271 4.67289C10.5772 3.923 9.5605 3.50119 8.5 3.5V4.5C9.29541 4.50079 10.058 4.81712 10.6204 5.37956C11.1829 5.94199 11.4992 6.70459 11.5 7.5Z" fill="#A62274"/>
+                                        <path d="M14 7.5H15C14.998 5.7767 14.3126 4.12455 13.094 2.906C11.8754 1.68744 10.2233 1.00198 8.5 1V2C9.95816 2.00172 11.3561 2.58174 12.3872 3.61281C13.4183 4.64389 13.9983 6.04184 14 7.5Z" fill="#A62274"/>
+                                    </svg>+44 (0) 1235 614015</a></li>
+                            <li><a href="#" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <g clip-path="url(#clip0_861_445)">
+                                            <path d="M8 0C5.18859 0 2.84375 2.26469 2.84375 5.15625C2.84375 6.25631 3.17431 7.23725 3.80872 8.15644L7.60541 14.0808C7.78959 14.3688 8.21078 14.3682 8.39459 14.0808L12.2078 8.13628C12.8285 7.25875 13.1562 6.22834 13.1562 5.15625C13.1562 2.31309 10.8432 0 8 0ZM8 7.5C6.70772 7.5 5.65625 6.44853 5.65625 5.15625C5.65625 3.86397 6.70772 2.8125 8 2.8125C9.29228 2.8125 10.3438 3.86397 10.3438 5.15625C10.3438 6.44853 9.29228 7.5 8 7.5Z" fill="#A62274"/>
+                                            <path d="M11.6645 10.7715L9.30416 14.4617C8.69319 15.4143 7.30341 15.4111 6.69537 14.4626L4.33119 10.7725C2.25106 11.2534 0.96875 12.1344 0.96875 13.1873C0.96875 15.0142 4.5915 15.9998 8 15.9998C11.4085 15.9998 15.0312 15.0142 15.0312 13.1873C15.0312 12.1337 13.7472 11.2522 11.6645 10.7715Z" fill="#A62274"/>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_861_445">
+                                                <rect width="16" height="16" fill="white"/>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>Cobalt Search Ltd, Boston House, Downsview Road, Grove Business Park, Wantage, OX12 9FF</a></li>
+                            <li><a href="mailto:Info@cobaltsearch.com" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M15.8583 3.17871L11.0059 7.99993L15.8583 12.8211C15.946 12.6378 15.9993 12.4351 15.9993 12.2187V3.78118C15.9993 3.56471 15.946 3.36205 15.8583 3.17871Z" fill="#A62274"/>
+                                        <path d="M14.5947 2.375H1.40716C1.19069 2.375 0.988031 2.42822 0.804688 2.51594L7.00666 8.68666C7.55503 9.23503 8.44678 9.23503 8.99516 8.68666L15.1971 2.51594C15.0138 2.42822 14.8111 2.375 14.5947 2.375Z" fill="#A62274"/>
+                                        <path d="M0.140938 3.17871C0.0532188 3.36205 0 3.56471 0 3.78118V12.2187C0 12.4351 0.0532188 12.6378 0.140938 12.8211L4.99341 7.99993L0.140938 3.17871Z" fill="#A62274"/>
+                                        <path d="M10.3447 8.66309L9.658 9.34974C8.74428 10.2635 7.2575 10.2635 6.34378 9.34974L5.65716 8.66309L0.804688 13.4843C0.988031 13.572 1.19069 13.6252 1.40716 13.6252H14.5947C14.8111 13.6252 15.0138 13.572 15.1971 13.4843L10.3447 8.66309Z" fill="#A62274"/>
+                                    </svg>Info@cobaltsearch.com</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
-            <p>© Copyright</p>
+            <p></p>
             <div class="policy-links">
                 <a href="#" class="policy-link">Privacy Policy</a>
-                <a href="#" class="policy-link">Terms of Service</a>
             </div>
 
         </div>

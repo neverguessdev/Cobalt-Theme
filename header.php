@@ -27,12 +27,12 @@
             </div>
             <nav class="main-nav">
                 <ul class="nav-links">
-                    <li><a href="#" class="nav-link lift-hover">Menu item</a></li>
-                    <li><a href="#" class="nav-link lift-hover">Menu item</a></li>
-                    <li><a href="#" class="nav-link lift-hover">Menu item</a></li>
+                    <li><a href="#" class="nav-link lift-hover">Home</a></li>
+                    <li><a href="#" class="nav-link lift-hover">Our Services</a></li>
+                    <li><a href="#" class="nav-link lift-hover">About Us</a></li>
                     <li>
                         <a href="#" class="cta-btn">
-                            CTA BUTTON
+                            CONTACT US
                             <span class="cta-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
                                   <path d="M10 8.90804L8.90289 8.91271L8.90756 2.41878L0.784314 10.542L0 9.75771L8.12325 1.63446L1.62932 1.63913L1.63399 0.542027L10 0.542027L10 8.90804Z" fill="#A62274"/>
@@ -45,21 +45,22 @@
                 <div class="mobile-menu" id="mobileMenu">
                     <div class="mobile-menu-content">
                         <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                <path d="M18 6L6 18M6 6L18 18" stroke="#1B4F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <g clip-path="url(#clip0_887_439)">
+                                    <path d="M9.46585 8.0131L15.6959 1.78283C16.1014 1.37757 16.1014 0.722333 15.6959 0.31708C15.2907 -0.0881736 14.6354 -0.0881736 14.2302 0.31708L7.99991 6.54735L1.76983 0.31708C1.36438 -0.0881736 0.709336 -0.0881736 0.304082 0.31708C-0.101361 0.722333 -0.101361 1.37757 0.304082 1.78283L6.53417 8.0131L0.304082 14.2434C-0.101361 14.6486 -0.101361 15.3039 0.304082 15.7091C0.506045 15.9113 0.771595 16.0128 1.03696 16.0128C1.30232 16.0128 1.56768 15.9113 1.76983 15.7091L7.99991 9.47884L14.2302 15.7091C14.4323 15.9113 14.6977 16.0128 14.9631 16.0128C15.2284 16.0128 15.4938 15.9113 15.6959 15.7091C16.1014 15.3039 16.1014 14.6486 15.6959 14.2434L9.46585 8.0131Z" fill="#1B4F9E"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_887_439">
+                                        <rect width="16" height="16" fill="white"/>
+                                    </clipPath>
+                                </defs>
                             </svg>
                         </button>
-                        <a href="#" class="mobile-nav-link">Menu item</a>
-                        <a href="#" class="mobile-nav-link">Menu item</a>
-                        <a href="#" class="mobile-nav-link">Menu item</a>
-                        <a href="#" class="mobile-cta-btn">
-                            CTA BUTTON
-                            <span class="cta-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
-                                  <path d="M10 8.90804L8.90289 8.91271L8.90756 2.41878L0.784314 10.542L0 9.75771L8.12325 1.63446L1.62932 1.63913L1.63399 0.542027L10 0.542027L10 8.90804Z" fill="#A62274"/>
-                                </svg>
-                            </span>
-                        </a>
+                        <h4 class="mobile-nav-header">Menu</h4>
+                        <a href="#" class="mobile-nav-link">Home</a>
+                        <a href="#" class="mobile-nav-link">Our Services</a>
+                        <a href="#" class="mobile-nav-link">About Us</a>
+                        <a href="#" class="mobile-nav-link">Contact Us</a>
                     </div>
                 </div>
                 <button class="hamburger" aria-label="Open menu" id="hamburgerBtn">
