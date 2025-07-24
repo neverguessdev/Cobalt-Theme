@@ -208,6 +208,10 @@ table {
     .hamburger {
         display: block;
     }
+
+    .site-logo svg {
+        max-width: 148px;
+    }
 }
 
 /* Mobile Menu Styles */
@@ -833,7 +837,7 @@ section {
     background-size: cover;
     color: #fff;
     padding: 60px 20px;
-    margin-top: -109px;
+    margin-top: -148px;
     padding-top: 109px;
 }
 .hero-content {
@@ -949,6 +953,10 @@ section {
     font-style: normal;
     font-weight: 300;
     line-height: 120%; /* 48px */
+}
+
+.section-title strong {
+    font-weight: 700;
 }
 
 .leadership-search .section-title {
@@ -1315,3 +1323,6 @@ section.white-banner .section-container .section-subtext {
     }
 }
 /* Homepage White Banner style End */
+
+/* Homepage  style Start */
+/* Homepage  style End */

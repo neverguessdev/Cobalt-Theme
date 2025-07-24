@@ -5,6 +5,7 @@
     <?php get_template_part('template-parts/homepage/leadership-search'); ?>
     <?php get_template_part('template-parts/homepage/cobalt-difference'); ?>
     <?php get_template_part('template-parts/homepage/white-banner'); ?>
+    <?php get_template_part('template-parts/homepage/reviews'); ?>
 
 </main>
 <?php get_footer(); ?>
