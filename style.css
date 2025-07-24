@@ -63,6 +63,12 @@ table {
     box-sizing: border-box;
 }
 
+@media (max-width: 300px){
+    html, body {
+        min-width: 300px;
+    }
+}
+
 /* Header Styles */
 .site-header {
     background: transparent;
@@ -358,17 +364,17 @@ table {
     margin-bottom: 40px;
 }
 
-.footer-banner-cta , .content-cta {
+.footer-banner-cta, .content-cta {
     display: inline-flex;
     align-items: center;
     gap: 16px;
-    padding: 16px 32px;
+    padding: 16px 23px;
     border-radius: 50px;
     background: #FFF;
     box-shadow: -15px 0px 0px 0px rgba(255, 255, 255, 0.25);
     color: #1B4F9E;
     font-family: Roboto, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
@@ -619,9 +625,513 @@ section {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Main Content Areas */
-/*main {*/
-/*    max-width: 1440px;*/
-/*    margin: 0 auto;*/
-/*    !*padding: 0 64px;*!*/
-/*}*/
+/* Blue Banner style Start */
+.blue-banner {
+    padding: 66px 0;
+    background-color: #CADCFB;
+    background-image: url('/wp-content/uploads/2025/07/bb-bgimg-min.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.blue-banner-content {
+    max-width: 1124px;
+    margin: 0 auto;
+    padding: 35px 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.tile {
+    border-radius: 20px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /*min-height: 280px;*/
+    border: 1px solid #D2D2D2;
+}
+
+.tile-text {
+    justify-content: center;
+}
+
+.tile-text svg {
+    margin-bottom: 10px;
+}
+
+.tile-title {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0 0 6px 0;
+}
+
+.tile-subtitle {
+    color: #202020;
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    margin: 0;
+}
+
+.tile.purple {
+    background: #FCE4F3;
+}
+
+.tile.blue {
+    background: #DDE9FF;
+}
+
+.tile.green {
+    background: #E6FEE3;
+}
+
+.tile.purple h3 {
+    color: #A62274;
+}
+
+.tile.blue h3 {
+    color: #1B4F9E;
+}
+
+.tile.green h3 {
+    color: #3FA635;
+}
+
+.tile-img1, .tile-img2, .tile-img3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tile-img1 {
+    background-image: url('/wp-content/uploads/2025/07/bb-splash-min.png');
+}
+
+.tile-img2 {
+    background-image: url('/wp-content/uploads/2025/07/bb-globe-min.png');
+}
+
+.tile-img3 {
+    background-image: url('/wp-content/uploads/2025/07/bb-face-min.png');
+}
+
+/* Mobile ordering - show tile-img2 (4th tile) first */
+@media (max-width: 767px) {
+    .tile-img2 {
+        order: 1;
+    }
+
+    .tile:nth-child(1) { /* purple text tile */
+        order: 2;
+    }
+
+    .tile:nth-child(2) { /* tile-img1 */
+        order: 3;
+    }
+
+    .tile:nth-child(3) { /* blue te xt tile */
+        order: 6;
+    }
+
+    .tile:nth-child(5) { /* green text tile */
+        order: 5;
+    }
+
+    .tile:nth-child(6) { /* tile-img3 */
+        order: 5;
+    }
+}
+
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .blue-banner-content {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 35px 24px;
+        gap: 16px;
+    }
+
+    .tile {
+        min-height: 240px;
+        padding: 32px 24px;
+    }
+
+    .tile-title {
+        font-size: 24px;
+    }
+
+    .tile-subtitle {
+        font-size: 16px;
+    }
+
+    /* Reset order for tablet - normal order */
+    .tile {
+        order: unset;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .blue-banner {
+        padding: 60px 20px;
+    }
+
+    .blue-banner-content {
+        grid-template-columns: 1fr;
+        padding: 35px 20px;
+        gap: 16px;
+    }
+
+    .tile {
+        min-height: 200px;
+        padding: 32px 20px;
+    }
+
+    .tile-title {
+        font-size: 24px;
+    }
+
+    .tile-subtitle {
+        font-size: 16px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    /* Reset order for desktop - normal order */
+    .tile {
+        order: unset;
+    }
+}
+/* Blue Banner style End */
+
+/* Homepage Hero style Start*/
+.hero-section {
+    background: url('/wp-content/uploads/2025/07/home-hero-bg-min.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px 20px;
+    margin-top: -109px;
+    padding-top: 109px;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 64px 0;
+    margin-top: 40px;
+}
+.hero-text {
+    flex: 1;
+    max-width: 796px;
+}
+.hero-text h1 {
+    color: #FFF;
+    font-family: "Lexend Deca";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%; /* 67.2px */
+    margin-bottom: 40px;
+}
+.hero-text h1 .green-text {
+    color: #3FA635;
+    font-weight: 700;
+}
+.hero-text h1 .purple-text {
+    color: #A62274;
+    font-weight: 700;
+}
+
+.purple-text {
+    color: #A62274;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 51.2px */
+    letter-spacing: 0.64px;
+}
+@media (max-width: 991px){
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+    }
+}
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 34px;
+        line-height: 120%; /* 43.2px */
+        text-align: center;
+    }
+    .hero-subtitle {
+        font-size: 20px;
+        line-height: 160%; /* 38.4px */
+        text-align: center;
+    }
+}
+/* Homepage Hero style End*/
+
+/* Homepage Leadership Search style Start */
+.leadership-search {
+    background-image: url("/wp-content/uploads/2025/07/blue-arrow-bg.png");
+    background-position: top 246px right 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section-pretitle-line {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.section-pretitle-line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: rgba(32, 32, 32, 0.10);
+    z-index: -1;
+}
+
+.section-pretitle {
+    background-color: white;
+    padding: 0 1rem 0 0;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: auto;
+    color: #A62274;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+}
+
+.section-title {
+    color: #202020;
+    font-family: "Lexend Deca";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%; /* 48px */
+}
+
+.leadership-search .section-title {
+    max-width: 870px;
+    margin-bottom: 32px;
+}
+
+.section-subtext {
+    color: #202020;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 0.36px;
+}
+
+.multi-color-cards {
+    display: flex;
+}
+
+.multi-color-cards.row-cards {
+    position: relative;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 110px auto;
+    height: 463px;
+}
+
+.multi-color-cards.row-cards > svg {
+    position: absolute;
+    top: -72px;
+    left: -72px;
+    z-index: -1;
+}
+
+.color-cards {
+    border-radius: 18.998px;
+    background: #DDE9FF;
+    box-shadow: 0px 5.699px 9.499px 0px rgba(204, 204, 204, 0.25);
+    width: 25%;
+    padding: 19px;
+    transition: all 0.3s ease;
+    height: 368px;
+}
+
+.color-cards:nth-child(even) {
+    align-self: end;
+}
+
+.circle-log {
+    padding: 18px;
+    background: #fff;
+    width: auto;
+    display: inline-block;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.circle-log.number-circle .number {
+    color: #FFF;
+    font-family: "Lexend Deca";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 31.2px */
+    transition: color 0.3s ease;
+}
+
+.color-cards.purple {
+    background: #FCE4F3;
+}
+
+.color-cards.blue {
+    background: #DDE9FF;
+}
+
+.color-cards.green {
+    background: #E6FEE3;
+}
+
+.purple .circle-log.number-circle .number {
+    color: #A62274;
+}
+
+.blue .circle-log.number-circle .number {
+    color: #1B4F9E;
+}
+
+.green .circle-log.number-circle .number {
+    color: #3FA635;
+}
+
+.purple.color-cards:hover .circle-log {
+    background: #A62274;
+}
+
+.blue.color-cards:hover .circle-log {
+    background: #1B4F9E;
+}
+
+.green.color-cards:hover .circle-log {
+    background: #3FA635;
+}
+
+.purple.color-cards:hover .circle-log .number, .blue.color-cards:hover .circle-log .number, .green.color-cards:hover .circle-log .number {
+    color: #ffffff;
+}
+
+.card-title {
+    color: #202020;
+    font-family: "Lexend Deca";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%; /* 28.8px */
+    margin-bottom: 20px;
+}
+
+.card-text {
+    color: #3C3C3B;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+.color-cards.img {
+    background-image: url("/wp-content/uploads/2025/07/faces1-min.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.color-cards.img > a {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1310px) {
+    .multi-color-cards.row-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+}
+
+@media (max-width: 1023px) {
+    .color-cards {
+        width: 48%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-pretitle {
+        font-size: 12px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .section-subtext {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .color-cards {
+        width: 100%;
+        height: 350px;
+    }
+
+    .leadership-search {
+        background-image: none;
+    }
+
+    .multi-color-cards.row-cards > svg {
+        display: none;
+    }
+
+    .multi-color-cards.row-cards {
+        margin: 30px auto 0;
+    }
+}
+/* Homepage Leadership Search style End */

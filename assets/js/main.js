@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (hamburgerBtn && mobileMenu) {
             hamburgerBtn.addEventListener('click', function() {
-                mobileMenu.classList.toggle('active');
+                mobileMenu.classList.add('active');
             });
 
             // Close button functionality
