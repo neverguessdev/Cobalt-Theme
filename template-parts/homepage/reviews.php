@@ -114,7 +114,7 @@
         }
 
         .slider-arrow.slider-prev {
-            background: #fff;
+            background: #F4F8FF;
             border-top-left-radius: 25px;
             border-bottom-left-radius: 25px;
             border-radius: 50px;

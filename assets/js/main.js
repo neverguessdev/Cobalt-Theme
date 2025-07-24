@@ -135,6 +135,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize reviews slider
     const reviewsSlider = initSlider('reviews');
 
+    // Initialize teams slider
+    const teamsSlider = initSlider('teams');
+
     // Auto-play functionality (optional)
     function initAutoPlay(sliderInstance, interval = 5000) {
         if (!sliderInstance) return;
