@@ -1,9 +1,12 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: About Us Page
+*/
+get_header(); ?>
 <main>
-    <h2>About Us</h2>
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <?php the_content(); ?>
-    <?php endwhile; endif; ?>
+    <?php get_template_part('template-parts/about/hero'); ?>
+    <?php get_template_part('template-parts/about/reviews'); ?>
+    <?php get_template_part('template-parts/about/meet-cobalt'); ?>
+    <?php get_template_part('template-parts/about/who-are-we'); ?>
 </main>
 <?php get_footer(); ?>
-
