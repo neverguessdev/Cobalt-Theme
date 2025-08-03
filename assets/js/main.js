@@ -41,7 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Update slider position
         function updateSlider() {
-            const translateX = -currentIndex * 33.333; // Move by 33.333% for each slide
+            // Calculate translation based on number of items
+            const slideWidth = 100 / totalItems; // Dynamic slide width
+            const translateX = -currentIndex * slideWidth;
             container.style.transform = `translateX(${translateX}%)`;
 
             // Update dots only if they exist
@@ -137,6 +139,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize teams slider
     const teamsSlider = initSlider('teams');
+
+    // Initialize about reviews slider
+    const abReviewsSlider = initSlider('ab-reviews');
 
     // Auto-play functionality (optional)
     function initAutoPlay(sliderInstance, interval = 5000) {
