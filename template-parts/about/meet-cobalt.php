@@ -174,7 +174,7 @@
 <section class="about-meet-cobalt-section">
     <div class="section-container about-meet-cobalt-container">
         <div class="section-header">
-            <h2 class="section-pretitle">Our Team</h2>
+            <h2 class="section-pretitle">Meet Cobalt</h2>
             <h2 class="section-title">Boutique by <strong>design.</strong> High-touch <strong>by nature.</strong></h2>
             <p class="section-subtext">We don’t stop at “good enough.” What makes us different isn’t a set of values, it’s how those values show up when the stakes are high, the brief is complex, and the outcome really matters.</p>
         </div>
