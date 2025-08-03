@@ -3,7 +3,7 @@
 Template Name: About Us Page
 */
 get_header(); ?>
-<main>
+<main class="about-page">
     <?php get_template_part('template-parts/about/hero'); ?>
     <?php get_template_part('template-parts/about/reviews'); ?>
     <?php get_template_part('template-parts/about/meet-cobalt'); ?>
