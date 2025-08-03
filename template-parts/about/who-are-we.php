@@ -9,6 +9,7 @@
     .about-who-are-we-content {
         display: flex;
         justify-content: space-between;
+        padding-right: 30px;
     }
 
     .about-who-are-we-content .text-side {
@@ -59,9 +60,21 @@
         background: #FCE4F3;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 1400px) {
+        .about-who-are-we-content .text-side {
+            padding-right: 40px;
+        }
+
+    }
+
+    @media (max-width: 991px) {
+        .about-who-are-we-content .text-side {
+            padding-right: 0;
+        }
+
         .about-who-are-we-content {
             flex-direction: column;
+            padding: 0;
         }
 
         .about-who-are-we-content > * {
@@ -71,6 +84,14 @@
         section.about-who-are-we-section .section-pretitle-line {
             margin-bottom: 24px;
         }
+
+        .about-who-are-we-content > .image-side {
+            margin: 0 auto;
+        }
+    }
+
+    @media (max-width: 767px) {
+
 
         .about-who-are-we-content > .image-side {
             transform: scale(0.85);
