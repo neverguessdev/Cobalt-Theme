@@ -11,5 +11,6 @@ get_header(); ?>
     <?php get_template_part('template-parts/about/meet-the-team'); ?>
     <?php get_template_part('template-parts/about/testimonials'); ?>
     <?php get_template_part('template-parts/about/contract-winning'); ?>
+    <?php get_template_part('template-parts/about/outcome'); ?>
 </main>
 <?php get_footer(); ?>
