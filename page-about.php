@@ -9,5 +9,6 @@ get_header(); ?>
     <?php get_template_part('template-parts/about/meet-cobalt'); ?>
     <?php get_template_part('template-parts/about/who-are-we'); ?>
     <?php get_template_part('template-parts/about/meet-the-team'); ?>
+    <?php get_template_part('template-parts/about/testimonials'); ?>
 </main>
 <?php get_footer(); ?>
