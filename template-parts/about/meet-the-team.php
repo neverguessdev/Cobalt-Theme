@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying the Who are we section
+ * Template part for displaying the Meet the team section
  *
  * @package Cobalt Theme
  */
