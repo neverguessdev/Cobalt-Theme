@@ -141,7 +141,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const teamsSlider = initSlider('teams');
 
     // Initialize about reviews slider
-    const abReviewsSlider = initSlider('ab-reviews');
+    const abReviewsSlider = initSlider('ab-reviews')
+
+    // Initialize about testimonial slider
+    const abTestimonialsSlider = initSlider('testimonials-slider');
+
+    // Initialize about testimonial slider
+    const abTestimonialsTextSlider = initSlider('testimonial-text-slider');
 
     // Auto-play functionality (optional)
     function initAutoPlay(sliderInstance, interval = 5000) {
