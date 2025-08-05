@@ -12,6 +12,10 @@
         padding-right: 30px;
     }
 
+    .about-who-are-we-container {
+        overflow: visible;
+    }
+
     .about-who-are-we-content .text-side {
         /* max-width: 673px; */
     }

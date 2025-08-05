@@ -389,7 +389,7 @@ table {
     gap: 16px;
     padding: 16px 23px;
     border-radius: 50px;
-    background: #FFF;
+    background-color: #FFF;
     box-shadow: -15px 0px 0px 0px rgba(255, 255, 255, 0.25);
     color: #1B4F9E;
     font-family: Roboto, Arial, sans-serif;
@@ -400,7 +400,7 @@ table {
     letter-spacing: 0.32px;
     text-transform: uppercase;
     text-decoration: none;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
 }
 
 .footer-banner-cta:hover, .content-cta:hover {
@@ -409,12 +409,16 @@ table {
 }
 
 .content-cta.cta-purple {
-    background: #A62274;
+    background-color: #A62274;
     color: #FFF;
 }
 
 .content-cta.cta-blue {
-    background: #1B4F9E;
+    background-color: #1B4F9E;
+    color: #FFF;
+}
+.content-cta.cta-green {
+    background-color: #3FA635;
     color: #FFF;
 }
 

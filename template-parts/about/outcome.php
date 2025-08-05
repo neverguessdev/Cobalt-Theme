@@ -9,6 +9,7 @@
     .section-container.about-outcome-container {
         display: flex;
         gap: 60px;
+        overflow: visible;
     }
 
     .section-container.about-outcome-container .text-side {
@@ -36,7 +37,7 @@
     }
 
     section.about-outcome-section {
-        background: #CADCFB;
+        background: #CADCFB url("/wp-content/uploads/2025/08/blue-magni-3.png") no-repeat bottom left;
     }
 
     .outcome-box {

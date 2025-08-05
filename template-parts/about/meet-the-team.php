@@ -101,16 +101,21 @@
         background: #FFF;
     }
 
+    .team-index-card.purple:hover .team-position {
+        color: #A62274;
+        background: #FFF;
+    }
+
     .team-index-card:nth-child(3) .team-image {
         border-radius: 20px 0 0 20px;
-        background: url("/wp-content/uploads/2025/08/helen-godard.png");
+        background: url("/wp-content/uploads/2025/08/helen-godard-2.png");
         background-size: cover;
         background-position: center;
     }
 
     .team-index-card:nth-child(4) .team-image {
         border-radius: 0 20px 20px 0;
-        background: url("/wp-content/uploads/2025/08/denise-pike.png");
+        background: url("/wp-content/uploads/2025/08/denise-pike-2.png");
         background-size: cover;
         background-position: center;
     }
@@ -196,6 +201,10 @@
         color: #1B4F9E;
     }
 
+    .team-index-card.purple:hover .team-achievement {
+        background: #FFFFFF;
+        color: #A62274;
+    }
 
     .team-socials {
         padding: 20px 30px 30px 60px;
@@ -211,6 +220,10 @@
 
     .team-index-card:hover .team-icon path {
         stroke: #1B4F9E;
+    }
+
+    .team-index-card.purple:hover .team-icon path {
+        stroke: #A62274;
     }
 
     @media (max-width: 991px) {
@@ -267,6 +280,47 @@
         }
 
     }
+
+    .team-index-card.blue:hover {
+        background: #1B4F9E;
+    }
+
+    .team-index-card.purple:hover {
+        background: #A62274;
+    }
+
+    .team-index-card.green:hover {
+        background: #3FA635;
+    }
+
+    /* Section background changes on card hover */
+    section.about-meet-the-team-section.purple-theme {
+        background-color: #FCE4F3 !important;
+        background-image: url("/wp-content/uploads/2025/08/pink-magni-2.png"), url("/wp-content/uploads/2025/08/pink-magni-small-2.png"), url("/wp-content/uploads/2025/08/pink-magni-2.png") !important;
+    }
+
+    section.about-meet-the-team-section.blue-theme {
+        background-color: #CADCFB !important;
+        background-image: url("/wp-content/uploads/2025/08/blue-magni.png"), url("/wp-content/uploads/2025/08/blue-magni-small.png"), url("/wp-content/uploads/2025/08/blue-magni.png") !important;
+    }
+
+    section.about-meet-the-team-section.green-theme {
+        background-color: #E6FEE3 !important;
+        background-image: url("/wp-content/uploads/2025/08/green-magni-2.png"), url("/wp-content/uploads/2025/08/green-magni-small-2.png"), url("/wp-content/uploads/2025/08/green-magni-2.png") !important;
+    }
+
+    /* CTA button theme changes */
+    .content-cta.purple-cta {
+        background: #A62274 !important;
+    }
+
+    .content-cta.blue-cta {
+        background: #1B4F9E !important;
+    }
+
+    .content-cta.green-cta {
+        background: #3FA635 !important;
+    }
 </style>
 <section class="about-meet-the-team-section">
     <div class="section-container about-meet-the-teamcontainer">
@@ -285,7 +339,7 @@
                 who know leadership, understand your business, and stay closely involved from initial brief to
                 successful candidate onboarding.</p>
         </div>
-        <div class="team-index-card lift-hover">
+        <div class="team-index-card lift-hover blue">
             <div class="team-image">
                 <span class="team-position">Chief Executive</span>
             </div>
@@ -352,7 +406,7 @@
                 </div>
             </div>
         </div>
-        <div class="team-index-card reverse-card lift-hover">
+        <div class="team-index-card reverse-card lift-hover purple">
             <div class="team-image">
                 <span class="team-position">Chief Executive</span>
             </div>
@@ -433,3 +487,62 @@
         </div>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const teamCards = document.querySelectorAll('.team-index-card');
+    const section = document.querySelector('.about-meet-the-team-section');
+    const ctaButton = document.querySelector('.about-meet-the-team-section .content-cta');
+    const blueTextElements = document.querySelectorAll('.about-meet-the-team-section .blue-text');
+
+    teamCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            // Remove all theme classes
+            section.classList.remove('purple-theme', 'blue-theme', 'green-theme');
+            ctaButton.classList.remove('purple-cta', 'blue-cta', 'green-cta');
+
+            // Add appropriate theme class based on card color
+            if (card.classList.contains('purple')) {
+                section.classList.add('purple-theme');
+                ctaButton.classList.add('purple-cta');
+
+                // Change blue-text to purple-text
+                blueTextElements.forEach(element => {
+                    element.classList.remove('blue-text');
+                    element.classList.add('purple-text');
+                });
+            } else if (card.classList.contains('blue')) {
+                section.classList.add('blue-theme');
+                ctaButton.classList.add('blue-cta');
+
+                // Ensure blue-text class is present
+                blueTextElements.forEach(element => {
+                    element.classList.remove('purple-text', 'green-text');
+                    element.classList.add('blue-text');
+                });
+            } else if (card.classList.contains('green')) {
+                section.classList.add('green-theme');
+                ctaButton.classList.add('green-cta');
+
+                // Change blue-text to green-text
+                blueTextElements.forEach(element => {
+                    element.classList.remove('blue-text');
+                    element.classList.add('green-text');
+                });
+            }
+        });
+
+        card.addEventListener('mouseleave', function() {
+            // Remove all theme classes when not hovering
+            section.classList.remove('purple-theme', 'blue-theme', 'green-theme');
+            ctaButton.classList.remove('purple-cta', 'blue-cta', 'green-cta');
+
+            // Reset all text elements back to blue-text
+            blueTextElements.forEach(element => {
+                element.classList.remove('purple-text', 'green-text');
+                element.classList.add('blue-text');
+            });
+        });
+    });
+});
+</script>

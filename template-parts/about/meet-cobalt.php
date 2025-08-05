@@ -35,7 +35,7 @@
         margin: 0 auto 20px;
     }
 
-    .about-meet-cobalt-section  .section-subtext {
+    .about-meet-cobalt-section .section-subtext {
         letter-spacing: normal;
     }
 
@@ -86,12 +86,68 @@
         background: #A62274;
     }
 
-    .mc-card:hover .mc-card-header{
+    .mc-card:hover .mc-card-header {
         border-bottom: 1px solid #ffffff;
     }
 
-    .mc-card:hover .mc-card-header > p, .mc-card:hover .mc-card-body{
+    .mc-card:hover .mc-card-header > p, .mc-card:hover .mc-card-body {
         color: #ffffff;
+    }
+
+    /* Purple card hover effects */
+    .mc-card.purple:hover ~ .content-cta {
+        background: #A62274;
+    }
+
+    .mc-card.purple:hover {
+        background: #A62274;
+    }
+
+    /* Blue card hover effects */
+    .mc-card.blue:hover {
+        background: #1B4F9E;
+    }
+
+    .mc-card.blue:hover ~ .content-cta {
+        background: #1B4F9E;
+    }
+
+    /* Green card hover effects */
+    .mc-card.green:hover {
+        background: #3FA635;
+    }
+
+    .mc-card.green:hover ~ .content-cta {
+        background: #3FA635;
+    }
+
+    /* Section background changes on card hover */
+    .about-meet-cobalt-section.purple-theme {
+        background-color: #FCE4F3 !important;
+        background-image: url("/wp-content/uploads/2025/08/pink-magni-2.png"), url("/wp-content/uploads/2025/08/pink-magni-small-2.png") !important;
+    }
+
+    .about-meet-cobalt-section.blue-theme {
+        background-color: #CADCFB !important;
+        background-image: url("/wp-content/uploads/2025/08/blue-magni-2.png"), url("/wp-content/uploads/2025/08/blue-magni-small-2.png") !important;
+    }
+
+    .about-meet-cobalt-section.green-theme {
+        background-color: #E6FEE3 !important;
+        background-image: url("/wp-content/uploads/2025/08/green-magni-2.png"), url("/wp-content/uploads/2025/08/green-magni-small-2.png") !important;
+    }
+
+    /* CTA button theme changes */
+    .content-cta.purple-cta {
+        background: #A62274 !important;
+    }
+
+    .content-cta.blue-cta {
+        background: #1B4F9E !important;
+    }
+
+    .content-cta.green-cta {
+        background: #3FA635 !important;
     }
 
     /* Desktop layout */
@@ -128,6 +184,7 @@
         .mc-card-header {
             height: auto;
         }
+
         .mc-card:last-child .mc-card-header {
             height: 119px;
         }
@@ -138,6 +195,7 @@
         .mc-card:last-child .mc-card-header {
             height: auto;
         }
+
         .mc-cards-grid {
             grid-template-columns: 1fr;
             gap: 20px;
@@ -153,6 +211,7 @@
         .about-meet-cobalt-section {
             padding: 40px 20px 40px;
         }
+
         .mc-cards-grid {
             margin: 30px auto 50px;
         }
@@ -176,10 +235,12 @@
         <div class="section-header">
             <h2 class="section-pretitle">Meet Cobalt</h2>
             <h2 class="section-title">Boutique by <strong>design.</strong> High-touch <strong>by nature.</strong></h2>
-            <p class="section-subtext">We don’t stop at “good enough.” What makes us different isn’t a set of values, it’s how those values show up when the stakes are high, the brief is complex, and the outcome really matters.</p>
+            <p class="section-subtext">We don’t stop at “good enough.” What makes us different isn’t a set of values,
+                it’s how those values show up when the stakes are high, the brief is complex, and the outcome really
+                matters.</p>
         </div>
         <div class="mc-cards-grid">
-            <div class="mc-card">
+            <div class="mc-card purple">
                 <div class="mc-card-header">
                     <p class="mc-card-number">
                         01
@@ -193,7 +254,7 @@
                     process
                 </p>
             </div>
-            <div class="mc-card">
+            <div class="mc-card blue">
                 <div class="mc-card-header">
                     <p class="mc-card-number">
                         02
@@ -207,7 +268,7 @@
                     need.
                 </p>
             </div>
-            <div class="mc-card">
+            <div class="mc-card green">
                 <div class="mc-card-header">
                     <p class="mc-card-number">
                         03
@@ -220,7 +281,7 @@
                     You work with senior consultants who know your business and care about your outcome.
                 </p>
             </div>
-            <div class="mc-card">
+            <div class="mc-card purple">
                 <div class="mc-card-header">
                     <p class="mc-card-number">
                         04
@@ -234,7 +295,7 @@
                     along the way.
                 </p>
             </div>
-            <div class="mc-card">
+            <div class="mc-card blue">
                 <div class="mc-card-header">
                     <p class="mc-card-number">
                         05
@@ -254,9 +315,45 @@
             <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
                             <rect width="36" height="37" rx="18" fill="#FFFFFF"></rect>
-                            <path d="M26 24.3856L24.2446 24.3931L24.2521 14.0028L11.2549 27L10 25.7451L22.9972 12.7479L12.6069 12.7554L12.6144 11L26 11L26 24.3856Z" fill="#3FA635"></path>
+                            <path d="M26 24.3856L24.2446 24.3931L24.2521 14.0028L11.2549 27L10 25.7451L22.9972 12.7479L12.6069 12.7554L12.6144 11L26 11L26 24.3856Z"
+                                  fill="#3FA635"></path>
                         </svg>
                     </span>
         </a>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mcCards = document.querySelectorAll('.mc-card');
+    const section = document.querySelector('.about-meet-cobalt-section');
+    const ctaButton = document.querySelector('.about-meet-cobalt-section .content-cta');
+
+    mcCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            // Remove all theme classes
+            section.classList.remove('purple-theme', 'blue-theme', 'green-theme');
+            ctaButton.classList.remove('cta-purple', 'cta-blue', 'cta-green');
+
+            // Add appropriate theme class based on card color
+            if (card.classList.contains('purple')) {
+                section.classList.add('purple-theme');
+                ctaButton.classList.add('cta-purple');
+            } else if (card.classList.contains('blue')) {
+                section.classList.add('blue-theme');
+                ctaButton.classList.add('cta-blue');
+            } else if (card.classList.contains('green')) {
+                section.classList.add('green-theme');
+                ctaButton.classList.add('cta-green');
+            }
+        });
+
+        card.addEventListener('mouseleave', function() {
+            // Remove all theme classes when not hovering
+            section.classList.remove('purple-theme', 'blue-theme', 'green-theme');
+            ctaButton.classList.remove('cta-purple', 'cta-blue', 'cta-green');
+            ctaButton.classList.add('cta-purple');
+        });
+    });
+});
+</script>

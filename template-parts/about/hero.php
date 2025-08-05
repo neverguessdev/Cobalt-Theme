@@ -26,6 +26,7 @@
 
     .about-hero-container {
         margin-top: 40px;
+        overflow: visible;
     }
 
     .about-text-header {
