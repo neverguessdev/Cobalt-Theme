@@ -10,7 +10,7 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">
-                    One leadership hire can <span class="green-text">change everything.</span> We make sure it’s <span class="purple-text">the right one.</span>
+                    One leadership hire can <span class="green-text">change everything.</span> <br class="d-none d-lg-block">We make sure it’s <br class="d-none d-lg-block"><span class="purple-text">the right one.</span>
                 </h1>
                 <p class="hero-subtitle">
                     Find outstanding leaders who will take your business further, with Cobalt Search.

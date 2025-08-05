@@ -57,31 +57,50 @@
         line-height: 160%; /* 28.8px */
     }
 
-    /* Desktop and Tablet - 3 Column Layout */
+    /* Desktop and Tablet - Slider Layout */
     @media (min-width: 768px) {
+        .our-team .section-container {
+            overflow: hidden;
+        }
+
         .teams-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-            padding: 0 20px;
+            display: flex;
+            transition: transform 0.3s ease;
+            width: 200%; /* Total width for 6 slides showing 3 at a time (6/3 * 100%) */
             margin-top: 56px;
+            gap: 30px;
         }
 
         .teams-item {
+            flex: 0 0 calc(16.67% - 25px); /* Each slide takes 16.67% (1/6) minus gap adjustment */
             margin: 0;
+            box-sizing: border-box;
         }
 
         .team-slider-nav {
-            display: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .our-team .slider-nav-divider {
+            background: rgba(32, 32, 32, 0.10);
+        }
+
+        .our-team .slider-arrows-container {
+            box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
         }
     }
 
     /* Mobile - Slider Layout */
     @media (max-width: 767px) {
-
         .our-team {
             background-image: none;
+            padding: 20px 20px;
         }
+
         .our-team .section-container {
             overflow: hidden;
             padding: 0;
@@ -97,12 +116,13 @@
         .teams-container {
             display: flex;
             transition: transform 0.3s ease;
-            width: 300%; /* Total width for 3 slides */
+            width: 600%; /* Total width for 6 slides */
             margin-top: 30px;
+            gap: 30px;
         }
 
         .teams-item {
-            flex: 0 0 33.333%; /* Each slide takes 1/3 of the 300% container */
+            flex: 0 0 calc(16.67% - 25px); /* Each slide takes 16.67% (1/6) minus gap adjustment */
             margin: 0 !important;
             padding: 0 20px;
             box-sizing: border-box;
@@ -113,8 +133,8 @@
             justify-content: space-between;
             align-items: center;
             gap: 0;
-            margin-top: 0;
-            padding: 3px 20px;
+            margin-top: 30px;
+            padding: 0 20px;
             position: relative;
         }
 
@@ -124,58 +144,6 @@
              background: rgba(32, 32, 32, 0.10);
              margin-right: 25px;
          }
-/*
-
-
-        .slider-arrows-container {
-            display: flex;
-            gap: 0;
-            border-radius: 25px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            flex-shrink: 0;
-        }
-
-        .slider-arrow {
-            background: #fff;
-            border: none;
-            width: 50px;
-            height: 40px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #000;
-            font-size: 0;
-            transition: all 0.3s ease;
-            border-radius: 0;
-        }
-
-        .slider-arrow.slider-prev {
-            background: #fff;
-            border-top-left-radius: 25px;
-            border-bottom-left-radius: 25px;
-        }
-
-        .slider-arrow.slider-next {
-            background: #F4F8FF;
-            border-top-right-radius: 25px;
-            border-bottom-right-radius: 25px;
-        }
-
-        .slider-arrow:hover {
-            opacity: 0.8;
-        }
-
-        .slider-arrow:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .slider-arrow svg {
-            width: 17px;
-            height: 16px;
-        }*/
     }
 </style>
 <section class="our-team">
@@ -190,20 +158,40 @@
             transactions.</p>
         <div class="teams-container" data-slider="teams">
             <div class="teams-item">
-                <img src="/wp-content/uploads/2025/07/team-1-min.png" class="lift-hover" alt="Helen Goddard">
+                <img src="/wp-content/uploads/2025/08/helen.png" class="lift-hover" alt="Helen Goddard">
                 <p class="teams-author">Helen Goddard</p>
                 <p class="teams-position">Founder & CEO</p>
             </div>
             <div class="teams-item">
-                <img src="/wp-content/uploads/2025/07/team-2-min.png" class="lift-hover" alt="Denise Pike">
+                <img src="/wp-content/uploads/2025/08/denise.png" class="lift-hover" alt="Denise Pike">
                 <p class="teams-author">Denise Pike</p>
-                <p class="teams-position">Managing Director</p>
+                <p class="teams-position">Vice President</p>
             </div>
             <div class="teams-item">
-                <img src="/wp-content/uploads/2025/07/team-3-min.png" class="lift-hover" alt="Helen Goddard">
-                <p class="teams-author">Helen Goddard</p>
-                <p class="teams-position">Head of Business Development</p>
+                <img src="/wp-content/uploads/2025/08/rebecca.png" class="lift-hover" alt="Rebecca Greenhill">
+                <p class="teams-author">Rebecca Greenhill</p>
+                <p class="teams-position">Executive Assistant</p>
             </div>
+            <div class="teams-item">
+                <img src="/wp-content/uploads/2025/08/steve.png" class="lift-hover" alt="Steve Broadley">
+                <p class="teams-author">Steve Broadley</p>
+                <p class="teams-position">Researcher</p>
+            </div>
+            <div class="teams-item">
+                <img src="/wp-content/uploads/2025/08/annabel.png" class="lift-hover" alt="Annabel Hudson">
+                <p class="teams-author">Annabel Hudson</p>
+                <p class="teams-position">Trainee Headhunter</p>
+            </div>
+            <div class="teams-item">
+                <img src="/wp-content/uploads/2025/08/sarah.png" class="lift-hover" alt="Sarah Hearn">
+                <p class="teams-author">Sarah Hearn</p>
+                <p class="teams-position">Operations & Client</p>
+            </div><!--
+            <div class="teams-item">
+                <img src="/wp-content/uploads/2025/07/team-2-min.png" class="lift-hover" alt="John Doe">
+                <p class="teams-author">John Doe</p>
+                <p class="teams-position">Excellence Manager</p>
+            </div>-->
         </div>
 
         <!-- Mobile Slider Navigation -->

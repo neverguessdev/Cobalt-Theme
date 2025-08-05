@@ -7,6 +7,7 @@
 ?>
 <style>
     section.faq {
+        padding: 60px 20px 0;
     }
 
     .faq .section-container {
@@ -42,6 +43,7 @@
         display: flex;
         flex-direction: column;
         gap: 40px;
+        margin-bottom: 20px;
     }
 
     .faq .title-subtext {
@@ -160,6 +162,7 @@
 
         .faq .section-container {
             background-image: url("/wp-content/uploads/2025/07/faq-bg-mob.png");
+            padding: 20px 20px;
         }
     }
 </style>
@@ -170,7 +173,7 @@
                 <p class="section-pretitle">FAQ</p>
                 <div class="title-subtext">
                     <h2 class="section-title">Have <strong>Questions?</strong></h2>
-                    <p class="section-subtitle" style="color: #3C3C3B">Here’s what clients like to know before we get started.</p>
+                    <p class="section-subtext" style="color: #3C3C3B">Here’s what clients like to know before we get started.</p>
                 </div>
             </div>
             <a href="#" class="content-cta cta-purple lift-hover">
@@ -187,7 +190,7 @@
         <div class="qa-content">
             <div class="qa-item">
                 <h3 class="qa-question">
-                    What happens if our new hire doesn’t work out?
+                    How long does the process take?
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                         <g clip-path="url(#clip0_348_8863)">
                             <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
@@ -199,11 +202,11 @@
                         </defs>
                     </svg>
                 </h3>
-                <p class="qa-answer">It’s rare, but our 90-day guarantee ensures your peace of mind. If your hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.</p>
+                <p class="qa-answer">Every search is tailored, but most take between 8–10 weeks from briefing to offer. We’ll give you a clear timeline upfront and stay closely aligned at every step.</p>
             </div>
             <div class="qa-item">
                 <h3 class="qa-question">
-                    What happens if our new hire doesn’t work out?
+                    How is Cobalt different from a traditional recruiter?
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                         <g clip-path="url(#clip0_348_8863)">
                             <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
@@ -215,39 +218,7 @@
                         </defs>
                     </svg>
                 </h3>
-                <p class="qa-answer">It’s rare, but our 90-day guarantee ensures your peace of mind. If your hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.</p>
-            </div>
-            <div class="qa-item">
-                <h3 class="qa-question">
-                    What happens if our new hire doesn’t work out?
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <g clip-path="url(#clip0_348_8863)">
-                            <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_348_8863">
-                                <rect width="14.9677" height="14.9677" fill="white" transform="matrix(0 -1 1 0 0.238281 15.6709)"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </h3>
-                <p class="qa-answer">It’s rare, but our 90-day guarantee ensures your peace of mind. If your hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.</p>
-            </div>
-            <div class="qa-item">
-                <h3 class="qa-question">
-                    What happens if our new hire doesn’t work out?
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <g clip-path="url(#clip0_348_8863)">
-                            <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_348_8863">
-                                <rect width="14.9677" height="14.9677" fill="white" transform="matrix(0 -1 1 0 0.238281 15.6709)"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </h3>
-                <p class="qa-answer">It’s rare, but our 90-day guarantee ensures your peace of mind. If your hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.</p>
+                <p class="qa-answer">We’re a true search partner. No databases, no shortcuts, just deep market mapping, structured interviews, and a process built around alignment, impact, and long-term success.</p>
             </div>
             <div class="qa-item">
                 <h3 class="qa-question">

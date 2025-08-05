@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Reusable Slider Function
-    function initSlider(sliderName) {
+    function initSlider(sliderName, options = {}) {
         const container = document.querySelector(`[data-slider="${sliderName}"]`);
         const prevBtn = document.querySelector(`[data-slider-target="${sliderName}"].slider-prev`);
         const nextBtn = document.querySelector(`[data-slider-target="${sliderName}"].slider-next`);
@@ -39,10 +39,28 @@ document.addEventListener('DOMContentLoaded', function() {
         const totalItems = items.length;
         let currentIndex = 0;
 
+        // Default options
+        const config = {
+            desktopSlidesToShow: 1, // Default: show 1 slide on desktop
+            mobileSlidesToShow: 1,  // Default: show 1 slide on mobile
+            ...options
+        };
+
+        // Determine slides to show based on screen size and config
+        function getSlidesToShow() {
+            return window.innerWidth >= 768 ? config.desktopSlidesToShow : config.mobileSlidesToShow;
+        }
+
+        // Calculate max index based on slides shown
+        function getMaxIndex() {
+            const slidesToShow = getSlidesToShow();
+            return Math.max(0, totalItems - slidesToShow);
+        }
+
         // Update slider position
         function updateSlider() {
-            // Calculate translation based on number of items
-            const slideWidth = 100 / totalItems; // Dynamic slide width
+            const slidesToShow = getSlidesToShow();
+            const slideWidth = 100 / totalItems; // Each slide width based on total items
             const translateX = -currentIndex * slideWidth;
             container.style.transform = `translateX(${translateX}%)`;
 
@@ -54,13 +72,15 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Update arrow states
+            const maxIndex = getMaxIndex();
             prevBtn.disabled = currentIndex === 0;
-            nextBtn.disabled = currentIndex === totalItems - 1;
+            nextBtn.disabled = currentIndex >= maxIndex;
         }
 
         // Go to specific slide
         function goToSlide(index) {
-            currentIndex = Math.max(0, Math.min(index, totalItems - 1));
+            const maxIndex = getMaxIndex();
+            currentIndex = Math.max(0, Math.min(index, maxIndex));
             updateSlider();
         }
 
@@ -73,11 +93,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Next slide
         function nextSlide() {
-            if (currentIndex < totalItems - 1) {
+            const maxIndex = getMaxIndex();
+            if (currentIndex < maxIndex) {
                 goToSlide(currentIndex + 1);
             }
         }
 
+        // Handle window resize
+        function handleResize() {
+            // Reset to first slide on resize to avoid layout issues
+            currentIndex = 0;
+            updateSlider();
+        }
         // Event listeners
         prevBtn.addEventListener('click', prevSlide);
         nextBtn.addEventListener('click', nextSlide);
@@ -134,19 +161,25 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize sliders
     initMobileMenu();
 
-    // Initialize reviews slider
-    const reviewsSlider = initSlider('reviews');
+    // Initialize reviews slider with 3 slides showing on desktop
+    const reviewsSlider = initSlider('reviews', {
+        desktopSlidesToShow: 3,
+        mobileSlidesToShow: 1
+    });
 
-    // Initialize teams slider
-    const teamsSlider = initSlider('teams');
+    // Initialize other sliders with default behavior (1 slide on desktop and mobile)
+    const teamsSlider = initSlider('teams', {
+        desktopSlidesToShow: 3,
+        mobileSlidesToShow: 1
+    });
 
     // Initialize about reviews slider
-    const abReviewsSlider = initSlider('ab-reviews')
+    const abReviewsSlider = initSlider('ab-reviews');
 
     // Initialize about testimonial slider
     const abTestimonialsSlider = initSlider('testimonials-slider');
 
-    // Initialize about testimonial slider
+    // Initialize about testimonial text slider
     const abTestimonialsTextSlider = initSlider('testimonial-text-slider');
 
     // Auto-play functionality (optional)
