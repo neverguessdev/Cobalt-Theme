@@ -173,6 +173,11 @@
                 <p class="teams-position">Executive Assistant</p>
             </div>
             <div class="teams-item">
+                <img src="/wp-content/uploads/2025/08/sarah.png" class="lift-hover" alt="Sarah Hearn">
+                <p class="teams-author">Sarah Hearn</p>
+                <p class="teams-position">Operations & Client Excellence Manager</p>
+            </div>
+            <div class="teams-item">
                 <img src="/wp-content/uploads/2025/08/steve.png" class="lift-hover" alt="Steve Broadley">
                 <p class="teams-author">Steve Broadley</p>
                 <p class="teams-position">Researcher</p>
@@ -182,16 +187,6 @@
                 <p class="teams-author">Annabel Hudson</p>
                 <p class="teams-position">Trainee Headhunter</p>
             </div>
-            <div class="teams-item">
-                <img src="/wp-content/uploads/2025/08/sarah.png" class="lift-hover" alt="Sarah Hearn">
-                <p class="teams-author">Sarah Hearn</p>
-                <p class="teams-position">Operations & Client</p>
-            </div><!--
-            <div class="teams-item">
-                <img src="/wp-content/uploads/2025/07/team-2-min.png" class="lift-hover" alt="John Doe">
-                <p class="teams-author">John Doe</p>
-                <p class="teams-position">Excellence Manager</p>
-            </div>-->
         </div>
 
         <!-- Mobile Slider Navigation -->

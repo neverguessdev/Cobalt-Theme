@@ -22,8 +22,9 @@
                 </div>
                 <p class="review-text">“Cobalt helped us find the right COO who transformed our operations and doubled
                     revenue in 18 months.”</p>
-                <p class="review-author">Keith</p>
-                <p class="review-position">Entrepreneur</p>
+                <p class="review-author">Keith Cunningham</p>
+                <p class="review-position">Entrepreneur, International Speaker and Acclaimed Author
+                </p>
             </div>
             <div class="review-item">
                 <div class="review-img">
@@ -37,8 +38,8 @@
                 </div>
                 <p class="review-text">“We were struggling to attract top-tier leaders in our industry. Cobalt Search
                     found us the perfect fit—someone we never would have reached on our own.”</p>
-                <p class="review-author">Aline</p>
-                <p class="review-position">CEO</p>
+                <p class="review-author">Aline Frantzen</p>
+                <p class="review-position">CEO, Keolis North America</p>
             </div>
             <div class="review-item">
                 <div class="review-img">
@@ -52,8 +53,9 @@
                 </div>
                 <p class="review-text">“Helen and her team at Cobalt Search take recruiting to another level, the
                     quality of candidates she brought to us were all fantastic.”</p>
-                <p class="review-author">Thomas</p>
-                <p class="review-position">President & CEO</p>
+                <p class="review-author">Thomas Martini</p>
+                <p class="review-position">President & CEO, LorvaL Capital Management
+                </p>
             </div>
             <div class="review-item">
                 <div class="review-img">
@@ -67,8 +69,8 @@
                 </div>
                 <p class="review-text">“Cobalt presented excellent candidates, making our choice difficult. Their
                     support through the process was outstanding, and we’re delighted with the final outcome.”</p>
-                <p class="review-author">David</p>
-                <p class="review-position">CEO</p>
+                <p class="review-author">David Scorey</p>
+                <p class="review-position">CEO, Keolis North America</p>
             </div>
             <div class="review-item">
                 <div class="review-img">
@@ -82,8 +84,8 @@
                 </div>
                 <p class="review-text">“Helen Goddard and Cobalt Search excel at finding top-tier talent in unexpected
                     places. Their expertise helped us hire an exceptional CFO who’s already making a big impact.”</p>
-                <p class="review-author">Steve</p>
-                <p class="review-position">CEO</p>
+                <p class="review-author">Steve Ponte</p>
+                <p class="review-position">CEO, PHL Capital Corp.</p>
             </div>
 
         </div>
