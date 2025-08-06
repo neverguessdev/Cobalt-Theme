@@ -125,7 +125,7 @@ table {
     transition: background 0.2s;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
     color: #3FA635;
 }
 
@@ -990,6 +990,10 @@ section {
     background-size: contain;
 }
 
+.leadership-search .section-container{
+    overflow: visible;
+}
+
 .section-pretitle-line {
     position: relative;
     display: block;
@@ -1187,6 +1191,10 @@ section {
 @media (max-width: 1023px) {
     .color-cards {
         width: 48%;
+    }
+
+    .leadership-search {
+        background-image: none;
     }
 }
 
