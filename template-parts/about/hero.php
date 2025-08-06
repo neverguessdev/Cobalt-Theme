@@ -57,6 +57,7 @@
 
     .about-hero-cards {
         width: 100%;
+        max-width: 723px;
         display: flex;
         justify-content: center;
         align-items: center;

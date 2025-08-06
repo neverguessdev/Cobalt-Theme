@@ -62,12 +62,13 @@
         max-width: 601px;
         position: relative;
         border-radius: 19px;
-        background: linear-gradient(180deg, rgba(32, 32, 32, 0.00) 29.33%, #202020 100%), url("/wp-content/uploads/2025/08/karen-thompson.png");
+        background: linear-gradient(180deg, rgba(32, 32, 32, 0.00) 29.33%, #202020 100%), url("/wp-content/uploads/2025/08/default-video.png");
         background-size: cover;
         padding: 25px;
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
+        cursor: pointer;
     }
 
     .testimonial-card .uploader-info {
@@ -84,6 +85,7 @@
     }
 
     .testimonial-card .testimonial-text {
+        width: 100%;
         max-width: 799px;
         padding: 10px 0 20px 112px;
         position: relative;
@@ -262,12 +264,16 @@
         gap: 30px;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 991px) {
         .testimonial-card .video-container {
             height: 315px;
-            background: linear-gradient(180deg, rgba(32, 32, 32, 0.00) 29.33%, #202020 100%), url("/wp-content/uploads/2025/08/karen-thompson-small.png");
+            max-width: 100%;
+            background: linear-gradient(180deg, rgba(32, 32, 32, 0.00) 29.33%, #202020 100%), url("/wp-content/uploads/2025/08/default-video.png");
+            background-size: cover;
         }
+    }
 
+    @media (max-width: 767px) {
         .testimonials-slider-container {
             margin-top: 37px;
         }
@@ -288,7 +294,11 @@
             padding-left: 66px;
         }
 
-        .testimonial-card .testimonial-text svg {transform: scale(0.5);left: -15px;top: 0;}
+        .testimonial-card .testimonial-text svg {
+            transform: scale(0.5);
+            left: -15px;
+            top: 0;
+        }
 
         .testimonial-quote {
             font-size: 20px;
@@ -310,6 +320,10 @@
         .testimonial-text-item .author-position {
             font-size: 12px;
         }
+
+        .testimonial-slider-nav {
+            margin-top: 0;
+        }
     }
 </style>
 <section class="about-testimonials-section">
@@ -318,15 +332,18 @@
             <h3 class="section-pretitle">Testimonials</h3>
         </span>
         <h3 class="section-title">Looking for <span class="purple-text">results worth</span> shouting about?</h3>
-        <p class="section-subtext">Most clients find us through someone they trust. We’re referred because we care, we deliver, and we don’t treat leadership search like a transaction.</p>
+        <p class="section-subtext">Most clients find us through someone they trust. We’re referred because we care, we
+            deliver, and we don’t treat leadership search like a transaction.</p>
 
         <div class="testimonials-slider-container">
             <div class="testimonials-cards-video" data-slider="testimonials-slider">
                 <div class="testimonial-card">
-                    <div class="video-container">
-                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                    <div class="video-container" data-video-url="https://youtu.be/4jxM1rDXhaE?si=RD6gd0evC9BuwnCv">
+                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
+                             viewBox="0 0 80 80" fill="none">
                             <g clip-path="url(#clip0_570_2100)">
-                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z" fill="white"/>
+                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z"
+                                      fill="white"/>
                             </g>
                             <defs>
                                 <clipPath id="clip0_570_2100">
@@ -335,18 +352,20 @@
                             </defs>
                         </svg>
                         <div class="uploader-info">
-                            <img src="/wp-content/uploads/2025/08/k-avatar.png" alt="K Avatar" class="uploader-avatar">
+                            <img src="/wp-content/uploads/2025/08/A.png" alt="K Avatar" class="uploader-avatar">
                             <div class="uploader-details">
-                                <p class="uploader-name">Karen Thompson</p>
-                                <p class="uploader-position">CEO, TechVision Inc</p>
+                                <p class="uploader-name">Aline Frantzen</p>
+                                <p class="uploader-position">CEO, Keolis North America</p>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-text">
                         <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
                             <g clip-path="url(#clip0_570_2108)">
-                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z" fill="#FEFAFD"/>
-                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z" fill="#FEFAFD"/>
+                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z"
+                                      fill="#FEFAFD"/>
+                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z"
+                                      fill="#FEFAFD"/>
                             </g>
                             <defs>
                                 <clipPath id="clip0_570_2108">
@@ -354,17 +373,20 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="testimonial-quote">Lorem ipsum dolor sit amet consectetur. Nullam gravida aliquet id dui nisi. Elementum interdum placerat curabitur nulla maecenas tincidunt quis. Nisi egestas sit </p>
-                        <p class="testimonial-author">Karen Thompson</p>
-                        <p class="testimonial-position">CEO, TechVision Inc</p>
+                        <p class="testimonial-quote">We were struggling to attract top-tier leaders in our industry.
+                            Cobalt Search found us the perfect fit—someone we never would have reached on our own.</p>
+                        <p class="testimonial-author">Aline Frantzen</p>
+                        <p class="testimonial-position">CEO, Keolis North Americac</p>
                     </div>
                 </div>
 
                 <div class="testimonial-card">
                     <div class="video-container">
-                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
+                             viewBox="0 0 80 80" fill="none">
                             <g clip-path="url(#clip0_570_2100)">
-                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z" fill="white"/>
+                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z"
+                                      fill="white"/>
                             </g>
                             <defs>
                                 <clipPath id="clip0_570_2100">
@@ -383,8 +405,10 @@
                     <div class="testimonial-text">
                         <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
                             <g clip-path="url(#clip0_570_2108)">
-                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z" fill="#FEFAFD"/>
-                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z" fill="#FEFAFD"/>
+                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z"
+                                      fill="#FEFAFD"/>
+                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z"
+                                      fill="#FEFAFD"/>
                             </g>
                             <defs>
                                 <clipPath id="clip0_570_2108">
@@ -392,7 +416,9 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="testimonial-quote">Cobalt exceeded our expectations in finding the perfect leadership candidate. Their thorough process and deep understanding of our industry made all the difference.</p>
+                        <p class="testimonial-quote">Cobalt exceeded our expectations in finding the perfect leadership
+                            candidate. Their thorough process and deep understanding of our industry made all the
+                            difference.</p>
                         <p class="testimonial-author">Michael Chen</p>
                         <p class="testimonial-position">CTO, InnovateTech</p>
                     </div>
@@ -400,9 +426,11 @@
 
                 <div class="testimonial-card">
                     <div class="video-container">
-                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
+                             viewBox="0 0 80 80" fill="none">
                             <g clip-path="url(#clip0_570_2100)">
-                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z" fill="white"/>
+                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z"
+                                      fill="white"/>
                             </g>
                             <defs>
                                 <clipPath id="clip0_570_2100">
@@ -421,8 +449,10 @@
                     <div class="testimonial-text">
                         <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
                             <g clip-path="url(#clip0_570_2108)">
-                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z" fill="#FEFAFD"/>
-                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z" fill="#FEFAFD"/>
+                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z"
+                                      fill="#FEFAFD"/>
+                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z"
+                                      fill="#FEFAFD"/>
                             </g>
                             <defs>
                                 <clipPath id="clip0_570_2108">
@@ -430,7 +460,8 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="testimonial-quote">Working with Cobalt was a game-changer for our executive search. They understood our culture and delivered exceptional candidates who fit perfectly.</p>
+                        <p class="testimonial-quote">Working with Cobalt was a game-changer for our executive search.
+                            They understood our culture and delivered exceptional candidates who fit perfectly.</p>
                         <p class="testimonial-author">Sarah Rodriguez</p>
                         <p class="testimonial-position">VP Operations, GrowthCorp</p>
                     </div>
@@ -460,22 +491,27 @@
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
-                            <p class="quote-text">Cobalt's expertise in the tech industry is unmatched. They not only found us a great leader but also guided us through the entire transition. Highly recommend!</p>
+                            <p class="quote-text">Cobalt helped us find the right COO who transformed our operations and
+                                doubled revenue in 18 months.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/k-avatar-b.png" alt="K Avatar" class="author-avatar">
+                                <img src="/wp-content/uploads/2025/08/k-avatar-b.png" alt="K Avatar"
+                                     class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Karen Thompson</p>
-                                    <p class="author-position">CEO, TechVision Inc</p>
+                                    <p class="author-name">Keith Cunningham</p>
+                                    <p class="author-position">Entrepreneur, International Speaker and Acclaimed
+                                        Author</p>
                                 </div>
                             </div>
                         </div>
                         <div class="text-content green">
-                            <p class="quote-text">Cobalt's expertise in the tech industry is unmatched. They not only found us a great leader but also guided us through the entire transition. Highly recommend!</p>
+                            <p class="quote-text">Helen and her team at Cobalt Search take recruiting to another level,
+                                the quality of candidates she brought to us were all fantastic</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/k-avatar-g.png" alt="K Avatar" class="author-avatar">
+                                <img src="/wp-content/uploads/2025/08/t-green.png" alt="K Avatar"
+                                     class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Karen Thompson</p>
-                                    <p class="author-position">CEO, TechVision Inc</p>
+                                    <p class="author-name">Thomas Martini</p>
+                                    <p class="author-position">President & CEO, LorvaL Capital Management</p>
                                 </div>
                             </div>
                         </div>
@@ -484,22 +520,27 @@
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
-                            <p class="quote-text">Cobalt's expertise in the tech industry is unmatched. They not only found us a great leader but also guided us through the entire transition. Highly recommend!</p>
+                            <p class="quote-text">We were struggling to attract top-tier leaders in our industry. Cobalt
+                                Search found us the perfect fit—someone we never would have reached on our own.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/k-avatar-b.png" alt="K Avatar" class="author-avatar">
+                                <img src="/wp-content/uploads/2025/08/a-blue.png" alt="K Avatar"
+                                     class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Karen Thompson</p>
-                                    <p class="author-position">CEO, TechVision Inc</p>
+                                    <p class="author-name">Aline Frantzen</p>
+                                    <p class="author-position">CEO, Keolis North America</p>
                                 </div>
                             </div>
                         </div>
                         <div class="text-content green">
-                            <p class="quote-text">Cobalt's expertise in the tech industry is unmatched. They not only found us a great leader but also guided us through the entire transition. Highly recommend!</p>
+                            <p class="quote-text">Cobalt presented excellent candidates, making our choice difficult.
+                                Their support through the process was outstanding, and we’re delighted with the final
+                                outcome.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/k-avatar-g.png" alt="K Avatar" class="author-avatar">
+                                <img src="/wp-content/uploads/2025/08/d-green.png" alt="K Avatar"
+                                     class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Karen Thompson</p>
-                                    <p class="author-position">CEO, TechVision Inc</p>
+                                    <p class="author-name">David Scorey</p>
+                                    <p class="author-position">CEO, Keolis North America</p>
                                 </div>
                             </div>
                         </div>
@@ -508,19 +549,25 @@
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
-                            <p class="quote-text">Cobalt's expertise in the tech industry is unmatched. They not only found us a great leader but also guided us through the entire transition. Highly recommend!</p>
+                            <p class="quote-text">Helen Goddard and Cobalt Search excel at finding top-tier talent in
+                                unexpected places. Their expertise helped us hire an exceptional CFO who’s already
+                                making a big impact.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/k-avatar-b.png" alt="K Avatar" class="author-avatar">
+                                <img src="/wp-content/uploads/2025/08/s-blue" alt="K Avatar"
+                                     class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Karen Thompson</p>
-                                    <p class="author-position">CEO, TechVision Inc</p>
+                                    <p class="author-name">Steve Ponte</p>
+                                    <p class="author-position">CEO, PHL Capital Corp.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="text-content green">
-                            <p class="quote-text">Cobalt's expertise in the tech industry is unmatched. They not only found us a great leader but also guided us through the entire transition. Highly recommend!</p>
+                            <p class="quote-text">Cobalt's expertise in the tech industry is unmatched. They not only
+                                found us a great leader but also guided us through the entire transition. Highly
+                                recommend!</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/k-avatar-g.png" alt="K Avatar" class="author-avatar">
+                                <img src="/wp-content/uploads/2025/08/k-avatar-g.png" alt="K Avatar"
+                                     class="author-avatar">
                                 <div class="author-details">
                                     <p class="author-name">Karen Thompson</p>
                                     <p class="author-position">CEO, TechVision Inc</p>

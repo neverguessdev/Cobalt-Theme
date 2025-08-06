@@ -130,6 +130,9 @@
     }
 
     @media (max-width: 767px) {
+        section.about-contact-winning-section {
+            padding-top: 0;
+        }
         .cw-key-card {
             padding: 38px 20px 30px;
         }

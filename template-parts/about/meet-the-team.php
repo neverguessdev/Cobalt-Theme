@@ -236,6 +236,14 @@
             max-width: 100%;
         }
 
+        .team-index-card:nth-child(3) {
+            margin-bottom: 20px;
+        }
+
+        .team-index-card:nth-child(4) {
+            margin-bottom: 20px;
+        }
+
         .team-index-card:nth-child(3) .team-image, .team-index-card:nth-child(4) .team-image {
             border-radius: 20px 20px 0 0;
             background-position: top center;
