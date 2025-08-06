@@ -48,10 +48,10 @@
             <div class="footer-right">
                 <div class="footer-nav-container">
                     <div class="footer-column">
-                        <h4 class="footer-heading">Home</h4>
+                        <a href="/" class="footer-heading">Home</a>
                         <ul class="footer-nav-list">
                             <li><a href="#" class="footer-link">Our Services</a></li>
-                            <li><a href="#" class="footer-link">About Us</a></li>
+                            <li><a href="/about-us" class="footer-link">About Us</a></li>
                             <li><a href="#" class="footer-link">Contact Us</a></li>
                         </ul>
                     </div>
