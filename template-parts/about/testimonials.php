@@ -553,7 +553,7 @@
                                 unexpected places. Their expertise helped us hire an exceptional CFO who’s already
                                 making a big impact.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/s-blue" alt="K Avatar"
+                                <img src="/wp-content/uploads/2025/08/s-blue.png" alt="K Avatar"
                                      class="author-avatar">
                                 <div class="author-details">
                                     <p class="author-name">Steve Ponte</p>
