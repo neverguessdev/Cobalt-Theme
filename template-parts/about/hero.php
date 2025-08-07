@@ -178,7 +178,10 @@
         .about-hero-cards {
             display: none;
         }
-
+        .about-hero-text.text-center.text-sm-start {
+            max-width: 100%;
+            align-items: center;
+        }
     }
 
     @media (max-width: 767px) {
@@ -188,6 +191,7 @@
 
         .about-text-header {
             gap: 20px;
+            padding-right: 0;
         }
 
         .about-hero-title {

@@ -366,7 +366,7 @@ table {
 .footer-banner-title strong {
     color: #FFF;
     font-family: "Lexend Deca";
-    font-size: 40px;
+    font-size: inherit;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -632,6 +632,7 @@ footer .cta-btn {
 
     .footer-banner-title {
         font-size: 20px;
+        margin-bottom: 12px;
     }
 
     .footer-banner {
@@ -640,6 +641,14 @@ footer .cta-btn {
 
     .footer-container > svg {
         display: none;
+    }
+
+    .footer-banner-subtitle {
+        margin-bottom: 20px;
+    }
+
+    .footer-banner-inner {
+        height: auto;
     }
 }
 
@@ -1628,6 +1637,12 @@ section.white-banner .section-container .section-subtext {
 }
 
 /* About Page Styles */
+@media (max-width: 991px) {
+    .about-page .section-subtext {
+        line-height: 150%;
+    }
+}
+
 @media (max-width: 767px) {
     /*.about-page {
         padding: 20px;
