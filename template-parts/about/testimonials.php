@@ -64,6 +64,7 @@
         border-radius: 19px;
         background: linear-gradient(180deg, rgba(32, 32, 32, 0.00) 29.33%, #202020 100%), url("/wp-content/uploads/2025/08/default-video.png");
         background-size: cover;
+        background-position: top left;
         padding: 25px;
         display: flex;
         justify-content: flex-start;
@@ -313,7 +314,7 @@
             flex-direction: column;
         }
 
-        .testimonial-text-item .quote-text, .testimonial-text-item .author-name {
+        .testimonial-text-item .quote-text, .testimonial-text-item .author-name, .testimonial-text-item .green .author-name {
             font-size: 16px;
         }
 

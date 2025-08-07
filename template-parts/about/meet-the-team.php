@@ -241,12 +241,13 @@
         }
 
         .team-index-card:nth-child(4) {
-            margin-bottom: 20px;
+            margin-bottom: 60px;
         }
 
         .team-index-card:nth-child(3) .team-image, .team-index-card:nth-child(4) .team-image {
             border-radius: 20px 20px 0 0;
             background-position: top center;
+            height: 700px;
         }
 
         .team-info {
@@ -265,6 +266,7 @@
     @media (max-width: 767px) {
         section.about-meet-the-team-section {
             padding-top: 40px;
+            background-size: 70%;
         }
 
         section.about-meet-the-team-section .section-header .section-title {
@@ -287,6 +289,13 @@
             margin: 30px auto 20px;
         }
 
+        section.about-meet-the-team-section .section-header .section-subtext, section.about-meet-the-team-section .section-subheader .section-subtext {
+            line-height: 150%;
+        }
+
+        .team-index-card:nth-child(3) .team-image, .team-index-card:nth-child(4) .team-image {
+            height: 357px;
+        }
     }
 
     .team-index-card.blue:hover {
@@ -349,7 +358,7 @@
         </div>
         <div class="team-index-card lift-hover blue">
             <div class="team-image">
-                <span class="team-position">Chief Executive</span>
+                <span class="team-position">Founder & CEO</span>
             </div>
             <div class="team-info-container">
                 <div class="team-info">
@@ -386,7 +395,7 @@
                     </div>
                 </div>
                 <div class="team-socials">
-                    <a href="https://www.linkedin.com/in/helen-goddard-1b0b4a1/" target="_blank"
+                    <a href="https://www.linkedin.com/in/helengoddardcobalt/" target="_blank"
                        rel="noopener noreferrer"
                        class="team-social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -405,7 +414,7 @@
                             </defs>
                         </svg>
                     </a>
-                    <a href="mailto:test@gmail.com" class="team-social-link">
+                    <a href="mailto:helen@cobaltsearch.com" class="team-social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path d="M16.418 2.67188H1.58203C0.711492 2.67188 0 3.38024 0 4.25391V13.7461C0 14.6201 0.711949 15.3281 1.58203 15.3281H16.418C17.2885 15.3281 18 14.6198 18 13.7461V4.25391C18 3.38003 17.2882 2.67188 16.418 2.67188ZM16.175 3.72656C15.6636 4.23974 9.65549 10.2674 9.40866 10.515C9.2025 10.7218 8.79761 10.722 8.59134 10.515L1.82496 3.72656H16.175ZM1.05469 13.5522V4.44779L5.59213 9L1.05469 13.5522ZM1.82496 14.2734L6.3367 9.747L7.84438 11.2596C8.46221 11.8794 9.53803 11.8792 10.1557 11.2596L11.6633 9.74704L16.175 14.2734H1.82496ZM16.9453 13.5522L12.4079 9L16.9453 4.44779V13.5522Z"
                                   fill="black"/>
@@ -416,7 +425,7 @@
         </div>
         <div class="team-index-card reverse-card lift-hover purple">
             <div class="team-image">
-                <span class="team-position">Chief Executive</span>
+                <span class="team-position">Vice President</span>
             </div>
             <div class="team-info-container">
                 <div class="team-info">
@@ -453,7 +462,7 @@
                     </div>
                 </div>
                 <div class="team-socials">
-                    <a href="https://www.linkedin.com/in/helen-goddard-1b0b4a1/" target="_blank"
+                    <a href="http://linkedin.com/in/denise-pike/" target="_blank"
                        rel="noopener noreferrer"
                        class="team-social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -472,7 +481,7 @@
                             </defs>
                         </svg>
                     </a>
-                    <a href="mailto:test@gmail.com" class="team-social-link">
+                    <a href="mailto:denise@cobaltsearch.com" class="team-social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path d="M16.418 2.67188H1.58203C0.711492 2.67188 0 3.38024 0 4.25391V13.7461C0 14.6201 0.711949 15.3281 1.58203 15.3281H16.418C17.2885 15.3281 18 14.6198 18 13.7461V4.25391C18 3.38003 17.2882 2.67188 16.418 2.67188ZM16.175 3.72656C15.6636 4.23974 9.65549 10.2674 9.40866 10.515C9.2025 10.7218 8.79761 10.722 8.59134 10.515L1.82496 3.72656H16.175ZM1.05469 13.5522V4.44779L5.59213 9L1.05469 13.5522ZM1.82496 14.2734L6.3367 9.747L7.84438 11.2596C8.46221 11.8794 9.53803 11.8792 10.1557 11.2596L11.6633 9.74704L16.175 14.2734H1.82496ZM16.9453 13.5522L12.4079 9L16.9453 4.44779V13.5522Z"
                                   fill="black"/>

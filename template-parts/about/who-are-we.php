@@ -92,11 +92,16 @@
         .about-who-are-we-content > .image-side {
             margin: 0 auto;
         }
+
+        .about-who-are-we-content {
+            gap: 30px;
+        }
     }
 
     @media (max-width: 767px) {
-
-
+        .about-who-are-we-content {
+            gap: 0;
+        }
         .about-who-are-we-content > .image-side {
             transform: scale(0.85);
         }

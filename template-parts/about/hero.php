@@ -197,12 +197,16 @@
         .about-hero-subtitle {
             font-size: 18px;
         }
+
+        .about-hero-section a.content-cta {
+            margin: 0 auto;
+        }
     }
 </style>
 <section class="hero-section about-hero-section">
     <div class="section-container about-hero-container">
         <div class="about-hero-content">
-            <div class="about-hero-text">
+            <div class="about-hero-text text-center text-sm-start">
                 <div class="about-text-header">
                     <h1 class="about-hero-title">
                         <span class="green-text">Hiring</span> for impact starts with <span

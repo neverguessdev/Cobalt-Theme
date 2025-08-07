@@ -123,6 +123,17 @@
         line-height: 160%; /* 32px */
     }
 
+    @media (max-width: 991px){
+        .section-container.about-outcome-container {
+            flex-direction: column;
+        }
+
+        .section-container.about-outcome-container .text-side {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
     @media (max-width: 767px) {
         .section-container.about-outcome-container {
             flex-direction: column;
