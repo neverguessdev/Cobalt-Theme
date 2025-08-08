@@ -50,7 +50,7 @@
                     <div class="footer-column">
                         <a href="/" class="footer-heading">Home</a>
                         <ul class="footer-nav-list">
-                            <li><a href="#" class="footer-link">Our Services</a></li>
+                            <li><a href="/our-services" class="footer-link">Our Services</a></li>
                             <li><a href="/about-us" class="footer-link">About Us</a></li>
                             <li><a href="#" class="footer-link">Contact Us</a></li>
                         </ul>

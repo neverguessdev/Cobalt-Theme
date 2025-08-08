@@ -28,7 +28,7 @@
             <nav class="main-nav">
                 <ul class="nav-links">
                     <li><a href="/" class="nav-link lift-hover">Home</a></li>
-                    <li><a href="#" class="nav-link lift-hover">Our Services</a></li>
+                    <li><a href="/our-services" class="nav-link lift-hover">Our Services</a></li>
                     <li><a href="/about-us" class="nav-link lift-hover">About Us</a></li>
                     <li>
                         <a href="#" class="cta-btn">
@@ -58,7 +58,7 @@
                         </button>
                         <h4 class="mobile-nav-header">Menu</h4>
                         <a href="/" class="mobile-nav-link">Home</a>
-                        <a href="#" class="mobile-nav-link">Our Services</a>
+                        <a href="/our-services" class="mobile-nav-link">Our Services</a>
                         <a href="/about-us" class="mobile-nav-link">About Us</a>
                         <a href="#" class="mobile-nav-link">Contact Us</a>
                     </div>
