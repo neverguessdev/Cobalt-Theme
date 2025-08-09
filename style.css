@@ -1060,7 +1060,7 @@ section {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 21.6px */
+    line-height: 150%; /* 21.6px */
     letter-spacing: 0.36px;
 }
 
@@ -1207,6 +1207,12 @@ section {
     }
 }
 
+@media (max-width: 991px) {
+    .section-subtext {
+        line-height: 150%;
+    }
+}
+
 @media (max-width: 767px) {
     .section-pretitle {
         font-size: 12px;
@@ -1218,6 +1224,7 @@ section {
 
     .section-subtext {
         font-size: 14px;
+        line-height: 150%;
     }
 
     .card-title {
@@ -1369,7 +1376,7 @@ section.cobalt-difference {
         max-width: 100%;
         margin: 0 auto 20px;
         text-align: left;
-        line-height: 26px;
+        line-height: 150%;
     }
 
     .cobalt-difference .section-content .color-cards {
@@ -1419,6 +1426,10 @@ section.white-banner .section-container .section-subtext {
 
     section.white-banner a {
         display: none;
+    }
+
+    section.white-banner .section-container .section-subtext {
+        line-height: 150%;
     }
 }
 

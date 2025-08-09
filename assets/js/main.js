@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Ensure background properties are set correctly
             container.style.backgroundSize = 'cover';
-            container.style.backgroundPosition = 'center';
+            container.style.backgroundPosition = 'top left';
             container.style.backgroundRepeat = 'no-repeat';
         });
     }
