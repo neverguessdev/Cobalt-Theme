@@ -389,7 +389,7 @@
                         We make finding game-changing leaders structured, strategic, and refreshingly low-stress.
                     </p>
                 </div>
-                <a href="#" class="content-cta lift-hover lift-hover-blue">
+                <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
                     FIND YOUR NEXT LEADER
                     <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">

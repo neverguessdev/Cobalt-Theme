@@ -355,7 +355,7 @@
                         <p>Switching from founder-led to leadership-led is personal. We’ll guide you through every step,
                             from defining the role to finding someone who’ll lead like they built the business
                             themselves.</p>
-                        <a href="#" class="content-cta lift-hover lift-hover-blue">
+                        <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
                             START YOUR FIRST SEARCH
                             <span class="content-cta-arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37"
@@ -508,7 +508,7 @@
                         <p>As your business grows, gaps in delivery, operations, and alignment start to surface. We help
                             you find leaders who bring clarity, structure, and momentum, so you can grow without losing
                             what makes your team and business great.</p>
-                        <a href="#" class="content-cta lift-hover lift-hover-blue">
+                        <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
                             START YOUR FIRST SEARCH
                             <span class="content-cta-arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37"
@@ -660,7 +660,7 @@
                         <h3>Attracting outstanding talent to large organisations</h3>
                         <p>In crowded markets, reach isn’t enough. We bring deep market insight and a proven process to
                             help your recruitment team hire with precision and peace of mind.</p>
-                        <a href="#" class="content-cta lift-hover lift-hover-blue">
+                        <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
                             START YOUR FIRST SEARCH
                             <span class="content-cta-arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37"
