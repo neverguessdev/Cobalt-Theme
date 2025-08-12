@@ -793,6 +793,7 @@ document.addEventListener('DOMContentLoaded', function() {
     journeyBoxes.forEach(function(box) {
         const triggerButton = box.querySelector('.trigger-button');
         const closeButton = box.querySelector('.trigger-button-close');
+        const header = box.querySelector('.journey-box-header');
 
         // Function to handle opening/closing boxes
         function toggleBox() {
@@ -833,6 +834,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (closeButton) {
             closeButton.addEventListener('click', closeBox);
+        }
+
+        // Add click event to journey-box-header
+        if (header) {
+            header.addEventListener('click', toggleBox);
         }
     });
 });
