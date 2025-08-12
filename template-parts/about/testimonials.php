@@ -337,7 +337,7 @@
             deliver, and we don’t treat leadership search like a transaction.</p>
 
         <div class="testimonials-slider-container">
-            <div class="testimonials-cards-video" data-slider="testimonials-slider">
+            <div class="testimonials-cards-video" data-slider="<!--testimonials-slider-->">
                 <div class="testimonial-card">
                     <div class="video-container" data-video-url="https://youtu.be/4jxM1rDXhaE?si=RD6gd0evC9BuwnCv">
                         <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
@@ -380,7 +380,7 @@
                         <p class="testimonial-position">CEO, Keolis North Americac</p>
                     </div>
                 </div>
-
+<!--
                 <div class="testimonial-card">
                     <div class="video-container">
                         <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
@@ -466,9 +466,9 @@
                         <p class="testimonial-author">Sarah Rodriguez</p>
                         <p class="testimonial-position">VP Operations, GrowthCorp</p>
                     </div>
-                </div>
+                </div>-->
             </div>
-            <div class="testimonial-slider-nav" data-slider-target="testimonials-slider">
+            <!--<div class="testimonial-slider-nav" data-slider-target="testimonials-slider">
                 <div class="slider-nav-divider"></div>
                 <div class="slider-arrows-container">
                     <button class="slider-arrow slider-prev" data-slider-target="testimonials-slider">
@@ -484,7 +484,7 @@
                         </svg>
                     </button>
                 </div>
-            </div>
+            </div>-->
         </div>
 
         <div class="testimonial-text-slider-container">
