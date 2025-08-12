@@ -184,7 +184,7 @@
                 partnership. This is our promise to you:</p>
             <h3 class="section-title">You’re <span class="purple-text">never left</span> to <span class="purple-text">navigate</span>
                 it alone</h3>
-            <a href="#" class="content-cta cta-purple lift-hover">
+            <a href="/contact-us" class="content-cta cta-purple lift-hover">
                 LET'S TALK
                 <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
