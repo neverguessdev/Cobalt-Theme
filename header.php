@@ -60,7 +60,7 @@
                         <a href="/" class="mobile-nav-link">Home</a>
                         <a href="/our-services" class="mobile-nav-link">Our Services</a>
                         <a href="/about-us" class="mobile-nav-link">About Us</a>
-                        <a href="#" class="mobile-nav-link">Contact Us</a>
+                        <a href="/contact-us" class="mobile-nav-link">Contact Us</a>
                     </div>
                 </div>
                 <button class="hamburger" aria-label="Open menu" id="hamburgerBtn">

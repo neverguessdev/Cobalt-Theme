@@ -52,7 +52,7 @@
                         <ul class="footer-nav-list">
                             <li><a href="/our-services" class="footer-link">Our Services</a></li>
                             <li><a href="/about-us" class="footer-link">About Us</a></li>
-                            <li><a href="#" class="footer-link">Contact Us</a></li>
+                            <li><a href="/contact-us" class="footer-link">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
@@ -88,7 +88,7 @@
         <div class="footer-copyright">
             <p></p>
             <div class="policy-links">
-                <a href="#" class="policy-link">Privacy Policy</a>
+                <a href="/privacy-policy" class="policy-link">Privacy Policy</a>
             </div>
 
         </div>
