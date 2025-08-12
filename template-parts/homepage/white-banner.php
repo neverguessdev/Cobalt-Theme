@@ -13,7 +13,7 @@
             been impacted by the placements we've made. Every engagement is a ripple effect driving cultural
             transformation, unlocking growth, and shaping the future of businesses worldwide. This is leadership search
             that leaves a legacy.</p>
-        <a href="#" class="content-cta cta-purple lift-hover">
+        <a href="/contact-us" class="content-cta cta-purple lift-hover">
             FIND YOUR NEXT LEADER
             <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">

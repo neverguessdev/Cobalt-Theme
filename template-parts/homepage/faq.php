@@ -176,7 +176,7 @@
                     <p class="section-subtext" style="color: #3C3C3B">Here’s what clients like to know before we get started.</p>
                 </div>
             </div>
-            <a href="#" class="content-cta cta-purple lift-hover">
+            <a href="/contact-us" class="content-cta cta-purple lift-hover">
                 FIND YOUR NEXT LEADER
                 <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
