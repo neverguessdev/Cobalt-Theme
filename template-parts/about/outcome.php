@@ -49,6 +49,7 @@
         gap: 20px;
         align-items: flex-start;
         transition: ease 0.3s;
+        min-height: 181px;
     }
 
     .outcome-box.purple:hover {
@@ -180,10 +181,8 @@
         <div class="text-side">
             <h2 class="section-title">We don’t just promise <span class="purple-text">outcomes</span>. We <span
                         class="purple-text">protect</span> them</h2>
-            <p class="section-subtext">Every leadership hire matters. That’s why your hiring success is baked into our
-                partnership. This is our promise to you:</p>
-            <h3 class="section-title">You’re <span class="purple-text">never left</span> to <span class="purple-text">navigate</span>
-                it alone</h3>
+            <p class="section-subtext">Every leadership hire has lasting impact. That’s why your success is built into every stage of our partnership.</p>
+            <h3 class="section-title">Our commitment to you:</h3>
             <a href="/contact-us" class="content-cta cta-purple lift-hover">
                 LET'S TALK
                 <span class="content-cta-arrow">
@@ -196,6 +195,25 @@
             </a>
         </div>
         <div class="content-side">
+            <div class="outcome-box blue">
+                <div class="outcome-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <g clip-path="url(#clip0_615_207)">
+                            <path d="M21.9863 2.72626C19.2139 -0.0617629 14.6385 0.0768303 11.9989 2.97487C9.35913 0.0769328 4.78392 -0.0618142 2.01154 2.72631C-0.745342 5.47181 -0.651425 9.99281 2.18912 12.6427C0.735892 14.0306 1.56842 16.5247 3.54643 16.7678C3.42794 18.1223 4.58075 19.3643 5.94437 19.3413C6.02797 20.8323 7.52449 21.8996 8.95925 21.5056C9.42997 23.2819 11.6927 23.8889 12.9909 22.5815C13.7282 21.8487 14.3145 21.3865 14.3519 20.2765C15.5702 20.2426 16.6242 19.1742 16.6428 17.9567C17.8728 17.9377 18.9444 16.8657 18.9633 15.6361C20.2393 15.6168 21.3456 14.4651 21.2862 13.1651L21.9862 12.4651C24.6713 9.7801 24.6713 5.41123 21.9863 2.72626ZM3.24457 13.7634L3.90204 13.1059C4.07197 12.936 4.2951 12.851 4.51832 12.851C5.28372 12.846 5.68323 13.7923 5.1345 14.3384L4.47703 14.9959C3.62598 15.7793 2.46097 14.6148 3.24457 13.7634ZM5.07783 16.9323C5.07783 16.6994 5.16851 16.4806 5.33311 16.316L5.99094 15.6582C6.15549 15.4938 6.3742 15.4033 6.60681 15.4033C7.37872 15.4019 7.76998 16.346 7.22304 16.891L6.64292 17.4711C6.4656 17.6721 6.22201 17.8081 5.94929 17.8037C5.48094 17.8134 5.06813 17.4007 5.07783 16.9323ZM7.731 19.7916C7.39293 19.4673 7.39293 18.8836 7.731 18.5592L8.31112 17.979C8.64934 17.5775 9.24311 17.5253 9.62098 17.9017C9.96075 18.2415 9.96075 18.7943 9.62098 19.1342L8.96346 19.7917C8.6237 20.1316 8.07081 20.1315 7.731 19.7916ZM12.5604 20.836L11.9029 21.4935C11.7383 21.6581 11.5194 21.7488 11.2867 21.7488C11.0538 21.7488 10.835 21.6581 10.6704 21.4935C10.3324 21.169 10.3322 20.5854 10.6704 20.261L11.3279 19.6035C11.6676 19.2637 12.2206 19.2637 12.5603 19.6035C12.8984 19.9279 12.8985 20.5116 12.5604 20.836ZM19.493 13.8453C19.1686 14.1834 18.585 14.1834 18.2606 13.8453L14.8364 10.4212L13.7484 11.5092L17.1725 14.9334C17.5123 15.2732 17.5123 15.826 17.1725 16.1658C16.8327 16.5058 16.2799 16.5057 15.9401 16.1658L12.574 12.7998L12.5159 12.7417L11.4278 13.8298L11.4859 13.8878L14.852 17.2539C15.1918 17.5937 15.1918 18.1466 14.852 18.4864C14.5122 18.8262 13.9593 18.8262 13.6195 18.4864C12.9943 17.882 12.1198 17.6836 11.3306 17.89C11.0794 16.8635 10.0474 16.0863 9.00968 16.1089C8.95936 15.004 8.02521 14.0058 6.92129 13.8865C7.06696 11.9908 4.98488 10.6852 3.34177 11.6191C1.05339 9.57498 0.912441 5.98658 3.09972 3.81433C5.27443 1.62438 8.8677 1.76949 10.9109 4.06295L9.0087 5.96519L10.533 7.48946C11.7038 8.66042 13.5081 8.82153 14.8534 7.97295L19.4932 12.6128C19.8328 12.9526 19.8328 13.5055 19.493 13.8453ZM20.8982 11.377L20.6638 11.6115C20.637 11.582 20.6095 11.5531 20.5812 11.5248L14.9138 5.85737L14.3698 6.40139C13.612 7.15919 12.3789 7.15929 11.6209 6.40139L11.1847 5.96519L13.3356 3.81433C18.5603 -0.994523 25.706 6.15569 20.8982 11.377Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_615_207">
+                                <rect width="24" height="24" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="outcome-content">
+                    <p class="outcome-title">Never on your own</p>
+                    <p class="outcome-description">We guide you through the process from first conversation to final decision.</p>
+                </div>
+            </div>
             <div class="outcome-box purple">
                 <div class="outcome-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
@@ -207,8 +225,7 @@
                 </div>
                 <div class="outcome-content">
                     <p class="outcome-title">Full Refund Guarantee</p>
-                    <p class="outcome-description">Full refund if we don't provide a suitable shortlist for your
-                        role</p>
+                    <p class="outcome-description">If we can’t deliver a shortlist of qualified candidates, you get your money back.</p>
                 </div>
             </div>
             <div class="outcome-box green">
@@ -229,28 +246,7 @@
                 </div>
                 <div class="outcome-content">
                     <p class="outcome-title">90-Day Free Replacement</p>
-                    <p class="outcome-description">If your hire doesn’t work out we’ll revisit the brief, re-open the
-                        search, and support you all the way</p>
-                </div>
-            </div>
-            <div class="outcome-box blue">
-                <div class="outcome-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <g clip-path="url(#clip0_615_207)">
-                            <path d="M21.9863 2.72626C19.2139 -0.0617629 14.6385 0.0768303 11.9989 2.97487C9.35913 0.0769328 4.78392 -0.0618142 2.01154 2.72631C-0.745342 5.47181 -0.651425 9.99281 2.18912 12.6427C0.735892 14.0306 1.56842 16.5247 3.54643 16.7678C3.42794 18.1223 4.58075 19.3643 5.94437 19.3413C6.02797 20.8323 7.52449 21.8996 8.95925 21.5056C9.42997 23.2819 11.6927 23.8889 12.9909 22.5815C13.7282 21.8487 14.3145 21.3865 14.3519 20.2765C15.5702 20.2426 16.6242 19.1742 16.6428 17.9567C17.8728 17.9377 18.9444 16.8657 18.9633 15.6361C20.2393 15.6168 21.3456 14.4651 21.2862 13.1651L21.9862 12.4651C24.6713 9.7801 24.6713 5.41123 21.9863 2.72626ZM3.24457 13.7634L3.90204 13.1059C4.07197 12.936 4.2951 12.851 4.51832 12.851C5.28372 12.846 5.68323 13.7923 5.1345 14.3384L4.47703 14.9959C3.62598 15.7793 2.46097 14.6148 3.24457 13.7634ZM5.07783 16.9323C5.07783 16.6994 5.16851 16.4806 5.33311 16.316L5.99094 15.6582C6.15549 15.4938 6.3742 15.4033 6.60681 15.4033C7.37872 15.4019 7.76998 16.346 7.22304 16.891L6.64292 17.4711C6.4656 17.6721 6.22201 17.8081 5.94929 17.8037C5.48094 17.8134 5.06813 17.4007 5.07783 16.9323ZM7.731 19.7916C7.39293 19.4673 7.39293 18.8836 7.731 18.5592L8.31112 17.979C8.64934 17.5775 9.24311 17.5253 9.62098 17.9017C9.96075 18.2415 9.96075 18.7943 9.62098 19.1342L8.96346 19.7917C8.6237 20.1316 8.07081 20.1315 7.731 19.7916ZM12.5604 20.836L11.9029 21.4935C11.7383 21.6581 11.5194 21.7488 11.2867 21.7488C11.0538 21.7488 10.835 21.6581 10.6704 21.4935C10.3324 21.169 10.3322 20.5854 10.6704 20.261L11.3279 19.6035C11.6676 19.2637 12.2206 19.2637 12.5603 19.6035C12.8984 19.9279 12.8985 20.5116 12.5604 20.836ZM19.493 13.8453C19.1686 14.1834 18.585 14.1834 18.2606 13.8453L14.8364 10.4212L13.7484 11.5092L17.1725 14.9334C17.5123 15.2732 17.5123 15.826 17.1725 16.1658C16.8327 16.5058 16.2799 16.5057 15.9401 16.1658L12.574 12.7998L12.5159 12.7417L11.4278 13.8298L11.4859 13.8878L14.852 17.2539C15.1918 17.5937 15.1918 18.1466 14.852 18.4864C14.5122 18.8262 13.9593 18.8262 13.6195 18.4864C12.9943 17.882 12.1198 17.6836 11.3306 17.89C11.0794 16.8635 10.0474 16.0863 9.00968 16.1089C8.95936 15.004 8.02521 14.0058 6.92129 13.8865C7.06696 11.9908 4.98488 10.6852 3.34177 11.6191C1.05339 9.57498 0.912441 5.98658 3.09972 3.81433C5.27443 1.62438 8.8677 1.76949 10.9109 4.06295L9.0087 5.96519L10.533 7.48946C11.7038 8.66042 13.5081 8.82153 14.8534 7.97295L19.4932 12.6128C19.8328 12.9526 19.8328 13.5055 19.493 13.8453ZM20.8982 11.377L20.6638 11.6115C20.637 11.582 20.6095 11.5531 20.5812 11.5248L14.9138 5.85737L14.3698 6.40139C13.612 7.15919 12.3789 7.15929 11.6209 6.40139L11.1847 5.96519L13.3356 3.81433C18.5603 -0.994523 25.706 6.15569 20.8982 11.377Z"
-                                  fill="white"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_615_207">
-                                <rect width="24" height="24" fill="white"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </div>
-                <div class="outcome-content">
-                    <p class="outcome-title">Full Process Support</p>
-                    <p class="outcome-description">We’ll revisit the brief, re-open the search, and support you all the
-                        way</p>
+                    <p class="outcome-description">If your hire doesn’t work out, we’ll refine the brief, restart the search, and see it through – at no extra cost.</p>
                 </div>
             </div>
             <div class="outcome-box purple">
@@ -270,8 +266,8 @@
                     </svg>
                 </div>
                 <div class="outcome-content">
-                    <p class="outcome-title">No Extra Fees</p>
-                    <p class="outcome-description">Zero extra fees, friction or hand-offs to junior staff</p>
+                    <p class="outcome-title">No Hidden Costs</p>
+                    <p class="outcome-description">No extra fees, no unnecessary hand-offs, no friction.</p>
                 </div>
             </div>
         </div>

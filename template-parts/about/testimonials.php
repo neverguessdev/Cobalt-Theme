@@ -332,7 +332,7 @@
         <span class="section-pretitle-line">
             <h3 class="section-pretitle">Testimonials</h3>
         </span>
-        <h3 class="section-title">Looking for <span class="purple-text">results worth</span> shouting about?</h3>
+        <h3 class="section-title">Looking for <span class="purple-text">results worth shouting about?</span></h3>
         <p class="section-subtext">Most clients find us through someone they trust. We’re referred because we care, we
             deliver, and we don’t treat leadership search like a transaction.</p>
 
@@ -356,7 +356,7 @@
                             <img src="/wp-content/uploads/2025/08/A.png" alt="K Avatar" class="uploader-avatar">
                             <div class="uploader-details">
                                 <p class="uploader-name">Aline Frantzen</p>
-                                <p class="uploader-position">CEO, Keolis North America</p>
+                                <p class="uploader-position">CEO US Bus Operations, Keolis North America</p>
                             </div>
                         </div>
                     </div>
@@ -374,99 +374,100 @@
                                 </clipPath>
                             </defs>
                         </svg>
-                        <p class="testimonial-quote">We were struggling to attract top-tier leaders in our industry.
-                            Cobalt Search found us the perfect fit—someone we never would have reached on our own.</p>
+                        <p class="testimonial-quote">Cobalt has been extremely effective at delivering diverse
+                            candidates, adding huge value to Keolis in North America and to our culture. Cobalt finds us
+                            unicorns!</p>
                         <p class="testimonial-author">Aline Frantzen</p>
-                        <p class="testimonial-position">CEO, Keolis North Americac</p>
+                        <p class="testimonial-position">CEO US Bus Operations, Keolis North America</p>
                     </div>
                 </div>
-<!--
-                <div class="testimonial-card">
-                    <div class="video-container">
-                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
-                             viewBox="0 0 80 80" fill="none">
-                            <g clip-path="url(#clip0_570_2100)">
-                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z"
-                                      fill="white"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_570_2100">
-                                    <rect width="80" height="80" fill="white"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <div class="uploader-info">
-                            <img src="/wp-content/uploads/2025/08/k-avatar.png" alt="M Avatar" class="uploader-avatar">
-                            <div class="uploader-details">
-                                <p class="uploader-name">Michael Chen</p>
-                                <p class="uploader-position">CTO, InnovateTech</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
-                            <g clip-path="url(#clip0_570_2108)">
-                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z"
-                                      fill="#FEFAFD"/>
-                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z"
-                                      fill="#FEFAFD"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_570_2108">
-                                    <rect width="92" height="92" fill="white"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <p class="testimonial-quote">Cobalt exceeded our expectations in finding the perfect leadership
-                            candidate. Their thorough process and deep understanding of our industry made all the
-                            difference.</p>
-                        <p class="testimonial-author">Michael Chen</p>
-                        <p class="testimonial-position">CTO, InnovateTech</p>
-                    </div>
-                </div>
+                <!--
+                                <div class="testimonial-card">
+                                    <div class="video-container">
+                                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
+                                             viewBox="0 0 80 80" fill="none">
+                                            <g clip-path="url(#clip0_570_2100)">
+                                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z"
+                                                      fill="white"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_570_2100">
+                                                    <rect width="80" height="80" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <div class="uploader-info">
+                                            <img src="/wp-content/uploads/2025/08/k-avatar.png" alt="M Avatar" class="uploader-avatar">
+                                            <div class="uploader-details">
+                                                <p class="uploader-name">Michael Chen</p>
+                                                <p class="uploader-position">CTO, InnovateTech</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
+                                            <g clip-path="url(#clip0_570_2108)">
+                                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z"
+                                                      fill="#FEFAFD"/>
+                                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z"
+                                                      fill="#FEFAFD"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_570_2108">
+                                                    <rect width="92" height="92" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <p class="testimonial-quote">Cobalt exceeded our expectations in finding the perfect leadership
+                                            candidate. Their thorough process and deep understanding of our industry made all the
+                                            difference.</p>
+                                        <p class="testimonial-author">Michael Chen</p>
+                                        <p class="testimonial-position">CTO, InnovateTech</p>
+                                    </div>
+                                </div>
 
-                <div class="testimonial-card">
-                    <div class="video-container">
-                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
-                             viewBox="0 0 80 80" fill="none">
-                            <g clip-path="url(#clip0_570_2100)">
-                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z"
-                                      fill="white"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_570_2100">
-                                    <rect width="80" height="80" fill="white"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <div class="uploader-info">
-                            <img src="/wp-content/uploads/2025/08/k-avatar.png" alt="S Avatar" class="uploader-avatar">
-                            <div class="uploader-details">
-                                <p class="uploader-name">Sarah Rodriguez</p>
-                                <p class="uploader-position">VP Operations, GrowthCorp</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
-                            <g clip-path="url(#clip0_570_2108)">
-                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z"
-                                      fill="#FEFAFD"/>
-                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z"
-                                      fill="#FEFAFD"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_570_2108">
-                                    <rect width="92" height="92" fill="white"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <p class="testimonial-quote">Working with Cobalt was a game-changer for our executive search.
-                            They understood our culture and delivered exceptional candidates who fit perfectly.</p>
-                        <p class="testimonial-author">Sarah Rodriguez</p>
-                        <p class="testimonial-position">VP Operations, GrowthCorp</p>
-                    </div>
-                </div>-->
+                                <div class="testimonial-card">
+                                    <div class="video-container">
+                                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
+                                             viewBox="0 0 80 80" fill="none">
+                                            <g clip-path="url(#clip0_570_2100)">
+                                                <path d="M40.0001 0C17.9427 0 6.10352e-05 17.9444 6.10352e-05 40C6.10352e-05 62.0556 17.9427 80 40.0001 80C62.0574 80 80.0001 62.0556 80.0001 40C80.0001 17.9444 62.0574 0 40.0001 0ZM55.9018 41.4014L32.5685 56.4014C32.2951 56.5788 31.9793 56.6667 31.6668 56.6667C31.3933 56.6667 31.1166 56.5983 30.8693 56.4633C30.3321 56.1703 30.0001 55.6103 30.0001 55V25C30.0001 24.3897 30.3321 23.8297 30.8693 23.5367C31.3966 23.247 32.0574 23.2648 32.5685 23.5986L55.9018 38.5986C56.3771 38.9045 56.6668 39.4336 56.6668 40C56.6668 40.5664 56.3771 41.0953 55.9018 41.4014Z"
+                                                      fill="white"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_570_2100">
+                                                    <rect width="80" height="80" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <div class="uploader-info">
+                                            <img src="/wp-content/uploads/2025/08/k-avatar.png" alt="S Avatar" class="uploader-avatar">
+                                            <div class="uploader-details">
+                                                <p class="uploader-name">Sarah Rodriguez</p>
+                                                <p class="uploader-position">VP Operations, GrowthCorp</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
+                                            <g clip-path="url(#clip0_570_2108)">
+                                                <path d="M6.10352e-05 45.9999V85.4286H39.4287V45.9999H13.143C13.143 31.5063 24.9351 19.7142 39.4287 19.7142V6.57129C17.6864 6.57129 6.10352e-05 24.2577 6.10352e-05 45.9999Z"
+                                                      fill="#FEFAFD"/>
+                                                <path d="M91.999 19.7142V6.57129C70.2568 6.57129 52.5704 24.2577 52.5704 45.9999V85.4286H91.999V45.9999H65.7133C65.7133 31.5063 77.5054 19.7142 91.999 19.7142Z"
+                                                      fill="#FEFAFD"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_570_2108">
+                                                    <rect width="92" height="92" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <p class="testimonial-quote">Working with Cobalt was a game-changer for our executive search.
+                                            They understood our culture and delivered exceptional candidates who fit perfectly.</p>
+                                        <p class="testimonial-author">Sarah Rodriguez</p>
+                                        <p class="testimonial-position">VP Operations, GrowthCorp</p>
+                                    </div>
+                                </div>-->
             </div>
             <!--<div class="testimonial-slider-nav" data-slider-target="testimonials-slider">
                 <div class="slider-nav-divider"></div>
@@ -521,14 +522,15 @@
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
-                            <p class="quote-text">We were struggling to attract top-tier leaders in our industry. Cobalt
-                                Search found us the perfect fit—someone we never would have reached on our own.</p>
+                            <p class="quote-text">Cobalt has been extremely effective at delivering diverse candidates,
+                                adding huge value to Keolis in North America and to our culture. Cobalt finds us
+                                unicorns!</p>
                             <div class="author-info">
                                 <img src="/wp-content/uploads/2025/08/a-blue.png" alt="K Avatar"
                                      class="author-avatar">
                                 <div class="author-details">
                                     <p class="author-name">Aline Frantzen</p>
-                                    <p class="author-position">CEO, Keolis North America</p>
+                                    <p class="author-position">CEO US Bus Operations, Keolis North America</p>
                                 </div>
                             </div>
                         </div>

@@ -8,10 +8,10 @@
 <style>
 
     section.about-contact-winning-section {
-        background-image: url(/wp-content/uploads/2025/07/blue-arrow-bg.png);
-        background-position: top 148px right 35px;
+        background-image: url(/wp-content/uploads/2025/07/blue-arrow-bg.png), url("/wp-content/uploads/2025/08/swirl.png");
+        background-position: top 148px right 35px, top left;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: contain, auto;
     }
 
     section.about-contact-winning-section .section-title {
@@ -176,7 +176,7 @@
 <section class="about-contact-winning-section">
     <div class="section-container about-contact-winning-container">
         <div class="section-header text-center">
-            <h2 class="section-title">From Critical Hire to <span class="purple-text">Contract-Winning</span> Impact
+            <h2 class="section-title">From Critical Hire to <span class="purple-text">Contract-Winning Impact</span>
             </h2>
             <p class="section-subtext"><strong>Client:</strong> Keolis Commuter Services (Boston’s largest commuter rail
                 operator)</p>
