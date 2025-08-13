@@ -597,12 +597,28 @@
 </section>
 
 <script>
+    let autoplayInterval;
+    let currentCardIndex = 0;
+    let isAutoplayActive = true;
+    let isHovered = false;
+    const cards = ['main', 'blue', 'green', 'purple'];
+    const autoplayDelay = 3000; // 3 seconds
+
     function bringToFront(cardType) {
+        // console.log('Bringing to front:', cardType); // Debug log
+
         // Get all four cards with service-hero-section scope
         const blueCard = document.querySelector('.service-hero-section .tricolor-card-blue');
         const greenCard = document.querySelector('.service-hero-section .tricolor-card-green');
         const purpleCard = document.querySelector('.service-hero-section .tricolor-card-purple');
-        const mainCard = document.querySelector('.service-hero-section .tricolor-card:not(.tricolor-card-blue):not(.tricolor-card-green):not(.tricolor-card-purple)');
+        const mainCard = document.querySelector('.service-hero-section .tricolor-card-main, .service-hero-section .tricolor-card:not(.tricolor-card-blue):not(.tricolor-card-green):not(.tricolor-card-purple)');
+
+        // console.log('Found cards:', { blueCard, greenCard, purpleCard, mainCard }); // Debug log
+
+        if (!blueCard || !greenCard || !purpleCard || !mainCard) {
+            console.error('Could not find all cards');
+            return;
+        }
 
         // Remove active class from all cards
         blueCard.classList.remove('active');
@@ -620,10 +636,71 @@
         } else if (cardType === 'main') {
             mainCard.classList.add('active');
         }
+
+        // Update current card index for autoplay
+        currentCardIndex = cards.indexOf(cardType);
+        // console.log('Current card index:', currentCardIndex); // Debug log
+    }
+
+    function startAutoplay() {
+        // console.log('Starting autoplay, isAutoplayActive:', isAutoplayActive); // Debug log
+        if (!isAutoplayActive) return;
+
+        autoplayInterval = setInterval(() => {
+            if (!isHovered && isAutoplayActive) {
+                currentCardIndex = (currentCardIndex + 1) % cards.length;
+                // console.log('Autoplay cycling to:', cards[currentCardIndex]); // Debug log
+                bringToFront(cards[currentCardIndex]);
+            }
+        }, autoplayDelay);
+    }
+
+    function stopAutoplay() {
+        // console.log('Stopping autoplay'); // Debug log
+        if (autoplayInterval) {
+            clearInterval(autoplayInterval);
+            autoplayInterval = null;
+        }
+    }
+
+    function pauseAutoplay() {
+        // console.log('Pausing autoplay'); // Debug log
+        isHovered = true;
+    }
+
+    function resumeAutoplay() {
+        // console.log('Resuming autoplay'); // Debug log
+        isHovered = false;
+    }
+
+    function disableAutoplay() {
+        // console.log('Disabling autoplay'); // Debug log
+        isAutoplayActive = false;
+        stopAutoplay();
     }
 
     // Set main card as active by default when page loads
     document.addEventListener('DOMContentLoaded', function () {
-        bringToFront('main');
+        // console.log('DOM loaded, initializing cards'); // Debug log
+
+        // Wait a bit for all elements to be rendered
+        setTimeout(() => {
+            bringToFront('main');
+
+            // Get all cards
+            const allCards = document.querySelectorAll('.service-hero-section .tricolor-card, .service-hero-section .tricolor-card-blue, .service-hero-section .tricolor-card-green, .service-hero-section .tricolor-card-purple');
+            // console.log('Found', allCards.length, 'cards for event listeners'); // Debug log
+
+            // Add hover event listeners to all cards
+            allCards.forEach((card, index) => {
+                // console.log('Adding listeners to card', index, card.className); // Debug log
+                card.addEventListener('mouseenter', pauseAutoplay);
+                card.addEventListener('mouseleave', resumeAutoplay);
+                card.addEventListener('click', disableAutoplay);
+            });
+
+            // Start autoplay
+            startAutoplay();
+        }, 100);
     });
 </script>
