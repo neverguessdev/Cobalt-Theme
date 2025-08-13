@@ -309,6 +309,10 @@
         .active .trigger-button {
             display: none;
         }
+
+        section.service-hiring-journey-section .section-title {
+            text-align: center;
+        }
     }
 </style>
 <section class="service-hiring-journey-section">

@@ -141,13 +141,27 @@
         background-color: #FCE4F3;
     }
 
-    @media (max-width: 1460px){
+    section.service-process-section .cta-wrapper {
+        margin-top: 60px;
+    }
+
+    /*@media (min-width: 1441px){
         .process-step svg {
             left: 45%;
         }
 
         .process-step:nth-child(even) svg {
             right: 60%;
+        }
+    }*/
+
+    @media (min-width: 1440px){
+        .process-step svg {
+            left: 52%;
+        }
+
+        .process-step:nth-child(even) svg {
+            right: 70%;
         }
     }
 
@@ -194,7 +208,10 @@
 
     @media (max-width: 767px) {
         section.service-process-section {
-            background-image: none;
+            background-color: #FCE4F3;
+            background-image: url("/wp-content/uploads/2025/08/magni-pink-3.png");
+            background-position: top right;
+            background-size: 50%;
         }
         .process-steps {
             gap: 100px;
@@ -363,6 +380,18 @@
                     delivers early impact.</p>
             </div>
         </div>
+        <div class="cta-wrapper text-center">
+            <a href="/contact-us" class="content-cta lift-hover cta-purple">
+                LET'S FIND YOUR LEADER
+                <span class="content-cta-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                            <rect width="36" height="37" rx="18" fill="#FFFFFF"></rect>
+                            <path d="M26 24.3856L24.2446 24.3931L24.2521 14.0028L11.2549 27L10 25.7451L22.9972 12.7479L12.6069 12.7554L12.6144 11L26 11L26 24.3856Z" fill="#3FA635"></path>
+                        </svg>
+                    </span>
+            </a>
+        </div>
+
     </div>
 </section>
 <script>
@@ -372,22 +401,46 @@
 
         processSteps.forEach(step => {
             step.addEventListener('mouseenter', function() {
-                if (step.classList.contains('purple')) {
-                    section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png"), url("/wp-content/uploads/2025/08/magni-pink.png"), url("/wp-content/uploads/2025/08/magni-pink-3.png")';
-                    section.style.backgroundColor = '#FCE4F3';
-                } else if (step.classList.contains('blue')) {
-                    section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-blue-2.png"), url("/wp-content/uploads/2025/08/magni-blue.png"), url("/wp-content/uploads/2025/08/magni-blue-2.png';
-                    section.style.backgroundColor = '#E3F2FD';
-                } else if (step.classList.contains('green')) {
-                    section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-green-2.png"), url("/wp-content/uploads/2025/08/magni-green.png"), url("/wp-content/uploads/2025/08/magni-green-2.png';
-                    section.style.backgroundColor = '#E8F5E8';
-                }
-                section.style.transition = 'background-color 0.3s ease';
-            });
+                if (window.innerWidth < 768) {
+                    if (step.classList.contains('purple')) {
+                        section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png")';
+                        section.style.backgroundSize = '50%';
+                        section.style.backgroundColor = '#FCE4F3';
+                    } else if (step.classList.contains('blue')) {
+                        section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-blue-2.png")';
+                        section.style.backgroundSize = '50%';
+                        section.style.backgroundColor = '#E3F2FD';
+                    } else if (step.classList.contains('green')) {
+                        section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-green-2.png")';
+                        section.style.backgroundSize = '50%';
+                        section.style.backgroundColor = '#E8F5E8';
+                    }
+                    section.style.transition = 'background-color 0.3s ease';
+                } else {
+                    if (step.classList.contains('purple')) {
+                        section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png"), url("/wp-content/uploads/2025/08/magni-pink.png"), url("/wp-content/uploads/2025/08/magni-pink-3.png")';
+                        section.style.backgroundColor = '#FCE4F3';
+                    } else if (step.classList.contains('blue')) {
+                        section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-blue-2.png"), url("/wp-content/uploads/2025/08/magni-blue.png"), url("/wp-content/uploads/2025/08/magni-blue-2.png';
+                        section.style.backgroundColor = '#E3F2FD';
+                    } else if (step.classList.contains('green')) {
+                        section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-green-2.png"), url("/wp-content/uploads/2025/08/magni-green.png"), url("/wp-content/uploads/2025/08/magni-green-2.png';
+                        section.style.backgroundColor = '#E8F5E8';
+                    }
+                    section.style.transition = 'background-color 0.3s ease';
+                })
+
+            }
 
             step.addEventListener('mouseleave', function() {
-                section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png"), url("/wp-content/uploads/2025/08/magni-pink.png"), url("/wp-content/uploads/2025/08/magni-pink-3.png'; // Original background
-                section.style.backgroundColor = '#FCE4F3'; // Original background
+                if (window.innerWidth < 768) {
+                    section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png")';
+                    section.style.backgroundSize = '50%';
+                    section.style.backgroundColor = '#FCE4F3';
+                } else {
+                    section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png"), url("/wp-content/uploads/2025/08/magni-pink.png"), url("/wp-content/uploads/2025/08/magni-pink-3.png')'; // Original background
+                    section.style.backgroundColor = '#FCE4F3'; // Original background
+                }
             });
         });
     });

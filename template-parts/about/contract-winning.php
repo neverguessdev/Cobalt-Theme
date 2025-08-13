@@ -119,13 +119,15 @@
         left: 30px;
     }
 
+    @media (max-width: 1024px) {
+        section.about-contact-winning-section {
+            background-image: none;
+        }
+    }
+
     @media (max-width: 991px) {
         .cw-key-cards {
             flex-direction: column;
-        }
-
-        section.about-contact-winning-section {
-            background-image: none;
         }
     }
 
