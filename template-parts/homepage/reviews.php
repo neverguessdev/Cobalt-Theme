@@ -7,8 +7,8 @@
 ?>
 <section class="blue-banner reviews">
     <div class="section-container">
-        <h2 class="section-title" style="color: #202020">Wish you had a <strong>reliable source</strong> for outstanding
-            senior talent? Wish granted.</h2>
+        <h2 class="section-title" style="color: #202020">Wish you had a reliable source for <strong>outstanding
+            senior talent</strong>? Wish granted.</h2>
         <div class="reviews-container" data-slider="reviews">
             <div class="review-item">
                 <div class="review-img">
@@ -20,10 +20,9 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“Cobalt helped us find the right COO who transformed our operations and doubled
-                    revenue in 18 months.”</p>
-                <p class="review-author">Keith Cunningham</p>
-                <p class="review-position">Entrepreneur, International Speaker and Acclaimed Author
+                <p class="review-text">“Helen from Cobalt is the single best and most successful head-hunter I have ever worked with and has placed more leaders in more companies than anyone I know.”</p>
+                <p class="review-author">Keith J. Cunningham</p>
+                <p class="review-position">Speaker, Author, Entrepreneur & Coach
                 </p>
             </div>
             <div class="review-item">
@@ -36,10 +35,9 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“We were struggling to attract top-tier leaders in our industry. Cobalt Search
-                    found us the perfect fit—someone we never would have reached on our own.”</p>
+                <p class="review-text">“Cobalt has been extremely effective at delivering diverse candidates, adding huge value to Keolis in North America and to our culture. Cobalt finds us unicorns!”</p>
                 <p class="review-author">Aline Frantzen</p>
-                <p class="review-position">CEO, Keolis North America</p>
+                <p class="review-position">CEO US Bus Operations, Keolis North America</p>
             </div>
             <div class="review-item">
                 <div class="review-img">
@@ -51,10 +49,9 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“Helen and her team at Cobalt Search take recruiting to another level, the
-                    quality of candidates she brought to us were all fantastic.”</p>
+                <p class="review-text">“Cobalt is an exceptional search firm that has been instrumental in shaping the success of our group of companies, placing 15 key roles across a diverse array of high-level professions within our organization.”</p>
                 <p class="review-author">Thomas Martini</p>
-                <p class="review-position">President & CEO, LorvaL Capital Management
+                <p class="review-position">President & CEO, Lorval Capital Management
                 </p>
             </div>
             <div class="review-item">

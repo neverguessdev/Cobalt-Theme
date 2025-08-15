@@ -29,21 +29,19 @@
                 <div class="circle-log number-circle">
                     <span class="number">02</span>
                 </div>
-                <h3 class="card-title">Aligned on Culture. Selected for Impact.</h3>
-                <p class="card-text">A-player leadership isn’t just about skills and experience. We go further to find
-                    leaders who align with your values, inspire your people, and drive business performance.</p>
+                <h3 class="card-title">Expanding Your Leadership Team</h3>
+                <p class="card-text">As growth accelerates, leadership gaps emerge. We partner with you to build the right structure, with senior hires who bring clarity, experience, and momentum.</p>
             </div>
             <div class="color-cards lift-hover green">
                 <div class="circle-log number-circle">
                     <span class="number">03</span>
                 </div>
-                <h3 class="card-title">Our process is your advantage</h3>
-                <p class="card-text">Every candidate is proven through two rounds of in-depth technical and cultural
-                    interviews. So you only meet A-players who fit, lead, and deliver.</p>
+                <h3 class="card-title">Securing Enterprise Leaders in Competitive Markets</h3>
+                <p class="card-text">You’re unlikely to find top-tier candidates in a dusty database. We work as an extension of your team to attract exceptional talent where traditional recruitment falls short.</p>
             </div>
             <div class="color-cards lift-hover img">
                 <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
-                    FIND YOUR NEXT LEADER
+                    DISCOVER THE DIFFERENCE
                     <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
                             <rect width="36" height="37" rx="18" fill="#A62274"/>

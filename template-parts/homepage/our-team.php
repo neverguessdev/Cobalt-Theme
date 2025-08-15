@@ -151,11 +151,11 @@
         <span class="section-pretitle-line">
             <h2 class="section-pretitle">Our Team</h2>
         </span>
-        <h2 class="section-title">Meet the <span class="purple-text">people</span> behind every great hire</h2>
-        <p class="section-subtext">At Cobalt Search, we're a close-knit, women-led consultancy who act as a true
-            extension of your team. We build strong, trusted relationships with our clients and candidates alike.
-            Because, like you, we know that great leadership hires are made through deep understanding, not fast
-            transactions.</p>
+        <h2 class="section-title">Meet the <span class="purple-text">people</span> behind <span class="purple-text">every great hire</span></h2>
+        <p class="section-subtext">At Cobalt Search, we’re a close-knit, women-led consultancy who act as a true extension of your team.
+            We build strong, trusted relationships with our clients and candidates alike.  Because, like you, we know that great leadership hires are made through deep understanding, not fast transactions.
+            You’ll work directly with experienced consultants who bring insight, empathy, and honest partnership to every search. So you don’t just fill a role. You hire A-player leadership who’ll elevate your mission, culture and business growth.
+        </p>
         <div class="teams-container" data-slider="teams">
             <div class="teams-item">
                 <img src="/wp-content/uploads/2025/08/helen.png" class="lift-hover" alt="Helen Goddard">
