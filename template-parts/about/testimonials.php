@@ -493,13 +493,43 @@
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
+                            <p class="quote-text">Cobalt presented excellent candidates, making our choice difficult.
+                                Their support through the process was outstanding, and we’re delighted with the final
+                                outcome.</p>
+                            <div class="author-info">
+                                <img src="/wp-content/uploads/2025/08/d-blue.png" alt="K Avatar"
+                                     class="author-avatar">
+                                <div class="author-details">
+                                    <p class="author-name">David Scorey</p>
+                                    <p class="author-position">CEO, Keolis North America</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-content green">
+                            <p class="quote-text">Helen Goddard and Cobalt Search excel at finding top-tier talent in
+                                unexpected places. Their expertise helped us hire an exceptional CFO who’s already
+                                making a big impact.</p>
+                            <div class="author-info">
+                                <img src="/wp-content/uploads/2025/08/s-green.png" alt="K Avatar"
+                                     class="author-avatar">
+                                <div class="author-details">
+                                    <p class="author-name">Steve Ponte</p>
+                                    <p class="author-position">CEO, PHL Capital Corp.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-text-item">
+                    <div class="text-content-container">
+                        <div class="text-content blue">
                             <p class="quote-text">Cobalt helped us find the right COO who transformed our operations and
                                 doubled revenue in 18 months.</p>
                             <div class="author-info">
                                 <img src="/wp-content/uploads/2025/08/k-avatar-b.png" alt="K Avatar"
                                      class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Keith Cunningham</p>
+                                    <p class="author-name">Keith J. Cunningham</p>
                                     <p class="author-position">Entrepreneur, International Speaker and Acclaimed
                                         Author</p>
                                 </div>
@@ -531,36 +561,6 @@
                                 <div class="author-details">
                                     <p class="author-name">Aline Frantzen</p>
                                     <p class="author-position">CEO US Bus Operations, Keolis North America</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-content green">
-                            <p class="quote-text">Cobalt presented excellent candidates, making our choice difficult.
-                                Their support through the process was outstanding, and we’re delighted with the final
-                                outcome.</p>
-                            <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/d-green.png" alt="K Avatar"
-                                     class="author-avatar">
-                                <div class="author-details">
-                                    <p class="author-name">David Scorey</p>
-                                    <p class="author-position">CEO, Keolis North America</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-text-item">
-                    <div class="text-content-container">
-                        <div class="text-content blue">
-                            <p class="quote-text">Helen Goddard and Cobalt Search excel at finding top-tier talent in
-                                unexpected places. Their expertise helped us hire an exceptional CFO who’s already
-                                making a big impact.</p>
-                            <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/s-blue.png" alt="K Avatar"
-                                     class="author-avatar">
-                                <div class="author-details">
-                                    <p class="author-name">Steve Ponte</p>
-                                    <p class="author-position">CEO, PHL Capital Corp.</p>
                                 </div>
                             </div>
                         </div>

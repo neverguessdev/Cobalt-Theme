@@ -179,7 +179,7 @@
 <section class="about-outcome-section">
     <div class="section-container about-outcome-container">
         <div class="text-side">
-            <h2 class="section-title">We don’t just promise <span class="purple-text">outcomes</span>. We <span
+            <h2 class="section-title">We don’t just <span class="purple-text">promise outcomes</span>. We <span
                         class="purple-text">protect</span> them</h2>
             <p class="section-subtext">Every leadership hire has lasting impact. That’s why your success is built into every stage of our partnership.</p>
             <h3 class="section-title">Our commitment to you:</h3>
