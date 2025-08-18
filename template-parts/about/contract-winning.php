@@ -230,12 +230,10 @@
                     <path d="M0 45.9999V85.4286H39.4286V45.9999H13.143C13.143 31.5063 24.935 19.7142 39.4286 19.7142V6.57129C17.6864 6.57129 0 24.2577 0 45.9999Z" fill="#F3D1E6"/>
                     <path d="M91.9989 19.7142V6.57129C70.2567 6.57129 52.5703 24.2577 52.5703 45.9999V85.4286H91.9989V45.9999H65.7133C65.7133 31.5063 77.5053 19.7142 91.9989 19.7142Z" fill="#F3D1E6"/>
                 </svg>
-                <p class="cw-banner-quote">“Cobalt presented several highly credible and suitable candidates for our CFO
-                    role, all of whom would have been a great fit with the role and our organization. It was a challenge
-                    to settle on our eventual appointee because of the exceptional quality of the field.”</p>
+                <p class="cw-banner-quote">“Cobalt helped us during the whole process to find the most appropriate candidate. We were amazed by the candidates shortlisted and struggled to choose only one! The work our new CFO has done in a tough environment has confirmed that we made the right choice.”</p>
                 <div class="cw-banner-author">
-                    <p class="cw-banner-author-name">Karen Thompson</p>
-                    <p class="cw-banner-author-title">CEO, TechVision Inc</p>
+                    <p class="cw-banner-author-name">Yannick Ouvrard</p>
+                    <p class="cw-banner-author-title">Executive Vice President of Finance, Strategy, Risk & Performance, Keolis North America</p>
                 </div>
             </div>
             <div class="cta-wrapper text-center">

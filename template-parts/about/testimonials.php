@@ -489,23 +489,21 @@
         </div>
 
         <div class="testimonial-text-slider-container">
-            <div class="testimonial-text-slider" data-slider="testimonial-text-slider">
+            <div class="testimonial-text-slider" data-slider="<!--testimonial-text-slider-->">
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
-                            <p class="quote-text">Cobalt presented excellent candidates, making our choice difficult.
-                                Their support through the process was outstanding, and we’re delighted with the final
-                                outcome.</p>
+                            <p class="quote-text">Cobalt worked hand in hand with us on an Executive hire - constant communication, excellent documentation, and a personal touch. I felt like their only client. I have an incredibly high bar and don’t need warm bodies, I need quality leadership. I highly recommend Cobalt.</p>
                             <div class="author-info">
                                 <img src="/wp-content/uploads/2025/08/d-blue.png" alt="K Avatar"
                                      class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">David Scorey</p>
-                                    <p class="author-position">CEO, Keolis North America</p>
+                                    <p class="author-name">Ilyssa DeCasperis</p>
+                                    <p class="author-position">Chief People Officer, Metrolink</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-content green">
+                        <!--<div class="text-content green">
                             <p class="quote-text">Helen Goddard and Cobalt Search excel at finding top-tier talent in
                                 unexpected places. Their expertise helped us hire an exceptional CFO who’s already
                                 making a big impact.</p>
@@ -517,10 +515,10 @@
                                     <p class="author-position">CEO, PHL Capital Corp.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
-                <div class="testimonial-text-item">
+               <!-- <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
                             <p class="quote-text">Cobalt helped us find the right COO who transformed our operations and
@@ -578,10 +576,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
             </div>
-            <div class="text-slider-nav" data-slider-target="testimonial-text-slider">
+            <!--<div class="text-slider-nav" data-slider-target="testimonial-text-slider">
                 <div class="slider-nav-divider"></div>
                 <div class="slider-arrows-container">
                     <button class="slider-arrow slider-prev" data-slider-target="testimonial-text-slider">
@@ -597,7 +595,7 @@
                         </svg>
                     </button>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>

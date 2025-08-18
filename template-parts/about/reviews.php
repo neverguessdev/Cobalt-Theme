@@ -42,7 +42,7 @@
     }
 
     .ab-review-card-container:first-child > div {
-        height: 524px;
+        /*height: 524px;*/
     }
 
     .ab-review-card-container:last-child > div {
@@ -294,15 +294,14 @@
                             </svg>
                         </div>
                         <p class="review-text">
-                            “Cobalt took the time to understand the values of our organisation. They challenged our
-                            thinking and helped us identify what we really needed in this hire.”
+                            “I am delighted to provide a glowing testimonial for Helen Goddard and Cobalt Search. Thanks to their expertise, we successfully onboarded an exceptional CFO. Cobalt’s ability to find candidates who aligned with our culture was remarkable. Their professionalism, attention to detail, and results are truly impressive. We highly recommend their services to anyone seeking exceptional recruitment solutions.”
                         </p>
                         <div class="reviewer">
                             <img src="/wp-content/uploads/2025/08/ab-reviewer-1.png" alt="Reviewer 1"
                                  class="reviewer-image">
                             <div class="reviewer-info">
-<!--                                <div class="review-author">Karen Thompson</div>-->
-                                <div class="review-position">— HR Director, Global Infrastructure Company</div>
+                                <div class="review-author">Steve Ponte</div>
+                                <div class="review-position">CEO, PHL Capital Corp</div>
                             </div>
                         </div>
                     </div>
@@ -389,15 +388,14 @@
                             </svg>
                         </div>
                         <p class="review-text">
-                            “They completely got the brief—and the cultural piece too. It felt like they knew exactly
-                            who would click with us from the start.”
+                            “The Cobalt team found us the perfect match! They took the time to really get to know our company, culture and my style. The candidates even described our niche and complex business accurately, something that isn’t easy, so I was reassured that Cobalt really understood. I highly recommend Cobalt if you want an excellent candidate and the white glove service they consistently deliver.”
                         </p>
                         <div class="reviewer">
                             <img src="/wp-content/uploads/2025/08/ab-reviewer-1.png" alt="Reviewer 1"
                                  class="reviewer-image">
                             <div class="reviewer-info">
-<!--                                <div class="review-author">Karen Thompson</div>-->
-                                <div class="review-position">— Co-Founder, High-Growth Tech Business</div>
+                                <div class="review-author">Ariel Steele</div>
+                                <div class="review-position">President, Tax Credit Connection</div>
                             </div>
                         </div>
                     </div>
