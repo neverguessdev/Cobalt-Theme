@@ -9,8 +9,8 @@ get_header(); ?>
     <?php get_template_part('template-parts/services/hiring-journey'); ?>
     <?php get_template_part('template-parts/services/how-we-work'); ?>
     <?php get_template_part('template-parts/services/process'); ?>
-    <?php get_template_part('template-parts/about/testimonials'); ?>
-    <?php get_template_part('template-parts/about/contract-winning'); ?>
-    <?php get_template_part('template-parts/about/outcome'); ?>
+    <?php get_template_part('template-parts/services/testimonials'); ?>
+    <?php get_template_part('template-parts/services/contract-winning'); ?>
+    <?php get_template_part('template-parts/services/outcome'); ?>
 </main>
 <?php get_footer(); ?>

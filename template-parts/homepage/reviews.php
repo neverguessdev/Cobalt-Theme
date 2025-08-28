@@ -8,7 +8,7 @@
 <section class="blue-banner reviews">
     <div class="section-container">
         <h2 class="section-title" style="color: #202020">Wish you had a reliable source for <strong>outstanding
-            senior talent</strong>? Wish granted.</h2>
+                senior talent</strong>? Wish granted.</h2>
         <div class="reviews-container" data-slider="reviews">
             <div class="review-item">
                 <div class="review-img">
@@ -20,7 +20,8 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“Helen from Cobalt is the single best and most successful head-hunter I have ever worked with and has placed more leaders in more companies than anyone I know.”</p>
+                <p class="review-text">“Helen from Cobalt is the single best and most successful head-hunter I have ever
+                    worked with and has placed more leaders in more companies than anyone I know.”</p>
                 <p class="review-author">Keith J. Cunningham</p>
                 <p class="review-position">Speaker, Author, Entrepreneur & Coach
                 </p>
@@ -35,7 +36,8 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“Cobalt has been extremely effective at delivering diverse candidates, adding huge value to Keolis in North America and to our culture. Cobalt finds us unicorns!”</p>
+                <p class="review-text">“Cobalt has been extremely effective at delivering diverse candidates, adding
+                    huge value to Keolis in North America and to our culture. Cobalt finds us unicorns!”</p>
                 <p class="review-author">Aline Frantzen</p>
                 <p class="review-position">CEO US Bus Operations, Keolis North America</p>
             </div>
@@ -49,7 +51,9 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“Cobalt is an exceptional search firm that has been instrumental in shaping the success of our group of companies, placing 15 key roles across a diverse array of high-level professions within our organization.”</p>
+                <p class="review-text">“Cobalt is an exceptional search firm that has been instrumental in shaping the
+                    success of our group of companies, placing 15 key roles across a diverse array of high-level
+                    professions within our organization.”</p>
                 <p class="review-author">Thomas Martini</p>
                 <p class="review-position">President & CEO, Lorval Capital Management
                 </p>
@@ -64,10 +68,11 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“Cobalt presented excellent candidates, making our choice difficult. Their
-                    support through the process was outstanding, and we’re delighted with the final outcome.”</p>
-                <p class="review-author">David Scorey</p>
-                <p class="review-position">CEO, Keolis North America</p>
+                <p class="review-text">“We found the maturity and capability of Cobalt to be materially different from
+                    our experience of using other suppliers”</p>
+                <p class="review-author">Robert Anderson</p>
+                <p class="review-position">Executive Vice President, Human Resources, Safety and Organization, Keolis
+                    North America</p>
             </div>
             <div class="review-item">
                 <div class="review-img">
@@ -79,10 +84,13 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“Helen Goddard and Cobalt Search excel at finding top-tier talent in unexpected
-                    places. Their expertise helped us hire an exceptional CFO who’s already making a big impact.”</p>
-                <p class="review-author">Steve Ponte</p>
-                <p class="review-position">CEO, PHL Capital Corp.</p>
+                <p class="review-text">“I have worked with a few recruiting firms in my career, and they were okay.
+                    Helen and her team at Cobalt Search take recruiting to another level and the quality of candidates
+                    she brought to us were all fantastic. Helen told me she would make it the hardest decision I would
+                    ever have to make as they would be so great, I would want to hire them all. She delivered on her
+                    word. I will use Helen and the team at Cobalt Search for all my future recruiting needs.”</p>
+                <p class="review-author">Tim Dupre</p>
+                <p class="review-position">President & CEO, PBS Contractors</p>
             </div>
 
         </div>
