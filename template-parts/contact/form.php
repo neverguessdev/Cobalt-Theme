@@ -234,6 +234,87 @@
             padding: 20px;
         }
     }
+
+    /*Forms*/
+    form.wpcf7-form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 45px;
+    }
+
+    form.wpcf7-form > p {
+        flex: 1 1 100%;
+        /* width: 100%; */
+    }
+
+    form.wpcf7-form > p > label {
+        width: 100%;
+        color: var(--black, #202020);
+        font-family: "Lexend Deca";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 150% */
+    }
+
+    .wpcf7-form-control-wrap input, .wpcf7-form-control-wrap select, .wpcf7-form-control-wrap textarea {
+        width: 100%;
+        border-radius: 11px;
+        border: 1px solid var(--Grey-3, #D2D2D2);
+        background: var(--White, #FFF);
+        height: 61px;
+        padding: 20px;
+    }
+
+    form.wpcf7-form > p:nth-child(-n+5) {
+        flex: 1 1 47%;
+    }
+
+    .wpcf7-form-control-wrap textarea {
+        height: 188px;
+    }
+
+    input.wpcf7-form-control.wpcf7-submit {
+        padding: 24px;
+        border-radius: 50px;
+        background: #A62274;
+        box-shadow: -15px 0 0 0 rgba(255, 255, 255, 0.25);
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;
+        border: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    input.wpcf7-form-control.wpcf7-submit:hover {
+        transform: translateY(-10px);
+        /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); */
+    }
+
+    form.wpcf7-form > p:nth-last-child(2) {
+        text-align: center;
+    }
+
+    .wpcf7-form-control-wrap input[type="checkbox"] {
+        height: unset;
+        width: unset;
+    }
+
+    .wpcf7-list-item {
+        /* margin: 0 0 30px -45px; */
+        color: #202020;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 </style>
 <section class="contact-form-section" id="contact-form">
     <div class="section-container contact-form-container">
@@ -241,6 +322,7 @@
             <div class="form-container">
                 <h3 class="form-title"><strong>Send</strong> us a <strong>message</strong></h3>
                 <p class="form-text">Fill out the form below and we'll get back to you within 24 hours</p>
+                <?php echo do_shortcode('[contact-form-7 id="e485aad" title="Contact form 1"]'); ?>
             </div>
         </div>
         <div class="info-side">
