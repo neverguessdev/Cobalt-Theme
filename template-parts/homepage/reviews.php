@@ -7,8 +7,9 @@
 ?>
 <section class="blue-banner reviews">
     <div class="section-container">
-        <h2 class="section-title" style="color: #202020">Wish you had a reliable source for <strong>outstanding
-                senior talent</strong>? Wish granted.</h2>
+        <h2 class="section-title" style="color: #202020">Wish you had a <strong>reliable source</strong> for <strong>outstanding
+                senior talent</strong></h2>
+        <h2 class="section-title" style=""><span class="purple-text">Wish granted.</span></h2>
         <div class="reviews-container" data-slider="reviews">
             <div class="review-item">
                 <div class="review-img">

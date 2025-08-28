@@ -21,7 +21,7 @@
                     decision-making. So you get your choice of game-changing candidates who can inspire, align, and
                     shape the future of your business.
                 </p>
-                <img src="/wp-content/uploads/2025/07/globe-images-min.png" alt="Cobalt Difference Image" class="cobalt-difference-image">
+                <img src="/wp-content/uploads/2025/08/globe-images2-min.png" alt="Cobalt Difference Image" class="cobalt-difference-image">
             </div>
 
             <div class="multi-color-cards">

@@ -1030,9 +1030,9 @@ section {
     width: auto;
     color: #A62274;
     font-family: Roboto, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 120%; /* 19.2px */
 }
 
@@ -1177,7 +1177,7 @@ section {
 }
 
 .color-cards.img {
-    background-image: url("/wp-content/uploads/2025/08/faces2-min.png");
+    background-image: url("/wp-content/uploads/2025/08/faces3-min.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1398,10 +1398,12 @@ section.cobalt-difference {
 
 /* Homepage White Banner style Start */
 section.white-banner {
-    background-image: url("/wp-content/uploads/2025/08/white-banner-bg-min2.png");
+    background-image: url("/wp-content/uploads/2025/08/white-banner-bg-min3.png");
     background-position: center;
     padding: 68px 20px 140px;
     background-size: cover;
+    background-repeat: no-repeat;
+    margin: 200px 0 80px
 }
 
 section.white-banner .section-container {
@@ -1411,14 +1413,31 @@ section.white-banner .section-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
+}
+
+section.white-banner .section-title {
+    max-width: 709px;
+    margin: 0 auto;
 }
 
 section.white-banner .section-container .section-subtext {
-    margin-bottom: 20px;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1440px){
+    section.white-banner {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width: 767px) {
+    section.white-banner {
+        margin: 50px 0 80px;
+    }
+
     section.white-banner {
         background-image: none;
         padding: 0 20px;
@@ -1439,7 +1458,7 @@ section.white-banner .section-container .section-subtext {
 
 .blue-banner.reviews {
     background-image: url("/wp-content/uploads/2025/07/bb-bgimg2-min.png");
-    background-size: cover;
+    background-size: contain;
     padding: 66px 20px;
 }
 
@@ -1454,7 +1473,12 @@ section.white-banner .section-container .section-subtext {
 }
 
 .blue-banner.reviews .section-title {
-    max-width: 1172px;
+    /*max-width: 1172px;*/
+    max-width: 100%;
+}
+
+.blue-banner.reviews .section-title:nth-child(2) {
+    margin-top: 16px;
 }
 
 .slider-nav-divider {

@@ -9,10 +9,8 @@
     <div class="section-container">
         <h2 class="section-title">More Than <span class="purple-text">100,000+</span> People <span class="purple-text">Engaged</span>
         </h2>
-        <p class="section-subtext">From global CEOs to high-growth founders, hundreds of teams, and stakeholders have
-            been impacted by the placements we've made. Every engagement is a ripple effect driving cultural
-            transformation, unlocking growth, and shaping the future of businesses worldwide. This is leadership search
-            that leaves a legacy.</p>
+        <p class="section-subtext">From global CEOs to high-growth founders, hundreds of teams, and stakeholders have been impacted by the placements we've made.</p>
+        <p class="section-subtext">Every engagement is a ripple effect driving cultural transformation, unlocking growth, and shaping the future of businesses worldwide. This is leadership search that leaves a legacy.</p>
         <a href="/contact-us" class="content-cta cta-purple lift-hover">
             DISCOVER THE DIFFERENCE
             <span class="content-cta-arrow">
