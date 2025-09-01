@@ -53,6 +53,7 @@
             align-items: center;
             gap: 20px;
             margin-top: 40px;
+            padding: 0 4px 4px 0;
         }
 
         .trusted-companies .slider-nav-divider {
@@ -104,7 +105,7 @@
             align-items: center;
             gap: 0;
             margin-top: 30px;
-            padding: 0 20px;
+            padding: 0 20px 4px 20px;
             position: relative;
         }
 
@@ -123,34 +124,34 @@
 
         <div class="companies-container" data-slider="companies">
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Keolis-Canada.png" class="lift-hover" alt="Glenesk">
+                <img src="/wp-content/uploads/2025/08/Keolis-Canada.png" class="lift-hover" alt="Keolis-Canada">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Rasakti.png" class="lift-hover" alt="Willerby">
+                <img src="/wp-content/uploads/2025/08/Vitrum.png" class="lift-hover" alt="Vitrum">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Vitrum.png" class="lift-hover" alt="WBS">
+                <img src="/wp-content/uploads/2025/08/EEaston.png" class="lift-hover" alt="Easton">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Waldrop.png" class="lift-hover" alt="Public Sapient">
+                <img src="/wp-content/uploads/2025/08/Rasakti.png" class="lift-hover" alt="Rasakti">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/SCRRA.png" class="lift-hover" alt="Public Sapient">
+                <img src="/wp-content/uploads/2025/08/SCRRA.png" class="lift-hover" alt="SCRRA">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Starline.png" class="lift-hover" alt="Public Sapient">
+                <img src="/wp-content/uploads/2025/08/Blantons.png" class="lift-hover" alt="Blantons">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Streamlibe.png" class="lift-hover" alt="Public Sapient">
+                <img src="/wp-content/uploads/2025/08/PHL.png" class="lift-hover" alt="PHL">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/PBS.png" class="lift-hover" alt="Public Sapient">
+                <img src="/wp-content/uploads/2025/08/THL.png" class="lift-hover" alt="THL">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Keystone.png" class="lift-hover" alt="Public Sapient">
+                <img src="/wp-content/uploads/2025/08/911-Logo.png" class="lift-hover" alt="911-Logo">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/iCollector.png" class="lift-hover" alt="Public Sapient">
+                <img src="/wp-content/uploads/2025/08/KAD-Logo.png" class="lift-hover" alt="KAD-Logo">
             </div>
         </div>
 

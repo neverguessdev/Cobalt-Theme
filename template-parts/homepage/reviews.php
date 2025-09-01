@@ -8,7 +8,7 @@
 <section class="blue-banner reviews">
     <div class="section-container">
         <h2 class="section-title" style="color: #202020">Wish you had a <strong>reliable source</strong> for <strong>outstanding
-                senior talent</strong></h2>
+                senior talent?</strong></h2>
         <h2 class="section-title" style=""><span class="purple-text">Wish granted.</span></h2>
         <div class="reviews-container" data-slider="reviews">
             <div class="review-item">
@@ -61,7 +61,7 @@
             </div>
             <div class="review-item">
                 <div class="review-img">
-                    <img src="/wp-content/uploads/2025/08/david.png"
+                    <img src="/wp-content/uploads/2025/08/robert-anderson.png"
                          alt="Reviewer Image" class="reviewer-pic">
                     <svg xmlns="http://www.w3.org/2000/svg" width="87" height="87" viewBox="0 0 87 87" fill="none">
                         <rect x="0.761719" y="0.476562" width="86" height="86" rx="43" fill="#1B4F9E"/>
@@ -77,7 +77,7 @@
             </div>
             <div class="review-item">
                 <div class="review-img">
-                    <img src="/wp-content/uploads/2025/08/steve-ponte.png"
+                    <img src="/wp-content/uploads/2025/08/tim-dupre.png"
                          alt="Reviewer Image" class="reviewer-pic">
                     <svg xmlns="http://www.w3.org/2000/svg" width="87" height="87" viewBox="0 0 87 87" fill="none">
                         <rect x="0.761719" y="0.476562" width="86" height="86" rx="43" fill="#3FA635"/>

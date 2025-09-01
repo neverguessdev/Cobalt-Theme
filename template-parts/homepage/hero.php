@@ -18,7 +18,7 @@
             </div>
             <div class="hero-cta">
                 <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
-                    DISCOVER THE DIFFERENCE
+                    FIND YOUR NEXTLEADER
                     <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
                             <rect width="36" height="37" rx="18" fill="#A62274"/>
