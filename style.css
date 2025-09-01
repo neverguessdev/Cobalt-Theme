@@ -1426,6 +1426,10 @@ section.white-banner .section-container .section-subtext {
     margin: 0 auto;
 }
 
+section.white-banner a.content-cta.cta-purple {
+    margin-top: 24px;
+}
+
 @media (min-width: 1440px){
     section.white-banner {
         background-size: contain;
