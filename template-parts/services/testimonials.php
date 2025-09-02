@@ -265,6 +265,10 @@
         gap: 30px;
     }
 
+    section.about-testimonials-section .cta-wrapper {
+        margin-top: 40px;
+    }
+
     @media (max-width: 991px) {
         .testimonial-card .video-container {
             height: 315px;
@@ -324,6 +328,10 @@
 
         .testimonial-slider-nav {
             margin-top: 0;
+        }
+
+        section.about-testimonials-section .cta-wrapper {
+            margin-top: 20px;
         }
     }
 </style>
@@ -523,27 +531,32 @@
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
-                            <p class="quote-text">Cobalt helped us find the right COO who transformed our operations and
-                                doubled revenue in 18 months.</p>
+                            <p class="quote-text">Cobalt enabled me to transform Kokua’s leadership team with no
+                                disruption. Their well-vetted candidates integrated quickly and delivered positive
+                                change. We hired 4 senior leaders in 4 months after a year of no success. Cobalt handles
+                                everything—screening, interviews, onboarding support—and consistently delivers A
+                                players. They’ve been a great partner and I’m delighted to recommend them.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/k-avatar-b.png" alt="K Avatar"
+                                <img src="/wp-content/uploads/2025/09/James-Mayer.png" alt="James Mayer"
                                      class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Keith J. Cunningham</p>
-                                    <p class="author-position">Entrepreneur, International Speaker and Acclaimed
-                                        Author</p>
+                                    <p class="author-name">James Mayer</p>
+                                    <p class="author-position">COO, Kokua Education</p>
                                 </div>
                             </div>
                         </div>
                         <div class="text-content green">
-                            <p class="quote-text">Helen and her team at Cobalt Search take recruiting to another level,
-                                the quality of candidates she brought to us were all fantastic</p>
+                            <p class="quote-text">I’m thrilled to recommend Cobalt Search. As first-time users of a
+                                recruitment firm, we were guided expertly through the process. The COO candidates
+                                presented were exceptional - skilled, aligned with our culture, and exceeded
+                                expectations. The Cobalt team were professional, responsive, and insightful throughout.
+                                They are the gold standard in recruitment.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/t-green.png" alt="K Avatar"
+                                <img src="/wp-content/uploads/2025/09/Robert-Wojciak.png" alt="Robert Wojciak"
                                      class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Thomas Martini</p>
-                                    <p class="author-position">President & CEO, LorvaL Capital Management</p>
+                                    <p class="author-name">Robert Wojciak</p>
+                                    <p class="author-position">CEO, KD Market</p>
                                 </div>
                             </div>
                         </div>
@@ -598,6 +611,19 @@
                     </button>
                 </div>
             </div>
+        </div>
+
+        <div class="cta-wrapper text-center">
+            <a href="/contact-us" class="content-cta lift-hover cta-purple">
+                START YOUR SEARCH
+                <span class="content-cta-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                            <rect width="36" height="37" rx="18" fill="#FFFFFF"></rect>
+                            <path d="M26 24.3856L24.2446 24.3931L24.2521 14.0028L11.2549 27L10 25.7451L22.9972 12.7479L12.6069 12.7554L12.6144 11L26 11L26 24.3856Z"
+                                  fill="#3FA635"></path>
+                        </svg>
+                    </span>
+            </a>
         </div>
     </div>
 </section>

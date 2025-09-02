@@ -382,7 +382,7 @@
         </div>
         <div class="cta-wrapper text-center">
             <a href="/contact-us" class="content-cta lift-hover cta-purple">
-                LET'S FIND YOUR LEADER
+                FIND YOUR NEXT LEADER
                 <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
                             <rect width="36" height="37" rx="18" fill="#FFFFFF"></rect>

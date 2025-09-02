@@ -7,8 +7,10 @@
 ?>
 <style>
     .service-hero-section {
+        /*background: linear-gradient(rgba(32, 32, 32, 0.22), rgba(32, 32, 32, 0.22)),
+        linear-gradient(100deg, #A62274 14.66%, #1B4F9E 51.88%, #16A34A 100%);*/
         background: linear-gradient(rgba(32, 32, 32, 0.22), rgba(32, 32, 32, 0.22)),
-        linear-gradient(100deg, #A62274 14.66%, #1B4F9E 51.88%, #16A34A 100%);
+        var(--Gradient, linear-gradient(100deg, #1B4F9E 0%, #A62274 69.72%, #16A34A 100%));
     }
 
     .service-hero-content {

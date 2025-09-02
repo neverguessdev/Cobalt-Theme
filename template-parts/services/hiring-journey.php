@@ -39,7 +39,7 @@
     }
 
     .service-hiring-journey-section .section-header {
-        max-width: 850px;
+        max-width: 880px;
         margin: 0 auto;
     }
 
@@ -318,15 +318,15 @@
 <section class="service-hiring-journey-section">
     <div class="section-container service-hiring-journey-container">
         <div class="section-header text-center">
-            <h2 class="section-title">Find your <strong>next leader.</strong> Without playing <strong>hiring
-                    roulette.</strong></h2>
+            <h2 class="section-title"><span class="blue-text">Find your next leader.</span> Without playing <span class="blue-text">hiring
+                    roulette.</span></h2>
             <p class="section-subtext">Our average time to hire is 2.5 months. Our average longevity of hire is 3+
                 years.</p>
             <p class="section-subtext">When the stakes are high, our process gives you confidence, alignment, and
                 leaders who stay the course.</p>
         </div>
         <div class="journey-boxes">
-            <h3 class="section-title">Where are you on your <strong>hiring journey</strong>?</h3>
+            <h3 class="section-title">Where are you on your hiring journey?</h3>
             <div class="journey-box purple">
                 <div class="trigger-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -345,7 +345,7 @@
                                   stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3 class="journey-box-title">Hiring for your first <strong>leadership role</strong></h3>
+                    <h3 class="journey-box-title">Hiring for your <strong>first leadership role</strong></h3>
                 </div>
                 <div class="journey-box-content">
                     <div class="journey-box-content-left">
@@ -498,7 +498,7 @@
                                   stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3 class="journey-box-title">Expanding your <strong>senior leadership</strong> team</h3>
+                    <h3 class="journey-box-title"><strong>Expanding</strong> your senior leadership team</h3>
                 </div>
                 <div class="journey-box-content">
                     <div class="journey-box-content-left">
@@ -513,7 +513,7 @@
                             you find leaders who bring clarity, structure, and momentum, so you can grow without losing
                             what makes your team and business great.</p>
                         <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
-                            START YOUR FIRST SEARCH
+                            BUILD YOUR LEADERSHIP BENCH
                             <span class="content-cta-arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37"
                                      fill="none">
@@ -665,7 +665,7 @@
                         <p>In crowded markets, reach isn’t enough. We bring deep market insight and a proven process to
                             help your recruitment team hire with precision and peace of mind.</p>
                         <a href="/contact-us" class="content-cta lift-hover lift-hover-blue">
-                            START YOUR FIRST SEARCH
+                            PARTNER WITH US
                             <span class="content-cta-arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37"
                                      fill="none">

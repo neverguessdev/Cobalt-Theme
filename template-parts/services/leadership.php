@@ -7,10 +7,11 @@
 ?>
 <style>
     .service-leadership-section {
-        background-image: url("/wp-content/uploads/2025/08/pink-magni.png"), url("/wp-content/uploads/2025/08/pink-magni-small.png");
-        background-position: top -105px right, bottom left;
+        background-image: url("/wp-content/uploads/2025/09/magni-pink-4.png"), url("/wp-content/uploads/2025/08/pink-magni-small.png"), url("/wp-content/uploads/2025/07/blue-arrow-bg.png"), url("/wp-content/uploads/2025/09/swirl-blue.png");
+        background-position: top -105px right, bottom left, top 283px right 106px, top 112px left;
         background-repeat: no-repeat;
         padding: 80px 20px 140px;
+        background-size: auto, auto, contain, auto;
     }
 
     .service-leadership-section .section-header {
@@ -102,6 +103,10 @@
         color: #3FA535;
     }
 
+    .service-leadership-section .section-pretitle {
+        margin-bottom: 10px;
+    }
+
     /* Tablet */
     @media (max-width: 900px) {
         .leadership-keys {
@@ -167,7 +172,8 @@
 <section class="service-leadership-section">
     <div class="section-container service-leadership-container">
         <div class="section-header text-center">
-            <h2 class="section-title">Smarter <span class="purple-text">growth</span> starts with the right <span class="purple-text">leadership</span></h2>
+            <h3 class="section-pretitle">What we do</h3>
+            <h2 class="section-title">Smarter <span class="purple-text">growth</span> starts with <span class="purple-text">the right leadership</span></h2>
             <p class="section-subtext">You want a leader who lifts performance, energises your team, and drives real, lasting results. We help you find them.</p>
             <p class="section-subtext">Whether it’s your first leadership hire or finding your next leadership layer, every step of our process is tailored to your business needs.</p>
         </div>
