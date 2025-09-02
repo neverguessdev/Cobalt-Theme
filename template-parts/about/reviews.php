@@ -41,6 +41,10 @@
         width: 50%;
     }
 
+    .ab-review-card-container:last-child {
+        margin-top: 108px;
+    }
+
     .ab-review-card-container:first-child > div {
         /*height: 524px;*/
     }
@@ -120,7 +124,7 @@
         .ab-review-cards {
             display: flex;
             gap: 30px;
-            align-items: flex-end;
+            align-items: flex-start;
         }
 
         .ab-review-card {
@@ -169,6 +173,10 @@
 
         .ab-review-card-container:first-child {
             height: auto !important;
+        }
+
+        .ab-review-card-container:last-child {
+            margin-top: 0;
         }
 
         .review-text {
@@ -297,11 +305,11 @@
                             “I am delighted to provide a glowing testimonial for Helen Goddard and Cobalt Search. Thanks to their expertise, we successfully onboarded an exceptional CFO. Cobalt’s ability to find candidates who aligned with our culture was remarkable. Their professionalism, attention to detail, and results are truly impressive. We highly recommend their services to anyone seeking exceptional recruitment solutions.”
                         </p>
                         <div class="reviewer">
-                            <img src="/wp-content/uploads/2025/08/ab-reviewer-1.png" alt="Reviewer 1"
+                            <img src="/wp-content/uploads/2025/09/steve-ponte2.png" alt="Steve Ponte"
                                  class="reviewer-image">
                             <div class="reviewer-info">
                                 <div class="review-author">Steve Ponte</div>
-                                <div class="review-position">CEO, PHL Capital Corp</div>
+                                <div class="review-position">— CEO, PHL Capital Corp</div>
                             </div>
                         </div>
                     </div>
@@ -391,11 +399,11 @@
                             “The Cobalt team found us the perfect match! They took the time to really get to know our company, culture and my style. The candidates even described our niche and complex business accurately, something that isn’t easy, so I was reassured that Cobalt really understood. I highly recommend Cobalt if you want an excellent candidate and the white glove service they consistently deliver.”
                         </p>
                         <div class="reviewer">
-                            <img src="/wp-content/uploads/2025/08/ab-reviewer-1.png" alt="Reviewer 1"
+                            <img src="/wp-content/uploads/2025/09/ariel-steele.png" alt="Ariel Steele"
                                  class="reviewer-image">
                             <div class="reviewer-info">
                                 <div class="review-author">Ariel Steele</div>
-                                <div class="review-position">President, Tax Credit Connection</div>
+                                <div class="review-position">— President, Tax Credit Connection</div>
                             </div>
                         </div>
                     </div>

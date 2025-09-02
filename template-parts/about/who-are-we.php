@@ -50,6 +50,7 @@
     }
 
     section.about-who-are-we-section {
+        padding: 60px 20px 110px;
     }
 
     section.about-who-are-we-section .section-pretitle-line {
@@ -87,6 +88,10 @@
 
         section.about-who-are-we-section .section-pretitle-line {
             margin-bottom: 24px;
+        }
+
+        section.about-who-are-we-section {
+            padding: 40px 20px 80px;
         }
 
         .about-who-are-we-content > .image-side {

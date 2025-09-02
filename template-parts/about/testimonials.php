@@ -156,7 +156,7 @@
         overflow: hidden;
         position: relative;
         width: 100%;
-        margin-top: 40px;
+        margin-top: 70px;
     }
 
     .testimonial-text-slider {
@@ -324,6 +324,10 @@
 
         .testimonial-slider-nav {
             margin-top: 0;
+        }
+
+        .testimonial-text-slider-container {
+            margin-top: 20px;
         }
     }
 </style>
@@ -495,7 +499,7 @@
                         <div class="text-content blue">
                             <p class="quote-text">Cobalt worked hand in hand with us on an Executive hire - constant communication, excellent documentation, and a personal touch. I felt like their only client. I have an incredibly high bar and don’t need warm bodies, I need quality leadership. I highly recommend Cobalt.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/d-blue.png" alt="K Avatar"
+                                <img src="/wp-content/uploads/2025/09/IlyssaDeCasperies.png" alt="Ilyssa DeCasperies"
                                      class="author-avatar">
                                 <div class="author-details">
                                     <p class="author-name">Ilyssa DeCasperis</p>

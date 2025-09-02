@@ -391,7 +391,7 @@
                     <div class="team-achievements">
                         <span class="team-achievement">15+ Years Experience</span>
                         <span class="team-achievement">Global Search Expert</span>
-                        <span class="team-achievement">C-Suite Specialist</span>
+                        <span class="team-achievement">C-Suite specialist</span>
                     </div>
                 </div>
                 <div class="team-socials">
@@ -458,7 +458,7 @@
                     <div class="team-achievements">
                         <span class="team-achievement">15+ Years Experience</span>
                         <span class="team-achievement">Global Search Expert</span>
-                        <span class="team-achievement">C-Suite Specialist</span>
+                        <span class="team-achievement">C-Suite specialist</span>
                     </div>
                 </div>
                 <div class="team-socials">

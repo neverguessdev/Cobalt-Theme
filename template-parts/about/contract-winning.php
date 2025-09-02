@@ -85,9 +85,9 @@
         box-shadow: 0 5.699px 9.499px 0 rgba(204, 204, 204, 0.25);
     }
 
-    .cw-banner-author {
-        border-left: 5px solid #A62274;
-        padding-left: 20px;
+    .cw-banner-author-wrapper {
+        display: flex;
+        gap: 20px;
     }
 
     .cw-banner-author-name {
@@ -135,6 +135,7 @@
         section.about-contact-winning-section {
             padding-top: 0;
         }
+
         .cw-key-card {
             padding: 38px 20px 30px;
         }
@@ -227,13 +228,21 @@
         <div class="cw-pink-banner">
             <div class="cw-pink-banner-content">
                 <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92" fill="none">
-                    <path d="M0 45.9999V85.4286H39.4286V45.9999H13.143C13.143 31.5063 24.935 19.7142 39.4286 19.7142V6.57129C17.6864 6.57129 0 24.2577 0 45.9999Z" fill="#F3D1E6"/>
-                    <path d="M91.9989 19.7142V6.57129C70.2567 6.57129 52.5703 24.2577 52.5703 45.9999V85.4286H91.9989V45.9999H65.7133C65.7133 31.5063 77.5053 19.7142 91.9989 19.7142Z" fill="#F3D1E6"/>
+                    <path d="M0 45.9999V85.4286H39.4286V45.9999H13.143C13.143 31.5063 24.935 19.7142 39.4286 19.7142V6.57129C17.6864 6.57129 0 24.2577 0 45.9999Z"
+                          fill="#F3D1E6"/>
+                    <path d="M91.9989 19.7142V6.57129C70.2567 6.57129 52.5703 24.2577 52.5703 45.9999V85.4286H91.9989V45.9999H65.7133C65.7133 31.5063 77.5053 19.7142 91.9989 19.7142Z"
+                          fill="#F3D1E6"/>
                 </svg>
-                <p class="cw-banner-quote">“Cobalt helped us during the whole process to find the most appropriate candidate. We were amazed by the candidates shortlisted and struggled to choose only one! The work our new CFO has done in a tough environment has confirmed that we made the right choice.”</p>
-                <div class="cw-banner-author">
-                    <p class="cw-banner-author-name">Yannick Ouvrard</p>
-                    <p class="cw-banner-author-title">Executive Vice President of Finance, Strategy, Risk & Performance, Keolis North America</p>
+                <p class="cw-banner-quote">“Cobalt helped us during the whole process to find the most appropriate
+                    candidate. We were amazed by the candidates shortlisted and struggled to choose only one! The work
+                    our new CFO has done in a tough environment has confirmed that we made the right choice.”</p>
+                <div class="cw-banner-author-wrapper">
+                    <img src="/wp-content/uploads/2025/09/YannickOuvrad.png" alt="Yannick Ouvrad">
+                    <div class="cw-banner-author">
+                        <p class="cw-banner-author-name">Yannick Ouvrard</p>
+                        <p class="cw-banner-author-title">Executive Vice President of Finance, Strategy, Risk &
+                            Performance, Keolis North America</p>
+                    </div>
                 </div>
             </div>
             <div class="cta-wrapper text-center">
@@ -242,7 +251,8 @@
                     <span class="content-cta-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
                             <rect width="36" height="37" rx="18" fill="#FFFFFF"></rect>
-                            <path d="M26 24.3856L24.2446 24.3931L24.2521 14.0028L11.2549 27L10 25.7451L22.9972 12.7479L12.6069 12.7554L12.6144 11L26 11L26 24.3856Z" fill="#3FA635"></path>
+                            <path d="M26 24.3856L24.2446 24.3931L24.2521 14.0028L11.2549 27L10 25.7451L22.9972 12.7479L12.6069 12.7554L12.6144 11L26 11L26 24.3856Z"
+                                  fill="#3FA635"></path>
                         </svg>
                     </span>
                 </a>

@@ -2,9 +2,9 @@
     <section class="footer-banner">
         <div class="footer-banner-inner">
             <div class="footer-banner-content">
-                <h2 class="footer-banner-title">You know where you're going.<br>Let us find the <strong>leader who'll get you there.</strong></h2>
-                <p class="footer-banner-subtitle">Start your search for game-changing leadership. Start with Cobalt.</p>
-                <a href="#" class="footer-banner-cta">
+                <h2 class="footer-banner-title">Outstanding leadership starts with <strong>one great decision</strong>.</h2>
+                <p class="footer-banner-subtitle">Ready to make <strong>the call that changes everything?</strong></p>
+                <a href="/contact-us" class="footer-banner-cta">
                     FIND YOUR NEXT LEADER
                     <span class="footer-banner-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
@@ -95,4 +95,18 @@
     </footer>
     <?php wp_footer(); ?>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const footerBannerTitle = document.querySelector('.footer-banner-title');
+        const footerBannerSubtitle = document.querySelector('.footer-banner-subtitle');
+
+        if (footerBannerTitle && footerBannerSubtitle && window.location.pathname === '/') {
+            footerBannerTitle.innerHTML = `You know where you're going.<br>Let us find the <strong>leader who'll get you there.</strong>`;
+            footerBannerSubtitle.innerHTML = `Start your search for game-changing leadership. Start with Cobalt.`;
+        } else if (footerBannerTitle && footerBannerSubtitle && window.location.pathname === '/about-us') {
+            footerBannerTitle.innerHTML = `When you expect more from your search partner, choose Cobalt Because high-stakes hiring deserves more than a surface-level search.`;
+            footerBannerSubtitle.innerHTML = `Start your search for game-changing leadership. Start with Cobalt.`;
+        }
+    });
+</script>
 </html>
