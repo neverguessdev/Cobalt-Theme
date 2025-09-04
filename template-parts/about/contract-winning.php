@@ -136,6 +136,11 @@
             padding-top: 0;
         }
 
+        .cw-banner-author-wrapper img {
+            width: 70px;
+            height: 70px;
+        }
+
         .cw-key-card {
             padding: 38px 20px 30px;
         }
