@@ -170,7 +170,7 @@
     <div class="section-container">
         <div class="titles-side">
             <div class="header-content">
-                <p class="section-pretitle">FAQ</p>
+                <p class="section-pretitle">FAQs</p>
                 <div class="title-subtext">
                     <h2 class="section-title">Have <strong>Questions?</strong></h2>
                     <p class="section-subtext" style="color: #3C3C3B">Here’s what clients like to know before we get started.</p>

@@ -124,7 +124,7 @@
 
         <div class="companies-container" data-slider="companies">
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Keolis-Canada.png" class="lift-hover" alt="Keolis-Canada">
+                <img src="/wp-content/uploads/2025/09/Keolis-Canada-2.png" class="lift-hover" alt="Keolis-Canada">
             </div>
             <div class="company-item">
                 <img src="/wp-content/uploads/2025/08/Vitrum.png" class="lift-hover" alt="Vitrum">
@@ -139,16 +139,16 @@
                 <img src="/wp-content/uploads/2025/08/SCRRA.png" class="lift-hover" alt="SCRRA">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/Blantons.png" class="lift-hover" alt="Blantons">
+                <img src="/wp-content/uploads/2025/09/Blantons-2.png" class="lift-hover" alt="Blantons">
             </div>
             <div class="company-item">
                 <img src="/wp-content/uploads/2025/08/PHL.png" class="lift-hover" alt="PHL">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/THL.png" class="lift-hover" alt="THL">
+                <img src="/wp-content/uploads/2025/09/THL-2.png" class="lift-hover" alt="THL">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/911-Logo.png" class="lift-hover" alt="911-Logo">
+                <img src="/wp-content/uploads/2025/09/911-Logo-2.png" class="lift-hover" alt="911-Logo">
             </div>
             <div class="company-item">
                 <img src="/wp-content/uploads/2025/08/KAD-Logo.png" class="lift-hover" alt="KAD-Logo">

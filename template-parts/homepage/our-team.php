@@ -57,6 +57,10 @@
         line-height: 160%; /* 28.8px */
     }
 
+    .team-slider-nav {
+        padding: 0 2px 2px 0;
+    }
+
     /* Desktop and Tablet - Slider Layout */
     @media (min-width: 768px) {
         .our-team .section-container {
