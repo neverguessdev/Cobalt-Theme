@@ -308,6 +308,11 @@ document.addEventListener('DOMContentLoaded', function() {
         desktopSlidesToShow: 3,
         mobileSlidesToShow: 1
     });
+    // Initialize other sliders with default behavior (1 slide on desktop and mobile)
+    const companiesSlider = initSlider('companies', {
+        desktopSlidesToShow: 5,
+        mobileSlidesToShow: 1
+    });
 
     // Initialize about reviews slider
     const abReviewsSlider = initSlider('ab-reviews');
@@ -412,15 +417,16 @@ document.addEventListener('DOMContentLoaded', function() {
     /*Hide footer banner in contact-us page base on URL*/
     const currentUrl = window.location.href;
     const contactUsPageUrl = '/contact-us';
+    const thankYouPageUrl = '/thank-you';
     const privacyPolicyPageUrl = '/privacy-policy';
     const footerBanner = document.querySelector('.footer-banner');
     const footerBannerSVG = document.querySelector('.footer-container svg');
     const siteHeader = document.querySelector('.site-header');
-    if (currentUrl.includes(contactUsPageUrl) && footerBanner) {
+    if ((currentUrl.includes(contactUsPageUrl) && footerBanner)||(currentUrl.includes(thankYouPageUrl) && footerBanner)) {
         footerBanner.style.display = 'none';
         footerBannerSVG.style.display = 'none';
     } else if (currentUrl.includes(privacyPolicyPageUrl) && siteHeader) {
-        siteHeader.style.background = `linear-gradient(rgba(32, 32, 32, 0.22), rgba(32, 32, 32, 0.22)),
-        linear-gradient(100deg, #A62274 14.66%, #1B4F9E 51.88%, #16A34A 100%)`;
+        siteHeader.style.background = `background: linear-gradient(rgba(32, 32, 32, 0.22), rgba(32, 32, 32, 0.22)),
+        linear-gradient(100deg, #A62274 14.66%, #1B4F9E 51.88%, #16A34A 100%);`;
     }
 });

@@ -267,6 +267,10 @@
         padding: 20px;
     }
 
+    .wpcf7-form-control-wrap select {
+        padding: 10px 20px;
+    }
+
     form.wpcf7-form > p:nth-child(-n+5) {
         flex: 1 1 47%;
     }
@@ -314,6 +318,17 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin: 0;
+    }
+
+    p:nth-last-child(3) .wpcf7-not-valid-tip {
+        font-size: 20px;
+        font-family: "Lexend Deca";
+        margin-top: 8px;
+    }
+
+    .wpcf7-response-output {
+        display: none;
     }
 </style>
 <section class="contact-form-section" id="contact-form">
@@ -399,7 +414,7 @@
                             </defs>
                         </svg>
                     </a>
-                    <a href="mailto:helen@cobaltsearch.com" class="team-social-link">
+                    <a href="mailto:info@cobaltsearch.com" class="team-social-link">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path d="M16.418 2.67188H1.58203C0.711492 2.67188 0 3.38024 0 4.25391V13.7461C0 14.6201 0.711949 15.3281 1.58203 15.3281H16.418C17.2885 15.3281 18 14.6198 18 13.7461V4.25391C18 3.38003 17.2882 2.67188 16.418 2.67188ZM16.175 3.72656C15.6636 4.23974 9.65549 10.2674 9.40866 10.515C9.2025 10.7218 8.79761 10.722 8.59134 10.515L1.82496 3.72656H16.175ZM1.05469 13.5522V4.44779L5.59213 9L1.05469 13.5522ZM1.82496 14.2734L6.3367 9.747L7.84438 11.2596C8.46221 11.8794 9.53803 11.8792 10.1557 11.2596L11.6633 9.74704L16.175 14.2734H1.82496ZM16.9453 13.5522L12.4079 9L16.9453 4.44779V13.5522Z" fill="black"></path>
                         </svg>
@@ -444,3 +459,10 @@
         </div>
     </div>
 </section>
+<script>
+    /*document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll("p:nth-last-child(3) .wpcf7-not-valid-tip")
+            .forEach(el => el.textContent = "This is required.");
+    });
+    */
+</script>

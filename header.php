@@ -3,7 +3,14 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php wp_title('|', true, 'right'); ?></title>
+    <title><?php
+        if (is_home() || is_front_page()) {
+            echo 'Cobalt Search';
+        } else {
+            wp_title('|', true, 'right');
+            echo 'Cobalt Search';
+        }
+    ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -31,7 +38,7 @@
                     <li><a href="/our-services" class="nav-link lift-hover">Our Services</a></li>
                     <li><a href="/about-us" class="nav-link lift-hover">About Us</a></li>
                     <li>
-                        <a href="#" class="cta-btn">
+                        <a href="/contact-us" class="cta-btn">
                             CONTACT US
                             <span class="cta-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">

@@ -260,17 +260,43 @@
                         01
                     </p>
                     <p class="mc-card-title">
-                        How long does the typical recruitment process take?
+                        How long does the process take?
                     </p>
                 </div>
                 <p class="mc-card-body">
-                    Our average time-to-hire is 2.5 months from initial consultation to offer acceptance. We focus on quality and fit rather than speed, ensuring the right leadership match for long-term success.
+                    Every search is tailored, but most take between 8–10 weeks from briefing to offer. We’ll give you a clear timeline upfront and stay closely aligned at every step.
                 </p>
             </div>
             <div class="mc-card purple">
                 <div class="mc-card-header">
                     <p class="mc-card-number">
                         02
+                    </p>
+                    <p class="mc-card-title">
+                        How is Cobalt different from a traditional recruiter?
+                    </p>
+                </div>
+                <p class="mc-card-body">
+                    We’re a true search partner. No databases, no shortcuts, just deep market mapping, structured interviews, and a process built around alignment, impact, and long-term success.
+                </p>
+            </div>
+            <div class="mc-card green">
+                <div class="mc-card-header">
+                    <p class="mc-card-number">
+                        03
+                    </p>
+                    <p class="mc-card-title">
+                        What happens if our new hire doesn’t work out?
+                    </p>
+                </div>
+                <p class="mc-card-body">
+                    It’s rare, but our 90-day guarantee ensures your peace of mind. If your hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.
+                </p>
+            </div>
+            <div class="mc-card blue">
+                <div class="mc-card-header">
+                    <p class="mc-card-number">
+                        04
                     </p>
                     <p class="mc-card-title">
                         What industries do you specialize in?
@@ -280,23 +306,10 @@
                     We specialize in leadership recruitment across technology, finance, healthcare, manufacturing, and professional services industries. Our expertise spans both established companies and high-growth startups.
                 </p>
             </div>
-            <div class="mc-card green">
+            <div class="mc-card purple">
                 <div class="mc-card-header">
                     <p class="mc-card-number">
-                        03
-                    </p>
-                    <p class="mc-card-title">
-                        What happens if a placement doesn't work out?
-                    </p>
-                </div>
-                <p class="mc-card-body">
-                    We offer a 90-day guarantee on all placements. If your new hire doesn't work out within this period, we'll conduct a replacement search at no additional cost to you.
-                </p>
-            </div>
-            <div class="mc-card blue">
-                <div class="mc-card-header">
-                    <p class="mc-card-number">
-                        04
+                        05
                     </p>
                     <p class="mc-card-title">
                         Do you work with clients internationally?
@@ -304,19 +317,6 @@
                 </div>
                 <p class="mc-card-body">
                     Yes, we have experience placing leadership talent in 24 countries across North America, Europe, Asia, and Australia. Our global network allows us to find exceptional leaders regardless of location.
-                </p>
-            </div>
-            <div class="mc-card purple">
-                <div class="mc-card-header">
-                    <p class="mc-card-number">
-                        05
-                    </p>
-                    <p class="mc-card-title">
-                        What makes your approach different from other recruiters?
-                    </p>
-                </div>
-                <p class="mc-card-body">
-                    We take a consultative, high-touch approach focused on long-term success. Our process includes deep cultural alignment assessment, comprehensive technical evaluation, and strategic onboarding support.
                 </p>
             </div>
             <div class="mc-card green">

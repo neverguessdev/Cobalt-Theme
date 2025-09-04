@@ -310,6 +310,7 @@ get_header(); ?>
     }
 </style>
 <main class="new-page">
+    <?php get_template_part('template-parts/common/hero'); ?>
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <section class="page-content">
             <div class="container">

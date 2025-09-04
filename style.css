@@ -361,6 +361,7 @@ table {
     font-weight: 300;
     line-height: 120%;
     margin-bottom: 24px;
+    max-width: 1060px;
 }
 
 .footer-banner-title strong {

@@ -505,11 +505,11 @@
                                 Their support through the process was outstanding, and we’re delighted with the final
                                 outcome.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/d-blue.png" alt="K Avatar"
+                                <img src="/wp-content/uploads/2025/09/JoshNelson.png" alt="Josh Nelson"
                                      class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">David Scorey</p>
-                                    <p class="author-position">CEO, Keolis North America</p>
+                                    <p class="author-name">Josh Nelson, CFP</p>
+                                    <p class="author-position">Founder & CEO Keystone Financial Services</p>
                                 </div>
                             </div>
                         </div>
@@ -518,11 +518,11 @@
                                 unexpected places. Their expertise helped us hire an exceptional CFO who’s already
                                 making a big impact.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/08/s-green.png" alt="K Avatar"
+                                <img src="/wp-content/uploads/2025/09/JonMarashi.png" alt="Dr Jon Marashi"
                                      class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Steve Ponte</p>
-                                    <p class="author-position">CEO, PHL Capital Corp.</p>
+                                    <p class="author-name">Dr Jon Marashi, DDS, APDC</p>
+                                    <p class="author-position">Cosmetic Dentist</p>
                                 </div>
                             </div>
                         </div>
