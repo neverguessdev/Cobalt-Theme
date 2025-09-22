@@ -356,7 +356,7 @@
                 who know leadership, understand your business, and stay closely involved from initial brief to
                 successful candidate onboarding.</p>
         </div>
-        <div class="team-index-card lift-hover blue">
+        <div class="team-index-card lift-hover blue" id="helen">
             <div class="team-image">
                 <span class="team-position">Founder & CEO</span>
             </div>
@@ -389,9 +389,9 @@
                         confidence. Clients trust her to ask the hard questions, see beyond the obvious, and lead with
                         empathy at every step.</p>
                     <div class="team-achievements">
-                        <span class="team-achievement">15+ Years Experience</span>
+                        <span class="team-achievement">30+ Years Experience</span>
                         <span class="team-achievement">Global Search Expert</span>
-                        <span class="team-achievement">C-suite specialist</span>
+                        <span class="team-achievement">C-Suite Specialist</span>
                     </div>
                 </div>
                 <div class="team-socials">
@@ -423,7 +423,7 @@
                 </div>
             </div>
         </div>
-        <div class="team-index-card reverse-card lift-hover purple">
+        <div class="team-index-card reverse-card lift-hover purple" id="denise">
             <div class="team-image">
                 <span class="team-position">Vice President</span>
             </div>
@@ -458,7 +458,7 @@
                     <div class="team-achievements">
                         <span class="team-achievement">15+ Years Experience</span>
                         <span class="team-achievement">Global Search Expert</span>
-                        <span class="team-achievement">C-suite specialist</span>
+                        <span class="team-achievement">C-Suite Specialist</span>
                     </div>
                 </div>
                 <div class="team-socials">

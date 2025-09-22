@@ -90,6 +90,17 @@
         gap: 20px;
     }
 
+    .cw-banner-author-wrapper img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .cw-banner-author {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .cw-banner-author-name {
         color: #A62274;
         font-family: "Lexend Deca";
@@ -117,6 +128,10 @@
         position: absolute;
         top: 30px;
         left: 30px;
+    }
+
+    section.about-contact-winning-section .section-subtext {
+        font-size: 20px;
     }
 
     @media (max-width: 1024px) {
@@ -184,8 +199,7 @@
         <div class="section-header text-center">
             <h2 class="section-title">From Critical Hire to <span class="purple-text">Contract-Winning Impact</span>
             </h2>
-            <p class="section-subtext"><strong>Client:</strong> Keolis Commuter Services (Boston’s largest commuter rail
-                operator)</p>
+            <p class="section-subtext"><strong>Client Case Study:</strong> Keolis Commuter Services (Boston’s largest commuter rail operator)</p>
         </div>
         <div class="cw-key-cards">
             <div class="cw-key-card">

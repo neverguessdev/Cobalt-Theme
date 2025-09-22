@@ -90,6 +90,17 @@
         gap: 20px;
     }
 
+    .cw-banner-author-wrapper img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cw-banner-author {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .cw-banner-author-name {
         color: #A62274;
         font-family: "Lexend Deca";
@@ -119,6 +130,10 @@
         left: 30px;
     }
 
+    section.about-contact-winning-section .section-subtext {
+        font-size: 20px;
+    }
+
     @media (max-width: 1024px) {
         section.about-contact-winning-section {
             background-image: none;
@@ -134,6 +149,11 @@
     @media (max-width: 767px) {
         section.about-contact-winning-section {
             padding-top: 0;
+        }
+
+        .cw-banner-author-wrapper img {
+            width: 70px;
+            height: 70px;
         }
 
         .cw-key-card {
@@ -179,8 +199,7 @@
         <div class="section-header text-center">
             <h2 class="section-title">From Critical Hire to <span class="purple-text">Contract-Winning Impact</span>
             </h2>
-            <p class="section-subtext"><strong>Client:</strong> Keolis Commuter Services (Boston’s largest commuter rail
-                operator)</p>
+            <p class="section-subtext"><strong>Client Case Study:</strong> Keolis Commuter Services (Boston’s largest commuter rail operator)</p>
         </div>
         <div class="cw-key-cards">
             <div class="cw-key-card">
@@ -239,7 +258,7 @@
                     choice, Cobalt provided excellent support to both ourselves and the candidate through the
                     appointment process. I’m very pleased with the outcome of this process.”</p>
                 <div class="cw-banner-author-wrapper">
-                    <img src="/wp-content/uploads/2025/09/david-scorey.png" alt="David Scorey">
+                    <img src="/wp-content/uploads/2025/09/david-scorey100.png" alt="David Scorey">
                     <div class="cw-banner-author">
                         <p class="cw-banner-author-name">David Scorey</p>
                         <p class="cw-banner-author-title">Chief Executive Officer Keolis North America</p>

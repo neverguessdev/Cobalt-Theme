@@ -41,14 +41,14 @@
     .testimonials-cards-video {
         display: flex;
         transition: transform 0.3s ease;
-        width: 300%; /* Total width for 3 slides */
+        width: 200%; /* Total width for 3 slides */
         gap: 0;
         align-items: stretch;
     }
 
     .testimonial-card {
-        flex: 0 0 33.333%; /* Each slide takes 1/3 of the 300% container */
-        width: 33.333% !important;
+        flex: 0 0 50%; /* Each slide takes 1/3 of the 300% container */
+        width: 50% !important;
         margin: 0 !important;
         padding: 0 15px;
         box-sizing: border-box;
@@ -162,14 +162,14 @@
     .testimonial-text-slider {
         display: flex;
         transition: transform 0.3s ease;
-        width: 300%; /* Total width for 3 slides */
+        width: 200%; /* Total width for 3 slides */
         gap: 0;
         align-items: stretch;
     }
 
     .testimonial-text-item {
-        flex: 0 0 33.333%; /* Each slide takes 1/3 of the 300% container */
-        width: 33.333% !important;
+        flex: 0 0 50%; /* Each slide takes 1/3 of the 300% container */
+        width: 50% !important;
         margin: 0 !important;
         padding: 0 15px;
         box-sizing: border-box;
@@ -183,6 +183,7 @@
         border-radius: 18px;
         background: #F8F8F8;
         border: 1px solid #E0E0E0;
+        flex: 1 1 100%;
     }
 
     .testimonial-text-item .text-content.blue {
@@ -210,8 +211,8 @@
     }
 
     .testimonial-text-item .author-avatar {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         object-fit: cover;
     }
@@ -223,6 +224,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: 120%; /* 28.8px */
+        margin-bottom: 5px;
     }
 
     .testimonial-text-item .green .author-name {
@@ -501,11 +503,13 @@
                 <div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
-                            <p class="quote-text">Cobalt presented excellent candidates, making our choice difficult.
-                                Their support through the process was outstanding, and we’re delighted with the final
-                                outcome.</p>
+                            <p class="quote-text">Helen and Cobalt Search came highly recommended by Keith Cunningham
+                                and exceeded expectations. She invested time to understand our business, led a
+                                disciplined, transparent process, and found true A-players. Her guidance saved us time,
+                                avoided mis-hires, and resulted in an outstanding VP of Operations who’s already having
+                                measurable impact.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/09/JoshNelson.png" alt="Josh Nelson"
+                                <img src="/wp-content/uploads/2025/09/JoshNelson100.png" alt="Josh Nelson"
                                      class="author-avatar">
                                 <div class="author-details">
                                     <p class="author-name">Josh Nelson, CFP</p>
@@ -514,14 +518,16 @@
                             </div>
                         </div>
                         <div class="text-content green">
-                            <p class="quote-text">Helen Goddard and Cobalt Search excel at finding top-tier talent in
-                                unexpected places. Their expertise helped us hire an exceptional CFO who’s already
-                                making a big impact.</p>
+                            <p class="quote-text">Cobalt Search… the name does not do it justice. It should be Cobalt
+                                Found. I could not give Helen and her team a higher recommendation. For years, my
+                                organization struggled with mediocrity and a toxic culture. In 90 days, we transformed
+                                with high-performing A-players who are competent, kind and hard-working. My numbers and
+                                culture have dramatically improved. Thank you, Cobalt!</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/09/JonMarashi.png" alt="Dr Jon Marashi"
+                                <img src="/wp-content/uploads/2025/09/JonMarashi100.png" alt="Dr. Jon Marashi"
                                      class="author-avatar">
                                 <div class="author-details">
-                                    <p class="author-name">Dr Jon Marashi, DDS, APDC</p>
+                                    <p class="author-name">Dr. Jon Marashi, DDS, APDC</p>
                                     <p class="author-position">Cosmetic Dentist</p>
                                 </div>
                             </div>
@@ -537,7 +543,7 @@
                                 everything—screening, interviews, onboarding support—and consistently delivers A
                                 players. They’ve been a great partner and I’m delighted to recommend them.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/09/James-Mayer.png" alt="James Mayer"
+                                <img src="/wp-content/uploads/2025/09/James-Mayer100.png" alt="James Mayer"
                                      class="author-avatar">
                                 <div class="author-details">
                                     <p class="author-name">James Mayer</p>
@@ -552,7 +558,7 @@
                                 expectations. The Cobalt team were professional, responsive, and insightful throughout.
                                 They are the gold standard in recruitment.</p>
                             <div class="author-info">
-                                <img src="/wp-content/uploads/2025/09/Robert-Wojciak.png" alt="Robert Wojciak"
+                                <img src="/wp-content/uploads/2025/09/Robert-Wojciak100.png" alt="Robert Wojciak"
                                      class="author-avatar">
                                 <div class="author-details">
                                     <p class="author-name">Robert Wojciak</p>
@@ -562,7 +568,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-text-item">
+                <!--<div class="testimonial-text-item">
                     <div class="text-content-container">
                         <div class="text-content blue">
                             <p class="quote-text">Cobalt has been extremely effective at delivering diverse candidates,
@@ -591,7 +597,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
             </div>
             <div class="text-slider-nav" data-slider-target="testimonial-text-slider">

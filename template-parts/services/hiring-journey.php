@@ -794,6 +794,39 @@ document.addEventListener('DOMContentLoaded', function() {
     const journeyBoxes = document.querySelectorAll('.journey-box');
     const section = document.querySelector('.service-hiring-journey-section');
 
+    // Create intersection observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+                // Close all other boxes first
+                /*journeyBoxes.forEach(function(otherBox) {
+                    if (otherBox !== entry.target) {
+                        otherBox.classList.remove('active');
+                    }
+                });*/
+
+                // Add active class to current box
+                entry.target.classList.add('active');
+
+                // Update section background
+                section.classList.remove('purple-bg', 'blue-bg', 'green-bg');
+                if (entry.target.classList.contains('purple')) {
+                    section.classList.add('purple-bg');
+                } else if (entry.target.classList.contains('blue')) {
+                    section.classList.add('blue-bg');
+                } else if (entry.target.classList.contains('green')) {
+                    section.classList.add('green-bg');
+                }
+            }
+        });
+    }, {
+        threshold: 0.5 // Trigger when 50% of element is visible
+    });
+
+    // Observe all journey boxes
+    journeyBoxes.forEach(box => observer.observe(box));
+
+    // Keep the existing click handlers
     journeyBoxes.forEach(function(box) {
         const triggerButton = box.querySelector('.trigger-button');
         const closeButton = box.querySelector('.trigger-button-close');
@@ -802,11 +835,11 @@ document.addEventListener('DOMContentLoaded', function() {
         // Function to handle opening/closing boxes
         function toggleBox() {
             // Close all other boxes first
-            journeyBoxes.forEach(function(otherBox) {
+            /*journeyBoxes.forEach(function(otherBox) {
                 if (otherBox !== box) {
                     otherBox.classList.remove('active');
                 }
-            });
+            });*/
 
             // Toggle current box
             box.classList.toggle('active');

@@ -79,6 +79,10 @@ table {
     width: 100%;
     box-sizing: border-box;
     padding: 32px 64px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: ease-in 0.2s;
     /*border-bottom: 1px solid #F0F0F0;*/
 }
 
@@ -127,6 +131,31 @@ table {
 
 .nav-link:hover, .nav-link:focus {
     color: #3FA635;
+}
+
+.sticky-header-logo {
+    display: none;
+}
+
+header.site-header.sticky-header {
+    background: #FFF;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.06);
+}
+
+.sticky-header .nav-links .nav-link {
+    color: #797979;
+}
+
+.sticky-header .nav-links .nav-link:hover, .sticky-header .nav-links .nav-link:focus{
+    color: #A62274;
+}
+
+.sticky-header .sticky-header-logo {
+    display: block;
+}
+
+.sticky-header .header-logo {
+    display: none;
 }
 
 .cta-btn {
@@ -534,12 +563,19 @@ table {
     line-height: 120%;
 }
 
+a.footer-heading {
+    text-decoration: none;
+}
+
 .footer-nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+.footer-nav-container a:hover {
+    color: #A62274;
+}
 .footer-nav-list li {
     margin-bottom: 12px;
 }
@@ -1178,7 +1214,7 @@ section {
 }
 
 .color-cards.img {
-    background-image: url("/wp-content/uploads/2025/08/faces3-min.png");
+    background-image: url("/wp-content/uploads/2025/09/faces4-min.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1627,8 +1663,8 @@ section.white-banner a.content-cta.cta-purple {
 }
 
 .reviewer-pic {
-    width: 85px;
-    height: 85px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     position: relative;
@@ -1639,8 +1675,8 @@ section.white-banner a.content-cta.cta-purple {
     /*position: absolute;*/
     /*top: -10px;*/
     /*right: -20px;*/
-    width: 85px;
-    height: 85px;
+    width: 100px;
+    height: 100px;
     vertical-align: baseline;
     margin-left: -24px;
     z-index: -1;
@@ -1663,7 +1699,7 @@ section.white-banner a.content-cta.cta-purple {
     font-family: "Bonheur Royale", sans-serif;
     font-size: 32px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 120%;
 }
 
@@ -1672,7 +1708,7 @@ section.white-banner a.content-cta.cta-purple {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 160%; /* 22.4px */
 }
 

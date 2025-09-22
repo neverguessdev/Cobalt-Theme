@@ -36,7 +36,7 @@
                 <div class="circle-log number-circle">
                     <span class="number">03</span>
                 </div>
-                <h3 class="card-title">Securing Enterprise Leaders in Competitive Markets</h3>
+                <h3 class="card-title">Attracting Outstanding Talent to Large Organisations</h3>
                 <p class="card-text">You’re unlikely to find top-tier candidates in a dusty database. We work as an extension of your team to attract exceptional talent where traditional recruitment falls short.</p>
             </div>
             <div class="color-cards lift-hover img">

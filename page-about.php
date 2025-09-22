@@ -9,8 +9,8 @@ get_header(); ?>
     <?php get_template_part('template-parts/about/meet-cobalt'); ?>
     <?php get_template_part('template-parts/about/who-are-we'); ?>
     <?php get_template_part('template-parts/about/meet-the-team'); ?>
-    <?php get_template_part('template-parts/about/testimonials'); ?>
-    <?php get_template_part('template-parts/about/contract-winning'); ?>
-    <?php get_template_part('template-parts/about/outcome'); ?>
+<!--    --><?php //get_template_part('template-parts/about/testimonials'); ?>
+<!--    --><?php //get_template_part('template-parts/about/contract-winning'); ?>
+    <?php get_template_part('template-parts/services/outcome'); ?>
 </main>
 <?php get_footer(); ?>

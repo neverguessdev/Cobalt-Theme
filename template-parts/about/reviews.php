@@ -11,7 +11,7 @@
         background-position: top -105px right, bottom left;
         background-repeat: no-repeat;
 
-        padding: 100px 20px 180px;
+        padding: 100px 20px 80px;
     }
 
     .ab-review-cards {
@@ -69,7 +69,7 @@
     .review-text {
         color: var(--Grey-2, #797979);
         font-family: "Lexend Deca", sans-serif;
-        font-size: 30px;
+        font-size: 23px;
         font-style: normal;
         font-weight: 300;
         line-height: 160%;
@@ -79,6 +79,11 @@
         display: flex;
         gap: 20px;
         align-items: center;
+    }
+
+    .reviewer img {
+        width: 100px;
+        height: 100px;
     }
 
     .reviewer-info {
@@ -305,7 +310,7 @@
                             “I am delighted to provide a glowing testimonial for Helen Goddard and Cobalt Search. Thanks to their expertise, we successfully onboarded an exceptional CFO. Cobalt’s ability to find candidates who aligned with our culture was remarkable. Their professionalism, attention to detail, and results are truly impressive. We highly recommend their services to anyone seeking exceptional recruitment solutions.”
                         </p>
                         <div class="reviewer">
-                            <img src="/wp-content/uploads/2025/09/steve-ponte2.png" alt="Steve Ponte"
+                            <img src="/wp-content/uploads/2025/09/steve-ponte100.png" alt="Steve Ponte"
                                  class="reviewer-image">
                             <div class="reviewer-info">
                                 <div class="review-author">Steve Ponte</div>
@@ -399,7 +404,7 @@
                             “The Cobalt team found us the perfect match! They took the time to really get to know our company, culture and my style. The candidates even described our niche and complex business accurately, something that isn’t easy, so I was reassured that Cobalt really understood. I highly recommend Cobalt if you want an excellent candidate and the white glove service they consistently deliver.”
                         </p>
                         <div class="reviewer">
-                            <img src="/wp-content/uploads/2025/09/ariel-steele.png" alt="Ariel Steele"
+                            <img src="/wp-content/uploads/2025/09/ariel-steele100.png" alt="Ariel Steele"
                                  class="reviewer-image">
                             <div class="reviewer-info">
                                 <div class="review-author">Ariel Steele</div>

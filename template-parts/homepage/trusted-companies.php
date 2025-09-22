@@ -139,10 +139,10 @@
                 <img src="/wp-content/uploads/2025/08/SCRRA.png" class="lift-hover" alt="SCRRA">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/09/Blantons-2.png" class="lift-hover" alt="Blantons">
+                <img src="/wp-content/uploads/2025/09/Blantons-3.png" class="lift-hover" alt="Blantons">
             </div>
             <div class="company-item">
-                <img src="/wp-content/uploads/2025/08/PHL.png" class="lift-hover" alt="PHL">
+                <img src="/wp-content/uploads/2025/09/PHL-2.png" class="lift-hover" alt="PHL">
             </div>
             <div class="company-item">
                 <img src="/wp-content/uploads/2025/09/THL-2.png" class="lift-hover" alt="THL">

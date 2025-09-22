@@ -267,7 +267,7 @@
 <section class="service-process-section">
     <div class="section-container service-process-container">
         <div class="section-header text-center">
-            <h2 class="section-title">Meet the <span class="purple-text">proven</span> process that delivers the <span
+            <h2 class="section-title">Meet the <span class="purple-text">proven process</span> that delivers the <span
                         class="purple-text">right leader</span>, first time</h2>
             <p class="section-subtext">Our search process doesn’t rely on luck. Every step is intentional, consultative,
                 and built to find transformative leaders that accelerate your business. Here’s how we do it:</p>
@@ -428,9 +428,9 @@
                         section.style.backgroundColor = '#E8F5E8';
                     }
                     section.style.transition = 'background-color 0.3s ease';
-                })
+                }
 
-            }
+            });
 
             step.addEventListener('mouseleave', function() {
                 if (window.innerWidth < 768) {
@@ -438,7 +438,7 @@
                     section.style.backgroundSize = '50%';
                     section.style.backgroundColor = '#FCE4F3';
                 } else {
-                    section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png"), url("/wp-content/uploads/2025/08/magni-pink.png"), url("/wp-content/uploads/2025/08/magni-pink-3.png')'; // Original background
+                    section.style.backgroundImage = 'url("/wp-content/uploads/2025/08/magni-pink-3.png"), url("/wp-content/uploads/2025/08/magni-pink.png"), url("/wp-content/uploads/2025/08/magni-pink-3.png'; // Original background
                     section.style.backgroundColor = '#FCE4F3'; // Original background
                 }
             });

@@ -190,7 +190,7 @@
         <div class="qa-content">
             <div class="qa-item">
                 <h3 class="qa-question">
-                    How long does the process take?
+                    How long does a typical search take?
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                         <g clip-path="url(#clip0_348_8863)">
                             <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
@@ -202,11 +202,11 @@
                         </defs>
                     </svg>
                 </h3>
-                <p class="qa-answer">Every search is tailored, but most take between 8–10 weeks from briefing to offer. We’ll give you a clear timeline upfront and stay closely aligned at every step.</p>
+                <p class="qa-answer">Most searches take 10-12 weeks.  That includes briefing, research, interviews, and offer management. If a role is urgent, we’ll adjust our timelines – without compromising on fit. We agree timelines upfront and stay tightly aligned throughout.</p>
             </div>
             <div class="qa-item">
                 <h3 class="qa-question">
-                    How is Cobalt different from a traditional recruiter?
+                    What industries do you work in?
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                         <g clip-path="url(#clip0_348_8863)">
                             <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
@@ -218,7 +218,39 @@
                         </defs>
                     </svg>
                 </h3>
-                <p class="qa-answer">We’re a true search partner. No databases, no shortcuts, just deep market mapping, structured interviews, and a process built around alignment, impact, and long-term success.</p>
+                <p class="qa-answer">We’re 100% referral-based, which means we work across a wide range of sectors. While we’re sector-agnostic, most of our clients are in transport, construction, manufacturing, or services. What matters most is that they value quality over quantity – and want a partner who understands cultural alignment and impact.</p>
+            </div>
+            <div class="qa-item">
+                <h3 class="qa-question">
+                    What makes you different from other search firms?
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <g clip-path="url(#clip0_348_8863)">
+                            <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_348_8863">
+                                <rect width="14.9677" height="14.9677" fill="white" transform="matrix(0 -1 1 0 0.238281 15.6709)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </h3>
+                <p class="qa-answer">We’re not high-volume, and we’re not transactional. Every search is led by a senior partner, underpinned by research and rigour. We focus on fit, impact, and lasting success, not just making a placement.</p>
+            </div>
+            <div class="qa-item">
+                <h3 class="qa-question">
+                    What’s your approach to cultural fit?
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <g clip-path="url(#clip0_348_8863)">
+                            <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_348_8863">
+                                <rect width="14.9677" height="14.9677" fill="white" transform="matrix(0 -1 1 0 0.238281 15.6709)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </h3>
+                <p class="qa-answer">We look beyond cultural fit, focusing on culture add. That means understanding your values, leadership style, and team dynamics, then identifying candidates who not only align but also bring something new that strengthens your culture. It’s a balance of alignment and fresh perspective, and it’s something we consistently get right.</p>
             </div>
             <div class="qa-item">
                 <h3 class="qa-question">
@@ -234,11 +266,11 @@
                         </defs>
                     </svg>
                 </h3>
-                <p class="qa-answer">It’s rare, but our 90-day guarantee ensures your peace of mind. If your hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.</p>
+                <p class="qa-answer">It’s rare, but our 90-day guarantee ensures your peace of mind. If your new hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.</p>
             </div>
             <div class="qa-item">
                 <h3 class="qa-question">
-                    What industries do you specialize in?
+                    Why use a company based in the UK for roles in the US or Canada?
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                         <g clip-path="url(#clip0_348_8863)">
                             <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
@@ -250,39 +282,7 @@
                         </defs>
                     </svg>
                 </h3>
-                <p class="qa-answer">We specialize in leadership recruitment across technology, finance, healthcare, manufacturing, and professional services industries. Our expertise spans both established companies and high-growth startups.</p>
-            </div>
-            <div class="qa-item">
-                <h3 class="qa-question">
-                    Do you work with clients internationally?
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <g clip-path="url(#clip0_348_8863)">
-                            <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_348_8863">
-                                <rect width="14.9677" height="14.9677" fill="white" transform="matrix(0 -1 1 0 0.238281 15.6709)"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </h3>
-                <p class="qa-answer">Yes, we have experience placing leadership talent in 24 countries across North America, Europe, Asia, and Australia. Our global network allows us to find exceptional leaders regardless of location.</p>
-            </div>
-            <div class="qa-item">
-                <h3 class="qa-question">
-                    What roles do you typically recruit for?
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <g clip-path="url(#clip0_348_8863)">
-                            <path d="M7.13811 4.02932L0.477398 10.6902C0.323219 10.8442 0.238281 11.0499 0.238281 11.2691C0.238281 11.4884 0.323219 11.6941 0.477398 11.8481L0.967801 12.3387C1.28735 12.6578 1.80672 12.6578 2.12578 12.3387L7.71905 6.7454L13.3185 12.3449C13.4727 12.4989 13.6782 12.584 13.8974 12.584C14.1168 12.584 14.3223 12.4989 14.4766 12.3449L14.9669 11.8543C15.1211 11.7002 15.206 11.4946 15.206 11.2754C15.206 11.0561 15.1211 10.8504 14.9669 10.6964L8.30011 4.02932C8.14544 3.8749 7.93894 3.79008 7.71941 3.79057C7.49904 3.79008 7.29265 3.8749 7.13811 4.02932Z" fill="white"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_348_8863">
-                                <rect width="14.9677" height="14.9677" fill="white" transform="matrix(0 -1 1 0 0.238281 15.6709)"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </h3>
-                <p class="qa-answer">We specialize in C-suite and senior leadership roles including CEOs, CFOs, CTOs, COOs, VPs, and Directors across various business functions.</p>
+                <p class="qa-answer">Because results matter more than geography. Our clients don’t choose us for where we’re based, they choose us because we consistently deliver high-impact leaders across North America. We understand local markets, we work across time zones, and we’ve built a reputation for outcomes, not office locations.</p>
             </div>
         </div>
     </div>

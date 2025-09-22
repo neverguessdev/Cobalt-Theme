@@ -74,12 +74,12 @@
                                             </clipPath>
                                         </defs>
                                     </svg>Cobalt Search Ltd, 6 Liberty Square, #2243, Boston, MA 02109</a></li>
-                            <li><a href="mailto:Info@cobaltsearch.com" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <li><a href="mailto:info@cobaltsearch.com" class="footer-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                         <path d="M15.8583 3.17871L11.0059 7.99993L15.8583 12.8211C15.946 12.6378 15.9993 12.4351 15.9993 12.2187V3.78118C15.9993 3.56471 15.946 3.36205 15.8583 3.17871Z" fill="#A62274"/>
                                         <path d="M14.5947 2.375H1.40716C1.19069 2.375 0.988031 2.42822 0.804688 2.51594L7.00666 8.68666C7.55503 9.23503 8.44678 9.23503 8.99516 8.68666L15.1971 2.51594C15.0138 2.42822 14.8111 2.375 14.5947 2.375Z" fill="#A62274"/>
                                         <path d="M0.140938 3.17871C0.0532188 3.36205 0 3.56471 0 3.78118V12.2187C0 12.4351 0.0532188 12.6378 0.140938 12.8211L4.99341 7.99993L0.140938 3.17871Z" fill="#A62274"/>
                                         <path d="M10.3447 8.66309L9.658 9.34974C8.74428 10.2635 7.2575 10.2635 6.34378 9.34974L5.65716 8.66309L0.804688 13.4843C0.988031 13.572 1.19069 13.6252 1.40716 13.6252H14.5947C14.8111 13.6252 15.0138 13.572 15.1971 13.4843L10.3447 8.66309Z" fill="#A62274"/>
-                                    </svg>Info@cobaltsearch.com</a></li>
+                                    </svg>info@cobaltsearch.com</a></li>
                         </ul>
                     </div>
                 </div>

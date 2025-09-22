@@ -26,6 +26,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        text-decoration: none;
 
     }
 
@@ -43,7 +44,7 @@
         font-family: "Bonheur Royale",sans-serif;
         font-size: 42px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 160%; /* 67.2px */
     }
 
@@ -98,6 +99,12 @@
         }
     }
 
+    /* Tablet - Slider Layout */
+    @media (max-width: 790px) {
+        .teams-author, .team-author {
+            font-size: 35px;
+        }
+    }
     /* Mobile - Slider Layout */
     @media (max-width: 767px) {
         .our-team {
@@ -161,16 +168,16 @@
             You’ll work directly with experienced consultants who bring insight, empathy, and honest partnership to every search. So you don’t just fill a role. You hire A-player leadership who’ll elevate your mission, culture and business growth.
         </p>
         <div class="teams-container" data-slider="teams">
-            <div class="teams-item">
+            <a href="/about-us#helen" class="teams-item">
                 <img src="/wp-content/uploads/2025/08/helen.png" class="lift-hover" alt="Helen Goddard">
                 <p class="teams-author">Helen Goddard</p>
                 <p class="teams-position">Founder & CEO</p>
-            </div>
-            <div class="teams-item">
-                <img src="/wp-content/uploads/2025/08/denise.png" class="lift-hover" alt="Denise Pike">
+            </a>
+            <a href="/about-us#denise"  class="teams-item">
+                <img src="/wp-content/uploads/2025/09/denise-2.png" class="lift-hover" alt="Denise Pike">
                 <p class="teams-author">Denise Pike</p>
                 <p class="teams-position">Vice President</p>
-            </div>
+            </a>
             <div class="teams-item">
                 <img src="/wp-content/uploads/2025/08/rebecca.png" class="lift-hover" alt="Rebecca Greenhill">
                 <p class="teams-author">Rebecca Greenhill</p>

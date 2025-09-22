@@ -422,11 +422,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerBanner = document.querySelector('.footer-banner');
     const footerBannerSVG = document.querySelector('.footer-container svg');
     const siteHeader = document.querySelector('.site-header');
-    if ((currentUrl.includes(contactUsPageUrl) && footerBanner)||(currentUrl.includes(thankYouPageUrl) && footerBanner)) {
+    // (currentUrl.includes(contactUsPageUrl) && footerBanner)||
+    if ((currentUrl.includes(thankYouPageUrl) && footerBanner)) {
         footerBanner.style.display = 'none';
         footerBannerSVG.style.display = 'none';
     } else if (currentUrl.includes(privacyPolicyPageUrl) && siteHeader) {
         siteHeader.style.background = `background: linear-gradient(rgba(32, 32, 32, 0.22), rgba(32, 32, 32, 0.22)),
         linear-gradient(100deg, #A62274 14.66%, #1B4F9E 51.88%, #16A34A 100%);`;
     }
+
+    const header = document.querySelector('.site-header');
+    const stickyOffset = 0;
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > stickyOffset) {
+            header.classList.add('sticky-header');
+        } else {
+            header.classList.remove('sticky-header');
+        }
+    });
 });

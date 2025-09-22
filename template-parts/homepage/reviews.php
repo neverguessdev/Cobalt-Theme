@@ -85,11 +85,7 @@
                               fill="white"/>
                     </svg>
                 </div>
-                <p class="review-text">“I have worked with a few recruiting firms in my career, and they were okay.
-                    Helen and her team at Cobalt Search take recruiting to another level and the quality of candidates
-                    she brought to us were all fantastic. Helen told me she would make it the hardest decision I would
-                    ever have to make as they would be so great, I would want to hire them all. She delivered on her
-                    word. I will use Helen and the team at Cobalt Search for all my future recruiting needs.”</p>
+                <p class="review-text">“Helen and Cobalt Search take recruiting to another level. She promised the shortlist would be so strong I’d want to hire them all — and she delivered on her word. I’ll use Helen and her team for all future recruiting needs.”</p>
                 <p class="review-author">Tim Dupre</p>
                 <p class="review-position">President & CEO, PBS Contractors</p>
             </div>

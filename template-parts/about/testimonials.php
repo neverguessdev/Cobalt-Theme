@@ -492,7 +492,7 @@
             </div>-->
         </div>
 
-        <div class="testimonial-text-slider-container">
+        <div class="testimonial-text-slider-container d-none">
             <div class="testimonial-text-slider" data-slider="<!--testimonial-text-slider-->">
                 <div class="testimonial-text-item">
                     <div class="text-content-container">

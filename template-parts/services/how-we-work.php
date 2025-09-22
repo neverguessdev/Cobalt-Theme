@@ -117,6 +117,11 @@
         line-height: 120%; /* 24px */
     }
 
+    .single-testimonial .st-testimonial-author img {
+        width: 100px;
+        height: 100px;
+    }
+
     @media (max-width: 991px) {
         section.service-how-we-work-section .section-pretitle-line {
             margin-bottom: 24px;
@@ -128,6 +133,10 @@
 
         .work-cards {
             margin-top: 53px;
+        }
+
+        section.service-how-we-work-section{
+            background-image: none, url(/wp-content/uploads/2025/09/swirl-pink.png);
         }
     }
 
@@ -274,7 +283,7 @@
             </p>
             <div class="st-testimonial-author">
                 <div class="author-image">
-                    <img src="/wp-content/uploads/2025/09/Gordon-hewston.png" alt="Gordon hewston">
+                    <img src="/wp-content/uploads/2025/09/Gordon-hewston100.png" alt="Gordon hewston">
                 </div>
                 <div class="author-info">
                     <p class="author-name">Gordon Hewston</p>

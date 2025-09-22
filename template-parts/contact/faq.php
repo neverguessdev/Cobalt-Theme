@@ -249,8 +249,8 @@
 <section class="contact-faq-section">
     <div class="section-container contact-faq-container">
         <div class="section-header">
-            <h2 class="section-pretitle"><span class="blue-text">Frequently Asked Questions</span></h2>
-            <h2 class="section-title">Common <strong>Questions</strong></h2>
+<!--            <h2 class="section-pretitle"><span class="blue-text">Frequently Asked Questions</span></h2>-->
+            <h2 class="section-title">Frequently Asked <strong>Questions</strong></h2>
             <p class="section-subtext">Find answers to the most common questions about our recruitment services</p>
         </div>
         <div class="mc-cards-grid">
@@ -260,11 +260,11 @@
                         01
                     </p>
                     <p class="mc-card-title">
-                        How long does the process take?
+                        How long does a typical search take?
                     </p>
                 </div>
                 <p class="mc-card-body">
-                    Every search is tailored, but most take between 8–10 weeks from briefing to offer. We’ll give you a clear timeline upfront and stay closely aligned at every step.
+                    Most searches take 10-12 weeks.  That includes briefing, research, interviews, and offer management. If a role is urgent, we’ll adjust our timelines – without compromising on fit. We agree timelines upfront and stay tightly aligned throughout.
                 </p>
             </div>
             <div class="mc-card purple">
@@ -273,11 +273,11 @@
                         02
                     </p>
                     <p class="mc-card-title">
-                        How is Cobalt different from a traditional recruiter?
+                        What industries do you work in?
                     </p>
                 </div>
                 <p class="mc-card-body">
-                    We’re a true search partner. No databases, no shortcuts, just deep market mapping, structured interviews, and a process built around alignment, impact, and long-term success.
+                    We’re 100% referral-based, which means we work across a wide range of sectors. While we’re sector-agnostic, most of our clients are in transport, construction, manufacturing, or services. What matters most is that they value quality over quantity – and want a partner who understands cultural alignment and impact.
                 </p>
             </div>
             <div class="mc-card green">
@@ -286,11 +286,11 @@
                         03
                     </p>
                     <p class="mc-card-title">
-                        What happens if our new hire doesn’t work out?
+                        What makes you different from other search firms?
                     </p>
                 </div>
                 <p class="mc-card-body">
-                    It’s rare, but our 90-day guarantee ensures your peace of mind. If your hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.
+                    We’re not high-volume, and we’re not transactional. Every search is led by a senior partner, underpinned by research and rigour. We focus on fit, impact, and lasting success, not just making a placement.
                 </p>
             </div>
             <div class="mc-card blue">
@@ -299,11 +299,11 @@
                         04
                     </p>
                     <p class="mc-card-title">
-                        What industries do you specialize in?
+                        What’s your approach to cultural fit?
                     </p>
                 </div>
                 <p class="mc-card-body">
-                    We specialize in leadership recruitment across technology, finance, healthcare, manufacturing, and professional services industries. Our expertise spans both established companies and high-growth startups.
+                    We look beyond cultural fit, focusing on culture add. That means understanding your values, leadership style, and team dynamics, then identifying candidates who not only align but also bring something new that strengthens your culture. It’s a balance of alignment and fresh perspective, and it’s something we consistently get right.
                 </p>
             </div>
             <div class="mc-card purple">
@@ -312,11 +312,11 @@
                         05
                     </p>
                     <p class="mc-card-title">
-                        Do you work with clients internationally?
+                        What happens if our new hire doesn’t work out?
                     </p>
                 </div>
                 <p class="mc-card-body">
-                    Yes, we have experience placing leadership talent in 24 countries across North America, Europe, Asia, and Australia. Our global network allows us to find exceptional leaders regardless of location.
+                    It’s rare, but our 90-day guarantee ensures your peace of mind. If your new hire doesn’t work out, we’ll replace them at no extra cost. We’ll refine the brief, relaunch the search, and support you throughout. You won’t be navigating it alone.
                 </p>
             </div>
             <div class="mc-card green">
@@ -325,11 +325,11 @@
                         06
                     </p>
                     <p class="mc-card-title">
-                        What roles do you typically recruit for?
+                        Why use a company based in the UK for roles in the US or Canada?
                     </p>
                 </div>
                 <p class="mc-card-body">
-                    We specialize in C-suite and senior leadership roles including CEOs, CFOs, CTOs, COOs, VPs, and Directors across various business functions.
+                    Because results matter more than geography. Our clients don’t choose us for where we’re based, they choose us because we consistently deliver high-impact leaders across North America. We understand local markets, we work across time zones, and we’ve built a reputation for outcomes, not office locations.
                 </p>
             </div>
         </div>

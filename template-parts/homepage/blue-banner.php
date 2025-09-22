@@ -19,7 +19,7 @@
                 <h3 class="tile-title">
                     24 countries
                 </h3>
-                <p class="tile-subtitle">Leaders placed in 24 countries</p>
+                <p class="tile-subtitle">Leaders placed from 24 countries</p>
             </div>
             <div class="tile tile-img1">
                 <!-- Empty background image only -->

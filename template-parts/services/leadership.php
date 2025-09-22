@@ -122,6 +122,10 @@
         .leadership-key:nth-child(2) {
             margin-top: 0;
         }
+
+        .service-leadership-section {
+            background-image: url("/wp-content/uploads/2025/09/magni-pink-4.png"), url("/wp-content/uploads/2025/08/pink-magni-small.png"), none, url("/wp-content/uploads/2025/09/swirl-blue.png");
+        }
     }
 
     /* Mobile - Slider Layout */
@@ -173,7 +177,7 @@
     <div class="section-container service-leadership-container">
         <div class="section-header text-center">
             <h3 class="section-pretitle">What we do</h3>
-            <h2 class="section-title">Smarter <span class="purple-text">growth</span> starts with <span class="purple-text">the right leadership</span></h2>
+            <h2 class="section-title"><span class="purple-text">Smarter growth</span> starts with the <span class="purple-text">right leadership</span></h2>
             <p class="section-subtext">You want a leader who lifts performance, energises your team, and drives real, lasting results. We help you find them.</p>
             <p class="section-subtext">Whether it’s your first leadership hire or finding your next leadership layer, every step of our process is tailored to your business needs.</p>
         </div>
