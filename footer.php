@@ -40,7 +40,7 @@
                     </svg>
                 </div>
                 <div class="footer-social">
-                    <img src="https://cobaltsearurgpgs.sites.public-internet.co.uk/wp-content/uploads/2025/07/women-owned.png">
+                    <img src="https://cobaltsearurgpgs.sites.public-internet.co.uk/wp-content/uploads/2025/07/women-owned.png" alt="Women Owned">
                 </div>
             </div>
 

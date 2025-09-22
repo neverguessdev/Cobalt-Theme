@@ -482,13 +482,13 @@
             <!--<div class="testimonial-slider-nav" data-slider-target="testimonials-slider">
                 <div class="slider-nav-divider"></div>
                 <div class="slider-arrows-container">
-                    <button class="slider-arrow slider-prev" data-slider-target="testimonials-slider">
+                    <button aria-label="Prev Slide" class="slider-arrow slider-prev" data-slider-target="testimonials-slider">
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
                             <path d="M7.61351 0.90127L8.5484 1.82823L3.03416 7.33456L16.8198 7.33456L16.8198 8.66558L3.03416 8.66558L8.5484 14.1719L7.61352 15.0989L0.514717 8.00007L7.61351 0.90127Z"
                                   fill="black"/>
                         </svg>
                     </button>
-                    <button class="slider-arrow slider-next" data-slider-target="testimonials-slider">
+                    <button aria-label="Next Slide" class="slider-arrow slider-next" data-slider-target="testimonials-slider">
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
                             <path d="M9.38648 15.0987L8.4516 14.1718L13.9658 8.66544L0.18023 8.66544L0.18023 7.33442L13.9658 7.33442L8.4516 1.8281L9.38648 0.901133L16.4853 7.99993L9.38648 15.0987Z"
                                   fill="black"/>
@@ -603,13 +603,13 @@
             <div class="text-slider-nav" data-slider-target="testimonial-text-slider">
                 <div class="slider-nav-divider"></div>
                 <div class="slider-arrows-container">
-                    <button class="slider-arrow slider-prev" data-slider-target="testimonial-text-slider">
+                    <button aria-label="Prev Slide" class="slider-arrow slider-prev" data-slider-target="testimonial-text-slider">
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
                             <path d="M7.61351 0.90127L8.5484 1.82823L3.03416 7.33456L16.8198 7.33456L16.8198 8.66558L3.03416 8.66558L8.5484 14.1719L7.61352 15.0989L0.514717 8.00007L7.61351 0.90127Z"
                                   fill="black"/>
                         </svg>
                     </button>
-                    <button class="slider-arrow slider-next" data-slider-target="testimonial-text-slider">
+                    <button aria-label="Next Slide" class="slider-arrow slider-next" data-slider-target="testimonial-text-slider">
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
                             <path d="M9.38648 15.0987L8.4516 14.1718L13.9658 8.66544L0.18023 8.66544L0.18023 7.33442L13.9658 7.33442L8.4516 1.8281L9.38648 0.901133L16.4853 7.99993L9.38648 15.0987Z"
                                   fill="black"/>
